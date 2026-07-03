@@ -634,6 +634,28 @@ dimwishlist:item=702001725&perks=1840239774,3230963543,831391274,960997401
 //notes:[PVE-DMG] auto: Dragonfly feeds Kill Clip|tags:PVE-DMG
 dimwishlist:item=702001725&perks=1840239774,3230963543,2848615171,1015611457
 
+// ---- Aurora Dawn [2111625436] stasis Sword | heavy ----
+// Aurora Dawn - ELEM: Tempered Edge / Balanced Guard / Rimestealer / Cold Steel
+//notes:[ELEM] auto: rule 2a chain Rimestealer->Cold Steel (stasis)|tags:ELEM
+dimwishlist:item=2111625436&perks=938542991,52780822,1955165503,3650930298
+// Aurora Dawn - ABTY: Tempered Edge / Balanced Guard / Proximity Power / Binary Orbit
+//notes:[ABTY] auto: rule 9 loop Proximity Power->Binary Orbit|tags:ABTY
+dimwishlist:item=2111625436&perks=938542991,52780822,4190679284,1546142478
+// Aurora Dawn - PVE-DMG: Tempered Edge / Balanced Guard / Tireless Blade / Whirlwind Blade
+//notes:[PVE-DMG] auto: Tireless Blade feeds Whirlwind Blade|tags:PVE-DMG
+dimwishlist:item=2111625436&perks=938542991,52780822,2590710093,3913600130
+
+// ---- Aurora Dawn [1479562935] stasis Sword | heavy ----
+// Aurora Dawn - ELEM: Tempered Edge / Balanced Guard / Rimestealer / Cold Steel
+//notes:[ELEM] auto: rule 2a chain Rimestealer->Cold Steel (stasis)|tags:ELEM
+dimwishlist:item=1479562935&perks=938542991,52780822,1955165503,3650930298
+// Aurora Dawn - ABTY: Tempered Edge / Balanced Guard / Proximity Power / Binary Orbit
+//notes:[ABTY] auto: rule 9 loop Proximity Power->Binary Orbit|tags:ABTY
+dimwishlist:item=1479562935&perks=938542991,52780822,4190679284,1546142478
+// Aurora Dawn - PVE-DMG: Tempered Edge / Balanced Guard / Tireless Blade / Whirlwind Blade
+//notes:[PVE-DMG] auto: Tireless Blade feeds Whirlwind Blade|tags:PVE-DMG
+dimwishlist:item=1479562935&perks=938542991,52780822,2590710093,3913600130
+
 // ---- Austringer [3055790362] kinetic Hand Cannon | primary ----
 // Austringer - PVP: Fluted Barrel / Flared Magwell / Snapshot Sights / Zen Moment
 //notes:[PVP] auto: Snapshot Sights+Zen Moment, pre-kill per rule 1|tags:PVP
@@ -820,6 +842,28 @@ dimwishlist:item=4152016199&perks=3250034553,3230963543,3523296417,11612903
 // Better Devils - PVE-DMG: Hammer-Forged Rifling / Flared Magwell / Reconstruction / One for All
 //notes:[PVE-DMG] auto: Reconstruction feeds One for All|tags:PVE-DMG
 dimwishlist:item=4152016199&perks=3250034553,3230963543,1523832109,4049631843
+
+// ---- Better Devils [4059111041] strand Hand Cannon | primary ----
+// Better Devils - PVP: Hammer-Forged Rifling / Accurized Rounds / Rapid Hit / Explosive Payload
+//notes:[PVP] auto: Rapid Hit+Explosive Payload, pre-kill per rule 1|tags:PVP
+dimwishlist:item=4059111041&perks=3250034553,3142289711,247725512,3038247973
+// Better Devils - ELEM: Hammer-Forged Rifling / Flared Magwell / Slice / Hatchling
+//notes:[ELEM] auto: rule 2a chain Slice->Hatchling (strand)|tags:ELEM
+dimwishlist:item=4059111041&perks=3250034553,3230963543,923806249,831391274
+// Better Devils - PVE-DMG: Hammer-Forged Rifling / Flared Magwell / Reconstruction / Kill Clip
+//notes:[PVE-DMG] auto: Reconstruction feeds Kill Clip|tags:PVE-DMG
+dimwishlist:item=4059111041&perks=3250034553,3230963543,1523832109,1015611457
+
+// ---- Better Devils [2106353446] strand Hand Cannon | primary ----
+// Better Devils - PVP: Hammer-Forged Rifling / Accurized Rounds / Rapid Hit / Explosive Payload
+//notes:[PVP] auto: Rapid Hit+Explosive Payload, pre-kill per rule 1|tags:PVP
+dimwishlist:item=2106353446&perks=3250034553,3142289711,247725512,3038247973
+// Better Devils - ELEM: Hammer-Forged Rifling / Flared Magwell / Slice / Hatchling
+//notes:[ELEM] auto: rule 2a chain Slice->Hatchling (strand)|tags:ELEM
+dimwishlist:item=2106353446&perks=3250034553,3230963543,923806249,831391274
+// Better Devils - PVE-DMG: Hammer-Forged Rifling / Flared Magwell / Reconstruction / Kill Clip
+//notes:[PVE-DMG] auto: Reconstruction feeds Kill Clip|tags:PVE-DMG
+dimwishlist:item=2106353446&perks=3250034553,3230963543,1523832109,1015611457
 
 // ---- Bitter End [954563454] arc Machine Gun | heavy ----
 // Bitter End - ELEM: Corkscrew Rifling / Projection Fuse / Eddy Current / Jolting Feedback
@@ -1490,6 +1534,16 @@ dimwishlist:item=198854575&perks=1840239774,1885400500,588594999,3038247973
 //notes:[PVE-DMG] auto: Outlaw feeds Kill Clip|tags:PVE-DMG
 dimwishlist:item=198854575&perks=1840239774,1885400500,1168162263,1015611457
 
+// ---- Crimil's Dagger [1617917863] kinetic Hand Cannon | primary ----
+// Crimil's Dagger - PVP: Fluted Barrel / Ricochet Rounds / Lone Wolf / Explosive Payload
+//notes:[PVP] auto: Lone Wolf+Explosive Payload, pre-kill per rule 1|tags:PVP
+dimwishlist:item=1617917863&perks=1840239774,1885400500,2579169598,3038247973
+// Crimil's Dagger - ELEM: Fluted Barrel / Ricochet Rounds / Firefly / Explosive Payload
+//notes:[ELEM] auto: elem col3 lean, rule 2a fallback (kinetic)|tags:ELEM
+dimwishlist:item=1617917863&perks=1840239774,1885400500,3824105627,3038247973
+// Crimil's Dagger - PVE-DMG: Fluted Barrel / Ricochet Rounds / Firefly / Explosive Payload
+//notes:[PVE-DMG] auto: Firefly feeds Explosive Payload|tags:PVE-DMG
+
 // ---- Crimson [3437746471] EXOTIC static | kinetic Hand Cannon ----
 //notes:[PVP] exotic, static roll - closest-fit category per owner rule.|tags:PVP
 dimwishlist:item=3437746471
@@ -2021,6 +2075,17 @@ dimwishlist:item=4184168210&perks=1840239774,1885400500,1774574192,3824105627
 //notes:[PVE-DMG] auto: Rewind Rounds feeds Frenzy|tags:PVE-DMG
 dimwishlist:item=4184168210&perks=1840239774,1885400500,3418782618,4104185692
 
+// ---- Felwinter's Lie [218787950] solar Shotgun | special ----
+// Felwinter's Lie - PVP: Barrel Shroud / Accurized Rounds / Lone Wolf / Opening Shot
+//notes:[PVP] auto: Lone Wolf+Opening Shot, pre-kill per rule 1|tags:PVP
+dimwishlist:item=218787950&perks=1300023272,3142289711,2579169598,47981717
+// Felwinter's Lie - ELEM: Barrel Shroud / Accurized Rounds / Heal Clip / Incandescent
+//notes:[ELEM] auto: rule 2a chain Heal Clip->Incandescent (solar)|tags:ELEM
+dimwishlist:item=218787950&perks=1300023272,3142289711,3017780555,4293542123
+// Felwinter's Lie - PVE-DMG: Barrel Shroud / Accurized Rounds / Heal Clip / Bait and Switch
+//notes:[PVE-DMG] auto: Heal Clip feeds Bait and Switch|tags:PVE-DMG
+dimwishlist:item=218787950&perks=1300023272,3142289711,3017780555,3078487919
+
 // ---- Festival Flight [4019651319] strand Grenade Launcher | special ----
 // Festival Flight - ELEM: Smart Drift Control / Implosion Rounds / Slice / Hatchling
 //notes:[ELEM] auto: rule 2a chain Slice->Hatchling (strand)|tags:ELEM
@@ -2418,6 +2483,17 @@ dimwishlist:item=487361141&perks=1392496348,3230963543,3300816228,2173046394
 //notes:[PVE-DMG] auto: Auto-Loading Holster feeds Vorpal Weapon|tags:PVE-DMG
 dimwishlist:item=487361141&perks=1392496348,3230963543,3300816228,1546637391
 
+// ---- Gunnora's Axe [218787951] solar Shotgun | special ----
+// Gunnora's Axe - PVP: Polygonal Rifling / Ricochet Rounds / Lone Wolf / Precision Instrument
+//notes:[PVP] auto: Lone Wolf+Precision Instrument, pre-kill per rule 1|tags:PVP
+dimwishlist:item=218787951&perks=1392496348,1885400500,2579169598,555281244
+// Gunnora's Axe - ELEM: Polygonal Rifling / Flared Magwell / Heal Clip / Incandescent
+//notes:[ELEM] auto: rule 2a chain Heal Clip->Incandescent (solar)|tags:ELEM
+dimwishlist:item=218787951&perks=1392496348,3230963543,3017780555,4293542123
+// Gunnora's Axe - PVE-DMG: Polygonal Rifling / Flared Magwell / Heal Clip / Kill Clip
+//notes:[PVE-DMG] auto: Heal Clip feeds Kill Clip|tags:PVE-DMG
+dimwishlist:item=218787951&perks=1392496348,3230963543,3017780555,1015611457
+
 // ---- Half-Truths [3257091166] arc Sword | heavy ----
 // Half-Truths - PVE-DMG: Tempered Edge / Balanced Guard / Tireless Blade / Chain Reaction
 //notes:[PVE-DMG] auto: Tireless Blade feeds Chain Reaction|tags:PVE-DMG
@@ -2792,6 +2868,20 @@ dimwishlist:item=3233390913&perks=3250034553,3230963543,1631667848,4082225868
 //notes:[PVE-DMG] auto: Auto-Loading Holster feeds Swashbuckler|tags:PVE-DMG
 dimwishlist:item=3233390913&perks=3250034553,3230963543,3300816228,4082225868
 
+// ---- Infinite Paths 8 [3176697588] arc Pulse Rifle | primary ----
+// Infinite Paths 8 - PVP: Hammer-Forged Rifling / Accurized Rounds / Moving Target / Zen Moment
+//notes:[PVP] auto: Moving Target+Zen Moment, pre-kill per rule 1|tags:PVP
+dimwishlist:item=3176697588&perks=3250034553,3142289711,588594999,2387244414
+// Infinite Paths 8 - ELEM: Hammer-Forged Rifling / Flared Magwell / Dragonfly / Voltshot
+//notes:[ELEM] auto: rule 2a chain Dragonfly->Voltshot (arc)|tags:ELEM
+dimwishlist:item=3176697588&perks=3250034553,3230963543,2848615171,2173046394
+// Infinite Paths 8 - ABTY: Hammer-Forged Rifling / Flared Magwell / Grave Robber / Swashbuckler
+//notes:[ABTY] auto: rule 9 loop Grave Robber->Swashbuckler|tags:ABTY
+dimwishlist:item=3176697588&perks=3250034553,3230963543,1631667848,4082225868
+// Infinite Paths 8 - PVE-DMG: Hammer-Forged Rifling / Flared Magwell / Demolitionist / Kill Clip
+//notes:[PVE-DMG] auto: Demolitionist feeds Kill Clip|tags:PVE-DMG
+dimwishlist:item=3176697588&perks=3250034553,3230963543,3523296417,1015611457
+
 // ---- Insurmountable [414045521] void Sidearm | primary ----
 // Insurmountable - PVP: Polygonal Rifling / Flared Magwell / Lone Wolf / Closing Time
 //notes:[PVP] auto: Lone Wolf+Closing Time, pre-kill per rule 1|tags:PVP
@@ -3145,6 +3235,17 @@ dimwishlist:item=3428407746&perks=1840239774,3230963543,923806249,831391274
 //notes:[PVE-DMG] auto: Discord feeds Onslaught|tags:PVE-DMG
 dimwishlist:item=3428407746&perks=1840239774,3230963543,3978468247,95528736
 
+// ---- Lethal Abundance [1884897339] strand Auto Rifle | primary ----
+// Lethal Abundance - PVP: Polygonal Rifling / Flared Magwell / Dynamic Sway Reduction / Target Lock
+//notes:[PVP] auto: Dynamic Sway Reduction+Target Lock, pre-kill per rule 1|tags:PVP
+dimwishlist:item=1884897339&perks=1392496348,3230963543,1359896290,365154968
+// Lethal Abundance - ELEM: Polygonal Rifling / Flared Magwell / Slice / Hatchling
+//notes:[ELEM] auto: rule 2a chain Slice->Hatchling (strand)|tags:ELEM
+dimwishlist:item=1884897339&perks=1392496348,3230963543,923806249,831391274
+// Lethal Abundance - PVE-DMG: Polygonal Rifling / Flared Magwell / Rewind Rounds / Onslaught
+//notes:[PVE-DMG] auto: Rewind Rounds feeds Onslaught|tags:PVE-DMG
+dimwishlist:item=1884897339&perks=1392496348,3230963543,3418782618,95528736
+
 // ---- Leviathan's Breath [2591746970] EXOTIC static | void Combat Bow ----
 //notes:[ELEM] exotic, static roll - closest-fit category per owner rule.|tags:ELEM
 dimwishlist:item=2591746970
@@ -3391,6 +3492,28 @@ dimwishlist:item=253196586&perks=2410284311,3868766766,1645158859,2846385770
 // Main Ingredient - PVE-DMG: Quickdraw IS / Particle Repeater / Auto-Loading Holster / Kill Clip
 //notes:[PVE-DMG] auto: Auto-Loading Holster feeds Kill Clip|tags:PVE-DMG
 dimwishlist:item=253196586&perks=2410284311,3868766766,3300816228,1015611457
+
+// ---- Main Ingredient [4046741099] arc Fusion Rifle | special ----
+// Main Ingredient - PVP: Fluted Barrel / Particle Repeater / Under Pressure / Rangefinder
+//notes:[PVP] auto: Under Pressure+Rangefinder, pre-kill per rule 1|tags:PVP
+dimwishlist:item=4046741099&perks=1840239774,3868766766,1645158859,2846385770
+// Main Ingredient - ELEM: Fluted Barrel / Particle Repeater / Trickle Charge / Voltshot
+//notes:[ELEM] auto: rule 2a chain Trickle Charge->Voltshot (arc)|tags:ELEM
+dimwishlist:item=4046741099&perks=1840239774,3868766766,1115162408,2173046394
+// Main Ingredient - PVE-DMG: Fluted Barrel / Particle Repeater / Lead from Gold / Reservoir Burst
+//notes:[PVE-DMG] auto: Lead from Gold feeds Reservoir Burst|tags:PVE-DMG
+dimwishlist:item=4046741099&perks=1840239774,3868766766,1556840489,1427256713
+
+// ---- Main Ingredient [2901221332] arc Fusion Rifle | special ----
+// Main Ingredient - PVP: Fluted Barrel / Particle Repeater / Under Pressure / Rangefinder
+//notes:[PVP] auto: Under Pressure+Rangefinder, pre-kill per rule 1|tags:PVP
+dimwishlist:item=2901221332&perks=1840239774,3868766766,1645158859,2846385770
+// Main Ingredient - ELEM: Fluted Barrel / Particle Repeater / Trickle Charge / Voltshot
+//notes:[ELEM] auto: rule 2a chain Trickle Charge->Voltshot (arc)|tags:ELEM
+dimwishlist:item=2901221332&perks=1840239774,3868766766,1115162408,2173046394
+// Main Ingredient - PVE-DMG: Fluted Barrel / Particle Repeater / Lead from Gold / Reservoir Burst
+//notes:[PVE-DMG] auto: Lead from Gold feeds Reservoir Burst|tags:PVE-DMG
+dimwishlist:item=2901221332&perks=1840239774,3868766766,1556840489,1427256713
 
 // ---- Malfeasance [204878059] EXOTIC static | kinetic Hand Cannon ----
 //notes:[PVP] exotic, static roll - closest-fit category per owner rule.|tags:PVP
@@ -3665,6 +3788,14 @@ dimwishlist:item=3211624072&perks=3250034553,3142289711,1359896290,591790007
 //notes:[PVE-DMG] auto: Attrition Orbs feeds Frenzy|tags:PVE-DMG
 dimwishlist:item=3211624072&perks=3250034553,3230963543,243981275,4104185692
 
+// ---- Multimach CCX [3026836571] kinetic Submachine Gun | primary ----
+// Multimach CCX - PVP: Polygonal Rifling / Ricochet Rounds / Rangefinder / Target Lock
+//notes:[PVP] auto: Rangefinder+Target Lock, pre-kill per rule 1|tags:PVP
+dimwishlist:item=3026836571&perks=1392496348,1885400500,2846385770,365154968
+// Multimach CCX - PVE-DMG: Polygonal Rifling / Flared Magwell / Attrition Orbs / Kinetic Tremors
+//notes:[PVE-DMG] auto: Attrition Orbs feeds Kinetic Tremors|tags:PVE-DMG
+dimwishlist:item=3026836571&perks=1392496348,3230963543,243981275,3891536761
+
 // ---- Naeem's Lance [2806569825] strand Sniper Rifle | special ----
 // Naeem's Lance - PVP: Corkscrew Rifling / Accurized Rounds / Keep Away / Precision Instrument
 //notes:[PVP] auto: Keep Away+Precision Instrument, pre-kill per rule 1|tags:PVP
@@ -3705,6 +3836,22 @@ dimwishlist:item=3040742682&perks=679077873,3230963543,3038247973,3038247973
 // Nameless Midnight - PVE-DMG: Rifle Scope ST / Flared Magwell / Triple Tap / Explosive Payload
 //notes:[PVE-DMG] auto: Triple Tap feeds Explosive Payload|tags:PVE-DMG
 dimwishlist:item=3040742682&perks=679077873,3230963543,3400784728,3038247973
+
+// ---- Nameless Midnight [1957301533] kinetic Scout Rifle | primary ----
+// Nameless Midnight - PVP: Polygonal Rifling / Flared Magwell / Zen Moment / Explosive Payload
+//notes:[PVP] auto: Zen Moment+Explosive Payload, pre-kill per rule 1|tags:PVP
+dimwishlist:item=1957301533&perks=1392496348,3230963543,2387244414,3038247973
+// Nameless Midnight - PVE-DMG: Polygonal Rifling / Flared Magwell / Triple Tap / Kinetic Tremors
+//notes:[PVE-DMG] auto: Triple Tap feeds Kinetic Tremors|tags:PVE-DMG
+dimwishlist:item=1957301533&perks=1392496348,3230963543,3400784728,3891536761
+
+// ---- Nameless Midnight [3470514298] kinetic Scout Rifle | primary ----
+// Nameless Midnight - PVP: Polygonal Rifling / Flared Magwell / Zen Moment / Explosive Payload
+//notes:[PVP] auto: Zen Moment+Explosive Payload, pre-kill per rule 1|tags:PVP
+dimwishlist:item=3470514298&perks=1392496348,3230963543,2387244414,3038247973
+// Nameless Midnight - PVE-DMG: Polygonal Rifling / Flared Magwell / Triple Tap / Kinetic Tremors
+//notes:[PVE-DMG] auto: Triple Tap feeds Kinetic Tremors|tags:PVE-DMG
+dimwishlist:item=3470514298&perks=1392496348,3230963543,3400784728,3891536761
 
 // ---- Nasreddin [1456017061] arc Sword | heavy ----
 // Nasreddin - PVE-DMG: Tempered Edge / Balanced Guard / Relentless Strikes / Whirlwind Blade
@@ -3922,6 +4069,17 @@ dimwishlist:item=852551895&perks=1392496348,1885400500,1645158859,591790007
 //notes:[PVE-DMG] auto: Auto-Loading Holster feeds Firing Line|tags:PVE-DMG
 dimwishlist:item=852551895&perks=1392496348,3230963543,3300816228,1771339417
 
+// ---- Occluded Finality [3104013318] arc Sniper Rifle | special ----
+// Occluded Finality - PVP: Fluted Barrel / Ricochet Rounds / Lone Wolf / Precision Instrument
+//notes:[PVP] auto: Lone Wolf+Precision Instrument, pre-kill per rule 1|tags:PVP
+dimwishlist:item=3104013318&perks=1840239774,1885400500,2579169598,555281244
+// Occluded Finality - ELEM: Fluted Barrel / Ricochet Rounds / Rewind Rounds / Aggregate Charge
+//notes:[ELEM] auto: max elemental lean, rule 2a fallback (arc)|tags:ELEM
+dimwishlist:item=3104013318&perks=1840239774,1885400500,3418782618,3764420437
+// Occluded Finality - PVE-DMG: Fluted Barrel / Ricochet Rounds / Rewind Rounds / Vorpal Weapon
+//notes:[PVE-DMG] auto: Rewind Rounds feeds Vorpal Weapon|tags:PVE-DMG
+dimwishlist:item=3104013318&perks=1840239774,1885400500,3418782618,1546637391
+
 // ---- One Small Step [1016668089] kinetic Shotgun | special ----
 // One Small Step - PVP: Barrel Shroud / Accurized Rounds / Quickdraw / Opening Shot
 //notes:[PVP] auto: Quickdraw+Opening Shot, pre-kill per rule 1|tags:PVP
@@ -3957,6 +4115,34 @@ dimwishlist:item=2988121501&perks=4090651448,3230963543,3523296417,11612903
 // Out of Bounds - PVE-DMG: Corkscrew Rifling / Flared Magwell / Subsistence / Kill Clip
 //notes:[PVE-DMG] auto: Subsistence feeds Kill Clip|tags:PVE-DMG
 dimwishlist:item=2988121501&perks=4090651448,3230963543,1820235745,1015611457
+
+// ---- Out of Bounds [2579239008] arc Submachine Gun | primary ----
+// Out of Bounds - PVP: Hammer-Forged Rifling / Flared Magwell / Dynamic Sway Reduction / Rangefinder
+//notes:[PVP] auto: Dynamic Sway Reduction+Rangefinder, pre-kill per rule 1|tags:PVP
+dimwishlist:item=2579239008&perks=3250034553,3230963543,1359896290,2846385770
+// Out of Bounds - ELEM: Corkscrew Rifling / Flared Magwell / Voltshot / Jolting Feedback
+//notes:[ELEM] auto: rule 2a chain Voltshot->Jolting Feedback (arc)|tags:ELEM
+dimwishlist:item=2579239008&perks=4090651448,3230963543,2173046394,3966416502
+// Out of Bounds - ABTY: Corkscrew Rifling / Flared Magwell / Demolitionist / Adrenaline Junkie
+//notes:[ABTY] auto: rule 9 loop Demolitionist->Adrenaline Junkie|tags:ABTY
+dimwishlist:item=2579239008&perks=4090651448,3230963543,3523296417,11612903
+// Out of Bounds - PVE-DMG: Corkscrew Rifling / Flared Magwell / Subsistence / Kill Clip
+//notes:[PVE-DMG] auto: Subsistence feeds Kill Clip|tags:PVE-DMG
+dimwishlist:item=2579239008&perks=4090651448,3230963543,1820235745,1015611457
+
+// ---- Out of Bounds [3021407779] arc Submachine Gun | primary ----
+// Out of Bounds - PVP: Hammer-Forged Rifling / Flared Magwell / Dynamic Sway Reduction / Rangefinder
+//notes:[PVP] auto: Dynamic Sway Reduction+Rangefinder, pre-kill per rule 1|tags:PVP
+dimwishlist:item=3021407779&perks=3250034553,3230963543,1359896290,2846385770
+// Out of Bounds - ELEM: Corkscrew Rifling / Flared Magwell / Voltshot / Jolting Feedback
+//notes:[ELEM] auto: rule 2a chain Voltshot->Jolting Feedback (arc)|tags:ELEM
+dimwishlist:item=3021407779&perks=4090651448,3230963543,2173046394,3966416502
+// Out of Bounds - ABTY: Corkscrew Rifling / Flared Magwell / Demolitionist / Adrenaline Junkie
+//notes:[ABTY] auto: rule 9 loop Demolitionist->Adrenaline Junkie|tags:ABTY
+dimwishlist:item=3021407779&perks=4090651448,3230963543,3523296417,11612903
+// Out of Bounds - PVE-DMG: Corkscrew Rifling / Flared Magwell / Subsistence / Kill Clip
+//notes:[PVE-DMG] auto: Subsistence feeds Kill Clip|tags:PVE-DMG
+dimwishlist:item=3021407779&perks=4090651448,3230963543,1820235745,1015611457
 
 // ---- Outbreak Perfected [400096939] EXOTIC static | kinetic Pulse Rifle ----
 //notes:[PVP] exotic, static roll - closest-fit category per owner rule.|tags:PVP
@@ -4179,6 +4365,17 @@ dimwishlist:item=3465233192&perks=1196733167,16392701,691659142,4082225868
 //notes:[PVE-DMG] auto: Archer's Tempo feeds Vorpal Weapon|tags:PVE-DMG
 dimwishlist:item=3465233192&perks=1196733167,16392701,201365942,1546637391
 
+// ---- Point of the Stag [911019136] arc Combat Bow | primary ----
+// Point of the Stag - PVP: Tactile String / Compact Arrow Shaft / Archer's Tempo / Precision Instrument
+//notes:[PVP] auto: Archer's Tempo+Precision Instrument, pre-kill per rule 1|tags:PVP
+dimwishlist:item=911019136&perks=1196733167,16392701,201365942,555281244
+// Point of the Stag - ELEM: Tactile String / Compact Arrow Shaft / Dragonfly / Voltshot
+//notes:[ELEM] auto: rule 2a chain Dragonfly->Voltshot (arc)|tags:ELEM
+dimwishlist:item=911019136&perks=1196733167,16392701,2848615171,2173046394
+// Point of the Stag - PVE-DMG: Tactile String / Compact Arrow Shaft / Archer's Tempo / Explosive Head
+//notes:[PVE-DMG] auto: Archer's Tempo feeds Explosive Head|tags:PVE-DMG
+dimwishlist:item=911019136&perks=1196733167,16392701,201365942,3365897133
+
 // ---- Polaris Lance [3413074534] EXOTIC static | solar Scout Rifle ----
 //notes:[ELEM] exotic, static roll - closest-fit category per owner rule.|tags:ELEM
 dimwishlist:item=3413074534
@@ -4317,6 +4514,17 @@ dimwishlist:item=1084190509&perks=4090651448,3868766766,3300816228,831391274
 // Pressurized Precision - PVE-DMG: Corkscrew Rifling / Particle Repeater / Auto-Loading Holster / Vorpal Weapon
 //notes:[PVE-DMG] auto: Auto-Loading Holster feeds Vorpal Weapon|tags:PVE-DMG
 dimwishlist:item=1084190509&perks=4090651448,3868766766,3300816228,1546637391
+
+// ---- Pressurized Precision [293709640] strand Fusion Rifle | special ----
+// Pressurized Precision - PVP: Corkscrew Rifling / Projection Fuse / Lone Wolf / Rangefinder
+//notes:[PVP] auto: Lone Wolf+Rangefinder, pre-kill per rule 1|tags:PVP
+dimwishlist:item=293709640&perks=4090651448,2969185026,2579169598,2846385770
+// Pressurized Precision - ELEM: Corkscrew Rifling / Particle Repeater / Auto-Loading Holster / Hatchling
+//notes:[ELEM] auto: max elemental lean, rule 2a fallback (strand)|tags:ELEM
+dimwishlist:item=293709640&perks=4090651448,3868766766,3300816228,831391274
+// Pressurized Precision - PVE-DMG: Corkscrew Rifling / Particle Repeater / Auto-Loading Holster / Vorpal Weapon
+//notes:[PVE-DMG] auto: Auto-Loading Holster feeds Vorpal Weapon|tags:PVE-DMG
+dimwishlist:item=293709640&perks=4090651448,3868766766,3300816228,1546637391
 
 // ---- Pro Memoria [3605603507] strand Machine Gun | heavy ----
 // Pro Memoria - ELEM: Polygonal Rifling / Flared Magwell / Hatchling / Dragonfly
@@ -4529,6 +4737,22 @@ dimwishlist:item=190747610&perks=1840239774,1885400500,4190679284,4082225868
 //notes:[PVE-DMG] auto: Slice feeds Swashbuckler|tags:PVE-DMG
 dimwishlist:item=190747610&perks=1840239774,1885400500,923806249,4082225868
 
+// ---- Qua Vinctus IV [337893613] strand Machine Gun | heavy ----
+// Qua Vinctus IV - ELEM: Fluted Barrel / Ricochet Rounds / Hatchling / Tear
+//notes:[ELEM] auto: rule 2a chain Hatchling+Tear (strand)|tags:ELEM
+dimwishlist:item=337893613&perks=1840239774,1885400500,831391274,960997401
+// Qua Vinctus IV - PVE-DMG: Fluted Barrel / Ricochet Rounds / Triple Tap / Killing Tally
+//notes:[PVE-DMG] auto: Triple Tap feeds Killing Tally|tags:PVE-DMG
+dimwishlist:item=337893613&perks=1840239774,1885400500,3400784728,557221067
+
+// ---- Qua Vinctus IV [4176551594] strand Machine Gun | heavy ----
+// Qua Vinctus IV - ELEM: Fluted Barrel / Ricochet Rounds / Hatchling / Tear
+//notes:[ELEM] auto: rule 2a chain Hatchling+Tear (strand)|tags:ELEM
+dimwishlist:item=4176551594&perks=1840239774,1885400500,831391274,960997401
+// Qua Vinctus IV - PVE-DMG: Fluted Barrel / Ricochet Rounds / Triple Tap / Killing Tally
+//notes:[PVE-DMG] auto: Triple Tap feeds Killing Tally|tags:PVE-DMG
+dimwishlist:item=4176551594&perks=1840239774,1885400500,3400784728,557221067
+
 // ---- Quicksilver Storm [4293613902] EXOTIC static | kinetic Auto Rifle ----
 //notes:[PVP] exotic, static roll - closest-fit category per owner rule.|tags:PVP
 dimwishlist:item=4293613902
@@ -4543,6 +4767,28 @@ dimwishlist:item=3292795429&perks=1840239774,3230963543,691659142,4082225868
 // Randy's Throwing Knife - PVE-DMG: Fluted Barrel / Flared Magwell / Rapid Hit / Kill Clip
 //notes:[PVE-DMG] auto: Rapid Hit feeds Kill Clip|tags:PVE-DMG
 dimwishlist:item=3292795429&perks=1840239774,3230963543,247725512,1015611457
+
+// ---- Randy's Throwing Knife [4176824345] kinetic Scout Rifle | primary ----
+// Randy's Throwing Knife - PVP: Fluted Barrel / Flared Magwell / Lone Wolf / Precision Instrument
+//notes:[PVP] auto: Lone Wolf+Precision Instrument, pre-kill per rule 1|tags:PVP
+dimwishlist:item=4176824345&perks=1840239774,3230963543,2579169598,555281244
+// Randy's Throwing Knife - ELEM: Fluted Barrel / Flared Magwell / Rapid Hit / Firefly
+//notes:[ELEM] auto: max elemental lean, rule 2a fallback (kinetic)|tags:ELEM
+dimwishlist:item=4176824345&perks=1840239774,3230963543,247725512,3824105627
+// Randy's Throwing Knife - PVE-DMG: Fluted Barrel / Flared Magwell / Rapid Hit / Kill Clip
+//notes:[PVE-DMG] auto: Rapid Hit feeds Kill Clip|tags:PVE-DMG
+dimwishlist:item=4176824345&perks=1840239774,3230963543,247725512,1015611457
+
+// ---- Randy's Throwing Knife [3975115486] kinetic Scout Rifle | primary ----
+// Randy's Throwing Knife - PVP: Fluted Barrel / Flared Magwell / Lone Wolf / Precision Instrument
+//notes:[PVP] auto: Lone Wolf+Precision Instrument, pre-kill per rule 1|tags:PVP
+dimwishlist:item=3975115486&perks=1840239774,3230963543,2579169598,555281244
+// Randy's Throwing Knife - ELEM: Fluted Barrel / Flared Magwell / Rapid Hit / Firefly
+//notes:[ELEM] auto: max elemental lean, rule 2a fallback (kinetic)|tags:ELEM
+dimwishlist:item=3975115486&perks=1840239774,3230963543,247725512,3824105627
+// Randy's Throwing Knife - PVE-DMG: Fluted Barrel / Flared Magwell / Rapid Hit / Kill Clip
+//notes:[PVE-DMG] auto: Rapid Hit feeds Kill Clip|tags:PVE-DMG
+dimwishlist:item=3975115486&perks=1840239774,3230963543,247725512,1015611457
 
 // ---- Rat King [2362471601] EXOTIC static | kinetic Sidearm ----
 //notes:[PVP] exotic, static roll - closest-fit category per owner rule.|tags:PVP
@@ -4661,6 +4907,20 @@ dimwishlist:item=1541324871&perks=1934171651,679225683,923806249,3764420437
 // Refusal of the Call - PVE-DMG: Supercooled Accelerator / Light Mag / Demolitionist / Mega Kill Clip
 //notes:[PVE-DMG] auto: Demolitionist feeds Mega Kill Clip|tags:PVE-DMG
 dimwishlist:item=1541324871&perks=1934171651,679225683,3523296417,2305480722
+
+// ---- Reghusk's Pledge [2370525224] void Auto Rifle | primary ----
+// Reghusk's Pledge - PVP: Corkscrew Rifling / Accurized Rounds / Dynamic Sway Reduction / Target Lock
+//notes:[PVP] auto: Dynamic Sway Reduction+Target Lock, pre-kill per rule 1|tags:PVP
+dimwishlist:item=2370525224&perks=4090651448,3142289711,1359896290,365154968
+// Reghusk's Pledge - ELEM: Corkscrew Rifling / Ricochet Rounds / Destabilizing Rounds / Repulsor Brace
+//notes:[ELEM] auto: rule 2a chain Destabilizing Rounds->Repulsor Brace (void)|tags:ELEM
+dimwishlist:item=2370525224&perks=4090651448,1885400500,2048641572,776531651
+// Reghusk's Pledge - ABTY: Corkscrew Rifling / Ricochet Rounds / Proximity Power / Swashbuckler
+//notes:[ABTY] auto: rule 9 loop Proximity Power->Swashbuckler|tags:ABTY
+dimwishlist:item=2370525224&perks=4090651448,1885400500,4190679284,4082225868
+// Reghusk's Pledge - PVE-DMG: Corkscrew Rifling / Ricochet Rounds / Rewind Rounds / Kill Clip
+//notes:[PVE-DMG] auto: Rewind Rounds feeds Kill Clip|tags:PVE-DMG
+dimwishlist:item=2370525224&perks=4090651448,1885400500,3418782618,1015611457
 
 // ---- Regnant [268260372] void Grenade Launcher | heavy ----
 // Regnant - ELEM: Smart Drift Control / Alloy Casing / Repulsor Brace / Destabilizing Rounds
@@ -5855,6 +6115,28 @@ dimwishlist:item=409551876&perks=4090651448,3230963543,1820235745,2848615171
 //notes:[PVE-DMG] auto: Subsistence feeds Multikill Clip|tags:PVE-DMG
 dimwishlist:item=409551876&perks=4090651448,3230963543,1820235745,2458213969
 
+// ---- The Keening [3902351469] arc Sidearm | primary ----
+// The Keening - PVP: Hammer-Forged Rifling / Flared Magwell / Lone Wolf / Zen Moment
+//notes:[PVP] auto: Lone Wolf+Zen Moment, pre-kill per rule 1|tags:PVP
+dimwishlist:item=3902351469&perks=3250034553,3230963543,2579169598,2387244414
+// The Keening - ELEM: Corkscrew Rifling / Flared Magwell / Voltshot / Dragonfly
+//notes:[ELEM] auto: rule 2a chain Voltshot+Dragonfly (arc)|tags:ELEM
+dimwishlist:item=3902351469&perks=4090651448,3230963543,2173046394,2848615171
+// The Keening - PVE-DMG: Corkscrew Rifling / Flared Magwell / Subsistence / Multikill Clip
+//notes:[PVE-DMG] auto: Subsistence feeds Multikill Clip|tags:PVE-DMG
+dimwishlist:item=3902351469&perks=4090651448,3230963543,1820235745,2458213969
+
+// ---- The Keening [2839128618] arc Sidearm | primary ----
+// The Keening - PVP: Hammer-Forged Rifling / Flared Magwell / Lone Wolf / Zen Moment
+//notes:[PVP] auto: Lone Wolf+Zen Moment, pre-kill per rule 1|tags:PVP
+dimwishlist:item=2839128618&perks=3250034553,3230963543,2579169598,2387244414
+// The Keening - ELEM: Corkscrew Rifling / Flared Magwell / Voltshot / Dragonfly
+//notes:[ELEM] auto: rule 2a chain Voltshot+Dragonfly (arc)|tags:ELEM
+dimwishlist:item=2839128618&perks=4090651448,3230963543,2173046394,2848615171
+// The Keening - PVE-DMG: Corkscrew Rifling / Flared Magwell / Subsistence / Multikill Clip
+//notes:[PVE-DMG] auto: Subsistence feeds Multikill Clip|tags:PVE-DMG
+dimwishlist:item=2839128618&perks=4090651448,3230963543,1820235745,2458213969
+
 // ---- The Lament [3487253372] EXOTIC static | solar Sword ----
 //notes:[ELEM] exotic, static roll - closest-fit category per owner rule.|tags:ELEM
 dimwishlist:item=3487253372
@@ -6107,6 +6389,17 @@ dimwishlist:item=3593598010&perks=679077872,3142289711,1645158859,591790007
 // The Time-Worn Spire - PVE-DMG: Rifle Scope SSF / Ricochet Rounds / Subsistence / One for All
 //notes:[PVE-DMG] auto: Subsistence feeds One for All|tags:PVE-DMG
 dimwishlist:item=3593598010&perks=679077872,1885400500,1820235745,4049631843
+
+// ---- The Time-Worn Spire [2204165992] stasis Pulse Rifle | primary ----
+// The Time-Worn Spire - PVP: Corkscrew Rifling / Accurized Rounds / Lone Wolf / Headseeker
+//notes:[PVP] auto: Lone Wolf+Headseeker, pre-kill per rule 1|tags:PVP
+dimwishlist:item=2204165992&perks=4090651448,3142289711,2579169598,460017080
+// The Time-Worn Spire - ELEM: Corkscrew Rifling / Ricochet Rounds / Firefly / Headstone
+//notes:[ELEM] auto: rule 2a chain Firefly+Headstone (stasis)|tags:ELEM
+dimwishlist:item=2204165992&perks=4090651448,1885400500,3824105627,124408337
+// The Time-Worn Spire - PVE-DMG: Corkscrew Rifling / Ricochet Rounds / Subsistence / Kill Clip
+//notes:[PVE-DMG] auto: Subsistence feeds Kill Clip|tags:PVE-DMG
+dimwishlist:item=2204165992&perks=4090651448,1885400500,1820235745,1015611457
 
 // ---- The Title [294129361] void Submachine Gun | primary ----
 // The Title - PVP: Polygonal Rifling / Ricochet Rounds / Dynamic Sway Reduction / Moving Target
@@ -6650,6 +6943,28 @@ dimwishlist:item=2510526114&perks=1840239774,3230963543,3523296417,11612903
 //notes:[PVE-DMG] auto: Subsistence feeds Frenzy|tags:PVE-DMG
 dimwishlist:item=2510526114&perks=1840239774,3230963543,1820235745,4104185692
 
+// ---- Unending Tempest [2579239009] stasis Submachine Gun | primary ----
+// Unending Tempest - PVP: Fluted Barrel / Flared Magwell / Lone Wolf / Rangefinder
+//notes:[PVP] auto: Lone Wolf+Rangefinder, pre-kill per rule 1|tags:PVP
+dimwishlist:item=2579239009&perks=1840239774,3230963543,2579169598,2846385770
+// Unending Tempest - ELEM: Fluted Barrel / Flared Magwell / Attrition Orbs / Headstone
+//notes:[ELEM] auto: max elemental lean, rule 2a fallback (stasis)|tags:ELEM
+dimwishlist:item=2579239009&perks=1840239774,3230963543,243981275,124408337
+// Unending Tempest - PVE-DMG: Fluted Barrel / Flared Magwell / Attrition Orbs / Target Lock
+//notes:[PVE-DMG] auto: Attrition Orbs feeds Target Lock|tags:PVE-DMG
+dimwishlist:item=2579239009&perks=1840239774,3230963543,243981275,365154968
+
+// ---- Unending Tempest [673621062] stasis Submachine Gun | primary ----
+// Unending Tempest - PVP: Fluted Barrel / Flared Magwell / Lone Wolf / Rangefinder
+//notes:[PVP] auto: Lone Wolf+Rangefinder, pre-kill per rule 1|tags:PVP
+dimwishlist:item=673621062&perks=1840239774,3230963543,2579169598,2846385770
+// Unending Tempest - ELEM: Fluted Barrel / Flared Magwell / Attrition Orbs / Headstone
+//notes:[ELEM] auto: max elemental lean, rule 2a fallback (stasis)|tags:ELEM
+dimwishlist:item=673621062&perks=1840239774,3230963543,243981275,124408337
+// Unending Tempest - PVE-DMG: Fluted Barrel / Flared Magwell / Attrition Orbs / Target Lock
+//notes:[PVE-DMG] auto: Attrition Orbs feeds Target Lock|tags:PVE-DMG
+dimwishlist:item=673621062&perks=1840239774,3230963543,243981275,365154968
+
 // ---- Unfall [738446555] arc Sidearm | special ----
 // Unfall - ELEM: Smart Drift Control / Implosion Rounds / Lead from Gold / Rolling Storm
 //notes:[ELEM] auto: max elemental lean, rule 2a fallback (arc)|tags:ELEM
@@ -7132,3 +7447,4 @@ dimwishlist:item=1863583117&perks=1840239774,3868766766,3017780555,4293542123
 // Zealous Ideal - PVE-DMG: Fluted Barrel / Particle Repeater / Attrition Orbs / Onslaught
 //notes:[PVE-DMG] auto: Attrition Orbs feeds Onslaught|tags:PVE-DMG
 dimwishlist:item=1863583117&perks=1840239774,3868766766,243981275,95528736
+
