@@ -36,3 +36,28 @@ dimwishlist:item=198854575&perks=1482024992,3142289711,2039302152,555281244
 // Fluted Barrel / Appended Mag / Outlaw / Kill Clip
 //notes:[PVE-DMG] True 5/5. Outlaw's instant reload on precision kill feeds Kill Clip's x1.25 damage window - the classic loop, and Kill Clip is the biggest pure damage perk in the pool. Fluted patches handling+stability additively; Appended stretches the 8-round mag so the Kill Clip window does more work. Alternative: Explosive Payload over Kill Clip if you'd rather have always-on damage with no reload dance. Recommended MW: Reload Speed.|tags:PVE-DMG
 dimwishlist:item=198854575&perks=1840239774,1087426260,1168162263,1015611457
+
+
+// ------------------------------------------------------------
+// MULTIMACH CCX - Kinetic 900rpm Lightweight SMG (Iron Banner)
+// Weaknesses: range (SMG family tax); recoil at range. Mobility and
+//   handling are already strong from the lightweight frame.
+// ELEM: none - kinetic weapon, no arc/void traits in pool. Section skipped.
+// Additive col 1-2 pool: Corkscrew, Smallbore, Hammer-Forged, Fluted,
+//   Polygonal, Arrowhead | Accurized, Ricochet, Light Mag, Tactical,
+//   Flared Magwell, Appended, Alloy, AP Rounds, HCR, Assault Mag
+// Excluded (negative modifier): Extended Barrel, Chambered Comp, Full Bore,
+//   Rifled Barrel | Extended Mag, Steady Rounds, Drop Mag
+// Origin traits: Field-Tested preferred (stacking gunfeel on hits);
+//   Skulking Wolf is the PVP escape hatch at low health.
+// ------------------------------------------------------------
+
+// Multimach CCX - PVP 5/5
+// Smallbore / Accurized Rounds / Dynamic Sway Reduction / Iron Reach
+//notes:[PVP] True 5/5. Iron Reach's passive +range made this gun's reputation; its -30 stability is the catch, and Dynamic Sway Reduction exists to pay that bill - hold the trigger, stay steady. Both work before the kill. Smallbore adds range AND stability additively to cushion Iron Reach further; Accurized maxes range. Near-misses: Hammer-Forged over Smallbore for pure range, Target Lock over Iron Reach for 6v6 forgiveness. Recommended MW: Range.|tags:PVP
+dimwishlist:item=3211624072&perks=1482024992,3142289711,1359896290,591790007
+
+// Multimach CCX - PVE-DMG 5/5
+// Polygonal Rifling / Flared Magwell / Attrition Orbs / Kinetic Tremors
+//notes:[PVE-DMG] True 5/5. The canonical Multimach PvE roll: sustained fire generates orbs via Attrition Orbs (feeding armor charge and your damage mods) while Kinetic Tremors sends AoE shockwaves through the crowd after 14 hits on one target. Col 3 has no pure damage perks, so Attrition Orbs is the best damage-loop enabler. Polygonal and Flared Magwell patch stability and reload additively to keep the hit streams unbroken. Alternative: Frenzy in col 4 for flat x1.15 and gunfeel. Recommended MW: Stability.|tags:PVE-DMG
+dimwishlist:item=3211624072&perks=1392496348,3230963543,243981275,3891536761
