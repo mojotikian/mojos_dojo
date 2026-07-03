@@ -7640,4 +7640,3 @@ dimwishlist:item=1863583117&perks=1840239774,3868766766,3017780555,4293542123
 // Zealous Ideal - PVE-DMG: Fluted Barrel / Particle Repeater / Attrition Orbs / Onslaught
 //notes:[PVE-DMG] auto: Attrition Orbs with Onslaught|tags:PVE-DMG
 dimwishlist:item=1863583117&perks=1840239774,3868766766,243981275,95528736
-
