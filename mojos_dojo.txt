@@ -201,3 +201,223 @@ dimwishlist:item=4176551594&perks=1392496348,3230963543,831391274,960997401
 //notes:[PVE-DMG] Killing Tally stacks to x1.3 and dies on reload - Triple Tap refunds bullets to stretch the mag and keep the Tally alive longer. Recommended MW: Stability.|tags:PVE-DMG
 dimwishlist:item=337893613&perks=1392496348,3230963543,3400784728,557221067
 dimwishlist:item=4176551594&perks=1392496348,3230963543,3400784728,557221067
+
+// ------------------------------------------------------------
+// THE KEENING - Arc Adaptive Sidearm (Monument of Triumph)
+// S29, hashes 3902351469 (base) + 2839128618 (Upgraded). Anti-Barrier.
+// Weakness: reload 25, range 38. Owned roll: Corkscrew / Alloy /
+//   Subsistence / Vorpal -> KEEP: near-miss PVE champion sidearm
+//   (Vorpal is the listed col 4 alternative). Not strict 5/5.
+// ------------------------------------------------------------
+// The Keening (S29) - PVP 5/5: Hammer-Forged / Ricochet Rounds / Lone Wolf / Snapshot Sights
+//notes:[PVP] Sidearm duels are won on draw and first-crit: Snapshot's instant ADS plus Lone Wolf's aim assist and flinch resistance, both pre-kill. Hammer-Forged and Ricochet stretch the short range additively. Recommended MW: Range.|tags:PVP
+dimwishlist:item=3902351469&perks=3250034553,1885400500,2579169598,957782887
+dimwishlist:item=2839128618&perks=3250034553,1885400500,2579169598,957782887
+// The Keening (S29) - ELEM 5/5 (Arc): Fluted / Flared Magwell / Voltshot / Jolting Feedback
+//notes:[ELEM] Both trait columns arc: Voltshot jolts after reload-on-kill, Jolting Feedback jolts on sustained hits - jolt from every direction. Flared feeds the 25 reload that Voltshot depends on. Dragonfly (arc here) is the col 4 alternative. Recommended MW: Reload Speed.|tags:ELEM
+dimwishlist:item=3902351469&perks=1840239774,3230963543,2173046394,3966416502
+dimwishlist:item=2839128618&perks=1840239774,3230963543,2173046394,3966416502
+// The Keening (S29) - PVE-DMG 5/5: Fluted / Flared Magwell / Subsistence / Multikill Clip
+//notes:[PVE-DMG] Subsistence refills on kills so the 16-round mag never runs dry; reload at x3 Multikill Clip when you choose to, not when the gun forces you. Alternative: Vorpal for champions (stacks with Anti-Barrier). Recommended MW: Reload Speed.|tags:PVE-DMG
+dimwishlist:item=3902351469&perks=1840239774,3230963543,1820235745,2458213969
+dimwishlist:item=2839128618&perks=1840239774,3230963543,1820235745,2458213969
+
+// ------------------------------------------------------------
+// OUT OF BOUNDS - Arc Lightweight SMG, energy slot (Monument of Triumph)
+// S29, hashes 2579239008 (base) + 3021407779 (Upgraded).
+// Weakness: range (SMG), reload 28. Owned roll: Full Bore / Ricochet /
+//   Demolitionist / Kill Clip -> NOT godroll: Full Bore fails the
+//   additive rule, traits are a grenade-build hybrid. Junk.
+// ------------------------------------------------------------
+// Out of Bounds (S29) - PVP 5/5: Smallbore / Accurized Rounds / Dynamic Sway Reduction / Rangefinder
+//notes:[PVP] The Multimach formula on an energy SMG: DSR steadies the hose, Rangefinder stretches falloff, Smallbore+Accurized push range additively. All pre-kill. Recommended MW: Range.|tags:PVP
+dimwishlist:item=2579239008&perks=1482024992,3142289711,1359896290,2846385770
+dimwishlist:item=3021407779&perks=1482024992,3142289711,1359896290,2846385770
+// Out of Bounds (S29) - ELEM 5/5 (Arc): Fluted / Flared Magwell / Voltshot / Jolting Feedback
+//notes:[ELEM] Same double-jolt package as The Keening, at 900rpm: Jolting Feedback procs fast on sustained SMG fire, Voltshot covers the reload moments. Flared feeds the reload loop. Recommended MW: Reload Speed.|tags:ELEM
+dimwishlist:item=2579239008&perks=1840239774,3230963543,2173046394,3966416502
+dimwishlist:item=3021407779&perks=1840239774,3230963543,2173046394,3966416502
+// Out of Bounds (S29) - PVE-DMG 5/5: Polygonal / Flared Magwell / Subsistence / Frenzy
+//notes:[PVE-DMG] Frenzy's flat x1.15 plus handling/reload while in combat, Subsistence keeps the mag topped off kills. Polygonal+Flared patch stability and reload. Recommended MW: Stability.|tags:PVE-DMG
+dimwishlist:item=2579239008&perks=1392496348,3230963543,1820235745,4104185692
+dimwishlist:item=3021407779&perks=1392496348,3230963543,1820235745,4104185692
+
+// ------------------------------------------------------------
+// THE TIME-WORN SPIRE - Stasis Rapid-Fire Pulse, kinetic slot (Iron Banner)
+// S29, hashes 2204165992 (base) + 2051902846 (Upgraded). Anti-Overload.
+// Weakness: range 26, handling 26, drifting recoil 60.
+// Owned roll: Extended Barrel / Ricochet / Zen / Iron Gaze -> NOT godroll:
+//   Extended Barrel fails additive rule, Iron Gaze trades away range the
+//   gun can't spare. Junk.
+// ------------------------------------------------------------
+// The Time-Worn Spire (S29) - PVP 5/5: Arrowhead / Accurized Rounds / Lone Wolf / Headseeker
+//notes:[PVP] Headseeker upgrades body-shot follow-ups in a 540's burst - pre-kill, always working. Lone Wolf covers aim assist and flinch on the solo lane. Arrowhead straightens the drift; Accurized stretches the short range. Recommended MW: Range.|tags:PVP
+dimwishlist:item=2204165992&perks=839105230,3142289711,2579169598,460017080
+dimwishlist:item=2051902846&perks=839105230,3142289711,2579169598,460017080
+// The Time-Worn Spire (S29) - ELEM 5/5 (Stasis): Arrowhead / Appended Mag / Firefly / Headstone
+//notes:[ELEM] Rule 2a poster child: Headstone plants a stasis crystal where the target died, and Firefly's solar explosion at that same spot shatters it instantly - free shatter AoE on every precision kill, cross-element by design. Crystalline Corpsebloom is the all-stasis col 4 alternative; Subsistence the uptime col 3 alternative. Recommended MW: Stability.|tags:ELEM
+dimwishlist:item=2204165992&perks=839105230,1087426260,3824105627,124408337
+dimwishlist:item=2051902846&perks=839105230,1087426260,3824105627,124408337
+// The Time-Worn Spire (S29) - PVE-DMG 5/5: Arrowhead / Appended Mag / Subsistence / Rampage
+//notes:[PVE-DMG] Rampage stacks on kills, Subsistence removes the reload that would waste the window, Appended holds more bullets inside it. Recommended MW: Stability.|tags:PVE-DMG
+dimwishlist:item=2204165992&perks=839105230,1087426260,1820235745,3425386926
+dimwishlist:item=2051902846&perks=839105230,1087426260,1820235745,3425386926
+
+// ------------------------------------------------------------
+// MAIN INGREDIENT - Arc Precision Fusion, energy slot (Vanguard)
+// S29, hashes 4046741099 (base) + 2901221332 (Upgraded). Anti-Barrier.
+// Charge 800, mag 5. Weakness: reload 24, handling 31, stability 35.
+// Owned roll: Chambered / Particle Repeater / Lead from Gold / HIR ->
+//   KEEP: LfG + HIR is a strong PVE ammo-and-damage roll (HIR is our
+//   listed alternative); Chambered barrel fails additive rule. 4/5.
+// ------------------------------------------------------------
+// Main Ingredient (S29) - PVP 5/5: Hammer-Forged / Projection Fuse / Under Pressure / Rangefinder
+//notes:[PVP] The fusion duelist package again: Under Pressure tightens the 5-bolt spread, Rangefinder pushes projectile speed. Range battery over Accelerated Coils here - a precision frame can't afford the per-bolt damage cut in PvP. Recommended MW: Range.|tags:PVP
+dimwishlist:item=4046741099&perks=3250034553,2969185026,1645158859,2846385770
+dimwishlist:item=2901221332&perks=3250034553,2969185026,1645158859,2846385770
+// Main Ingredient (S29) - ELEM 5/5 (Arc): Fluted / Accelerated Coils / Trickle Charge / Voltshot
+//notes:[ELEM] Both columns arc per rule 2a: Trickle Charge builds Bolt Charge on hits while Voltshot jolts after each reload-on-kill - two arc engines on one battery. Feeding Frenzy is the col 3 alternative if Voltshot uptime matters more than Bolt Charge to your build. Recommended MW: Charge Time.|tags:ELEM
+dimwishlist:item=4046741099&perks=1840239774,689005463,1115162408,2173046394
+dimwishlist:item=2901221332&perks=1840239774,689005463,1115162408,2173046394
+// Main Ingredient (S29) - PVE-DMG 5/5: Fluted / Accelerated Coils / Lead from Gold / Reservoir Burst
+//notes:[PVE-DMG] Reservoir Burst supercharges the first bolt from a full battery and blows up the target; Lead from Gold keeps refilling that battery from heavy bricks. Owner's HIR roll is the listed alternative in col 4. Recommended MW: Charge Time.|tags:PVE-DMG
+dimwishlist:item=4046741099&perks=1840239774,689005463,1556840489,1427256713
+dimwishlist:item=2901221332&perks=1840239774,689005463,1556840489,1427256713
+
+// ------------------------------------------------------------
+// INFINITE PATHS 8 - Arc Lightweight Pulse, kinetic slot (Vex/Dawn reissue)
+// S29, hashes 3176697588 (base) + 1079319514 (Upgraded). Anti-Overload.
+// Weakness: range 30. Owned roll: Arrowhead / Appended / Moving Target /
+//   Voltshot -> KEEP: 4/5 ELEM roll, only col 3 (Moving Target vs
+//   Dragonfly) off the mark. The Voltshot engine is intact.
+// ------------------------------------------------------------
+// Infinite Paths 8 (S29) - PVP 5/5: Smallbore / Accurized Rounds / Moving Target / Zen Moment
+//notes:[PVP] Thin pre-kill pool: Moving Target's strafe aim assist plus Zen Moment's flinch damping is the consistency package. Smallbore+Accurized stretch the short range. Recommended MW: Range.|tags:PVP
+dimwishlist:item=3176697588&perks=1482024992,3142289711,588594999,2387244414
+dimwishlist:item=1079319514&perks=1482024992,3142289711,588594999,2387244414
+// Infinite Paths 8 (S29) - ELEM 5/5 (Arc): Arrowhead / Flared Magwell / Dragonfly / Voltshot
+//notes:[ELEM] Double arc pop and a rule 2a chain: Dragonfly's elemental burst on precision kills, then the Voltshot reload jolts the next group. Flared speeds the reload that triggers it. Recommended MW: Reload Speed.|tags:ELEM
+dimwishlist:item=3176697588&perks=839105230,3230963543,2848615171,2173046394
+dimwishlist:item=1079319514&perks=839105230,3230963543,2848615171,2173046394
+// Infinite Paths 8 (S29) - PVE-DMG 5/5: Arrowhead / Appended Mag / Demolitionist / Swashbuckler
+//notes:[PVE-DMG] Swashbuckler climbs to x5 off kills and melees; Demolitionist turns the kills into grenade energy. Recommended MW: Stability.|tags:PVE-DMG
+dimwishlist:item=3176697588&perks=839105230,1087426260,3523296417,4082225868
+dimwishlist:item=1079319514&perks=839105230,1087426260,3523296417,4082225868
+
+// ------------------------------------------------------------
+// OCCLUDED FINALITY - Arc Aggressive Sniper, special (Monument of Triumph)
+// S29, hashes 3104013318 (base) + 283817796 (Upgraded). Anti-Unstoppable.
+// Mag 3. Weakness: stability 29, handling 30.
+// Owned roll: Corkscrew / Alloy / Snapshot / Opening Shot -> KEEP:
+//   the PVP godroll traits exactly; cols 1-2 additive but not optimal
+//   (Fluted/Tactical preferred). Call it 4/5 and tag it favorite.
+// ------------------------------------------------------------
+// Occluded Finality (S29) - PVP 5/5: Fluted / Tactical Mag / Snapshot Sights / Opening Shot
+//notes:[PVP] The eternal PvP sniper roll: Snapshot's instant scope, Opening Shot's free accuracy and range on the first round - which is the only round that matters. Fluted+Tactical patch the sluggish handling additively. Recommended MW: Handling.|tags:PVP
+dimwishlist:item=3104013318&perks=1840239774,106909392,957782887,47981717
+dimwishlist:item=283817796&perks=1840239774,106909392,957782887,47981717
+// Occluded Finality (S29) - ELEM 5/5 (Arc): Fluted / Appended Mag / Triple Tap / Aggregate Charge
+//notes:[ELEM] Aggregate Charge builds Bolt Charge on hits for arc builds; Triple Tap refunds bullets into the 3-round mag to keep hitting. No chaining pair exists in this pool, so this is the max-elemental fallback per rule 2a. Recommended MW: Reload Speed.|tags:ELEM
+dimwishlist:item=3104013318&perks=1840239774,1087426260,3400784728,3764420437
+dimwishlist:item=283817796&perks=1840239774,1087426260,3400784728,3764420437
+// Occluded Finality (S29) - PVE-DMG 5/5: Fluted / Appended Mag / Triple Tap / Vorpal Weapon
+//notes:[PVE-DMG] Triple Tap turns 3 rounds into 4-5 against a boss crit spot; Vorpal's always-on bonus stacks with the Anti-Unstoppable intrinsic for champion duty. Recommended MW: Reload Speed.|tags:PVE-DMG
+dimwishlist:item=3104013318&perks=1840239774,1087426260,3400784728,1546637391
+dimwishlist:item=283817796&perks=1840239774,1087426260,3400784728,1546637391
+
+// ------------------------------------------------------------
+// AURORA DAWN - Stasis Wave-Frame Sword, heavy (Vanguard)
+// Owned copy is S27 hash 2111625436; S29 reissue is 1479562935 - both
+//   wishlisted. PVP: skipped, sword. Blade/guard picks are conservative
+//   (sword minor-perk data is thin); flag if you want these revisited.
+// Owned roll: Hungry Edge / Balanced Guard / Flash Counter / Cold Steel ->
+//   marginal: Cold Steel is the ELEM col 4, but Flash Counter is a
+//   dueling perk on a PvE wave frame. Junk unless you run stasis swords.
+// ------------------------------------------------------------
+// Aurora Dawn - ELEM 5/5 (Stasis): Tempered Edge / Balanced Guard / Rimestealer / Cold Steel
+//notes:[ELEM] A rule 2a chain: Cold Steel slows on every wave hit, slows stack to freeze, frozen targets shatter, and Rimestealer converts those shatters into Frost Armor. A stasis sword that feeds its own subclass. Recommended MW: Impact.|tags:ELEM
+dimwishlist:item=2111625436&perks=938542991,52780822,1955165503,3650930298
+dimwishlist:item=1479562935&perks=938542991,52780822,1955165503,3650930298
+// Aurora Dawn - PVE-DMG 5/5: Tempered Edge / Balanced Guard / Tireless Blade / Whirlwind Blade
+//notes:[PVE-DMG] Whirlwind Blade stacks damage on rapid wave hits; Tireless Blade refunds ammo on powered kills so the waves keep coming. Recommended MW: Impact.|tags:PVE-DMG
+dimwishlist:item=2111625436&perks=938542991,52780822,2590710093,3913600130
+dimwishlist:item=1479562935&perks=938542991,52780822,2590710093,3913600130
+
+// ------------------------------------------------------------
+// FELWINTER'S LIE - Solar Shot-Package Shotgun, special (Iron Banner)
+// S29, hashes 218787950 (base) + 287413532 (Upgraded). Anti-Unstoppable.
+// Owned roll: Smallbore / Assault Mag / Threat Detector / Opening Shot ->
+//   KEEP: 4.5/5 PVP roll. Threat Detector is the listed col 3 alternative
+//   and arguably better in pure CQC. Tag it favorite.
+// ------------------------------------------------------------
+// Felwinter's Lie (S29) - PVP 5/5: Barrel Shroud / Accurized Rounds / Slideshot / Opening Shot
+//notes:[PVP] The Felwinter's of legend: slide into range with Slideshot's reload+range, Opening Shot guarantees the first pellet spread. Barrel Shroud and Accurized are the additive stability/range pair. Owner's Threat Detector copy is the CQC-brawl variant. Recommended MW: Range.|tags:PVP
+dimwishlist:item=218787950&perks=1300023272,3142289711,3161816588,47981717
+dimwishlist:item=287413532&perks=1300023272,3142289711,3161816588,47981717
+// Felwinter's Lie (S29) - ELEM 5/5 (Solar): Barrel Shroud / Flared Magwell / Heal Clip / Incandescent
+//notes:[ELEM] A rule 2a chain: kill, reload, Heal Clip cures you and allies while Incandescent's scorch spreads from the same kill - the beloved solar pair on a 4-round shotgun. Flared speeds the reload that triggers both. Recommended MW: Reload Speed.|tags:ELEM
+dimwishlist:item=218787950&perks=1300023272,3230963543,3017780555,4293542123
+dimwishlist:item=287413532&perks=1300023272,3230963543,3017780555,4293542123
+// Felwinter's Lie (S29) - PVE-DMG 5/5: Barrel Shroud / Assault Mag / Threat Detector / One-Two Punch
+//notes:[PVE-DMG] One-Two Punch triples your next melee after a full pellet hit - the melee-build enabler. Threat Detector's free stats are always live at shotgun distance; Assault Mag speeds the follow-up shot. Recommended MW: Handling.|tags:PVE-DMG
+dimwishlist:item=218787950&perks=1300023272,791862061,4071163871,2679249093
+dimwishlist:item=287413532&perks=1300023272,791862061,4071163871,2679249093
+
+// ------------------------------------------------------------
+// GUNNORA'S AXE - Solar Pinpoint Slug Shotgun, special (Iron Banner)
+// S29, hashes 218787951 (base) + 2013133363 (Upgraded). Anti-Barrier.
+// Recoil 51 drifts - Arrowhead is load-bearing on a slug.
+// Owned roll: Arrowhead / Alloy / Lone Wolf / Incandescent -> KEEP:
+//   strong hybrid - PVP col 3 pick plus ELEM col 4 pick on one gun,
+//   with the right barrel. 4/5 both ways. Tag it favorite.
+// ------------------------------------------------------------
+// Gunnora's Axe (S29) - PVP 5/5: Arrowhead / Accurized Rounds / Lone Wolf / Opening Shot
+//notes:[PVP] A slug lives on the first headshot: Opening Shot's accuracy plus Lone Wolf's aim assist, both pre-kill. Arrowhead straightens the drifting recoil so the follow-up slug tracks. Recommended MW: Range.|tags:PVP
+dimwishlist:item=218787951&perks=839105230,3142289711,2579169598,47981717
+dimwishlist:item=2013133363&perks=839105230,3142289711,2579169598,47981717
+// Gunnora's Axe (S29) - ELEM 5/5 (Solar): Arrowhead / Flared Magwell / Heal Clip / Incandescent
+//notes:[ELEM] Heal Clip + Incandescent on a slug, a rule 2a chain: kill, fast reload, cure, and the scorch spreads to the crowd the slug just punched through. Recommended MW: Reload Speed.|tags:ELEM
+dimwishlist:item=218787951&perks=839105230,3230963543,3017780555,4293542123
+dimwishlist:item=2013133363&perks=839105230,3230963543,3017780555,4293542123
+// Gunnora's Axe (S29) - PVE-DMG 5/5: Arrowhead / Appended Mag / Slideshot / Kill Clip
+//notes:[PVE-DMG] Slideshot partial-reloads on a slide to keep Kill Clip's x1.25 rolling between full reloads; Appended holds more slugs inside the window. Alternative: Precision Instrument for single-target crit work. Recommended MW: Reload Speed.|tags:PVE-DMG
+dimwishlist:item=218787951&perks=839105230,1087426260,3161816588,1015611457
+dimwishlist:item=2013133363&perks=839105230,1087426260,3161816588,1015611457
+
+// ------------------------------------------------------------
+// BETTER DEVILS - Strand Adaptive 140 Hand Cannon, kinetic slot (Crucible)
+// S29, hashes 4059111041 (base) + 2106353446 (Upgraded). Anti-Barrier.
+// Owned roll: Chambered / Accurized / Reconstruction / Opening Shot ->
+//   marginal: Reconstruction is the PVE col 3 pick but Opening Shot
+//   points PVP, and Chambered fails the additive rule. Split-personality
+//   3.5/5 - keep only if the Recon feel wins you over.
+// ------------------------------------------------------------
+// Better Devils (S29) - PVP 5/5: Smallbore / Accurized Rounds / Rangefinder / Explosive Payload
+//notes:[PVP] Explosive Payload flinches on every hit and ignores damage falloff on its blast half - passive, pre-kill, and miserable to fight. Rangefinder stretches the engagement band; Smallbore+Accurized push range additively. Recommended MW: Range.|tags:PVP
+dimwishlist:item=4059111041&perks=1482024992,3142289711,2846385770,3038247973
+dimwishlist:item=2106353446&perks=1482024992,3142289711,2846385770,3038247973
+// Better Devils (S29) - ELEM 5/5 (Strand): Fluted / Appended Mag / Slice / Hatchling
+//notes:[ELEM] Double Strand and a rule 2a chain: Slice severs on hits after a class ability, weakening the crowd, and Hatchling turns the precision kills into Threadlings that clean up the severed stragglers. Recommended MW: Stability.|tags:ELEM
+dimwishlist:item=4059111041&perks=1840239774,1087426260,923806249,831391274
+dimwishlist:item=2106353446&perks=1840239774,1087426260,923806249,831391274
+// Better Devils (S29) - PVE-DMG 5/5: Fluted / Appended Mag / Reconstruction / Explosive Payload
+//notes:[PVE-DMG] Reconstruction quietly doubles the mag while holstered; Explosive Payload's AoE split hits everything near the target. No reload choreography anywhere in the roll. Recommended MW: Range.|tags:PVE-DMG
+dimwishlist:item=4059111041&perks=1840239774,1087426260,1523832109,3038247973
+dimwishlist:item=2106353446&perks=1840239774,1087426260,1523832109,3038247973
+
+// ------------------------------------------------------------
+// NAMELESS MIDNIGHT - Kinetic Precision Scout 180 (Vanguard)
+// S29, hashes 1957301533 (base) + 3470514298 (Upgraded). Anti-Barrier.
+// ELEM: none - kinetic, no elemental traits. Section skipped.
+// Owned roll: Extended Barrel / Appended / Outlaw / Kinetic Tremors ->
+//   KEEP: excellent PVE scout. Outlaw+Tremors is the listed alternative
+//   pairing; only Extended Barrel violates the additive rule. 4/5.
+// ------------------------------------------------------------
+// Nameless Midnight (S29) - PVP 5/5: Smallbore / Accurized Rounds / Rapid Hit / Explosive Payload
+//notes:[PVP] Explosive Payload's flinch on a 180 scout keeps opposing lane-holders off their crosshair; Rapid Hit stacks stability as your crits land. Smallbore+Accurized push the range additively. Recommended MW: Range.|tags:PVP
+dimwishlist:item=1957301533&perks=1482024992,3142289711,247725512,3038247973
+dimwishlist:item=3470514298&perks=1482024992,3142289711,247725512,3038247973
+// Nameless Midnight (S29) - PVE-DMG 5/5: Polygonal / Appended Mag / Fourth Time's the Charm / Kinetic Tremors
+//notes:[PVE-DMG] Kinetic Tremors wants long unbroken hit streams; Fourth Time's the Charm refunds bullets on crits so the stream doesn't stop for a reload the way Outlaw's does. Owner's Outlaw+Tremors copy is the classic alternative. Recommended MW: Stability.|tags:PVE-DMG
+dimwishlist:item=1957301533&perks=1392496348,1087426260,1354429876,3891536761
+dimwishlist:item=3470514298&perks=1392496348,1087426260,1354429876,3891536761
