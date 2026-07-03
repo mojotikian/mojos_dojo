@@ -1,5 +1,5 @@
 title:Paul's 5/5 Godroll Compendium
-description:True 5/5 rolls only, one weapon at a time. Three tags: PVP (before-the-kill perks), ELEM (col 3+4 arc/void synergy), PVE-DMG (non-elemental damage). Cols 1-2 additive perks only, chosen to compensate the weapon's weaknesses, then range/stability, then handling. Built with Claude as workflow partner, July 2026.
+description:True 5/5 rolls only, one weapon at a time, current-season versions first. Three tags: PVP (before-the-kill perks), ELEM (col 3+4 arc/void synergy), PVE-DMG (non-elemental damage). Cols 1-2 additive perks only, chosen to compensate the weapon's weaknesses, then range/stability, then handling. Built with Claude as workflow partner, July 2026. Rebuilt 2026-07-02 on S29 Monument of Triumph hashes.
 
 // ============================================================
 // SELECTION RULES (reference for future sessions)
@@ -13,13 +13,26 @@ description:True 5/5 rolls only, one weapon at a time. Three tags: PVP (before-t
 //    stability, then handling, then whatever else lags.
 // 6. Base perk hashes only - DIM matches enhanced versions automatically.
 // 7. Masterworks can't be wishlisted; recommended MW lives in the notes line.
+// 8. CURRENT SEASON FIRST: always check light.gg "Alternate Versions" and use
+//    the newest item hash. Reissues get new hashes AND new perk pools - old
+//    hashes silently miss current drops. When the season issues a base +
+//    Upgraded pair, wishlist BOTH hashes. Kept old-season rolls get their own
+//    sections later, clearly marked with their season.
 // ============================================================
 
 
 // ------------------------------------------------------------
 // CRIMIL'S DAGGER - Kinetic 120rpm Aggressive Hand Cannon (Iron Banner)
-// Weaknesses: stability, handling, reload (aggressive frame); 8-round mag.
+// S29 Monument of Triumph. Hashes: 1617917863 (base) + 2535187035 (Upgraded).
+// S29 stats: Range 60 / Stab 31 / Handling 31 / Reload 24 / Recoil 98 / Mag 8.
+// Weaknesses: stability, reload, handling. Range is now excellent; recoil
+//   near-vertical, so no barrel slot needed for recoil.
 // ELEM: none - kinetic weapon, no arc/void traits in pool. Section skipped.
+// S29 pool changes vs S24: col 3 lost Outlaw/Enlightened/Strategist/Air
+//   Trigger, gained Slideshot, Keep Away, Lone Wolf, Opening Shot, Firefly.
+//   Col 4 lost Zen/Opening Shot, gained Eye of the Storm, Rangefinder,
+//   Snapshot. Firefly's post-precision-kill reload now feeds Kill Clip
+//   the way Outlaw used to.
 // Additive col 1-2 pool: Fluted, Smallbore, Corkscrew, Hammer-Forged,
 //   Arrowhead, Polygonal | Accurized, Ricochet, Light Mag, Tactical,
 //   Flared Magwell, Appended, Alloy, AP Rounds, HCR, Assault Mag
@@ -27,22 +40,29 @@ description:True 5/5 rolls only, one weapon at a time. Three tags: PVP (before-t
 //   Rifled Barrel | Extended Mag, Steady Rounds, Drop Mag
 // ------------------------------------------------------------
 
-// Crimil's Dagger - PVP 5/5
-// Smallbore / Accurized Rounds / Slideways / Precision Instrument
-//notes:[PVP] True 5/5. Slideways and Precision Instrument both work before the kill: slide for stability+handling+partial reload, PI ramps precision damage on successive hits and helps the 120 hit its 2-crit-1-body kill. Smallbore patches stability while still adding range with no penalty; Accurized maxes range. Near-misses worth keeping: Ricochet Rounds in place of Accurized (trades 5 range for 10 stability), Moving Target or Zen Moment in col 3/4. Recommended MW: Range.|tags:PVP
-dimwishlist:item=198854575&perks=1482024992,3142289711,2039302152,555281244
+// Crimil's Dagger (S29) - PVP 5/5
+// Smallbore / Ricochet Rounds / Lone Wolf / Precision Instrument
+//notes:[PVP] True 5/5, S29. Lone Wolf's aim assist, handling, and flinch resistance are live before the first shot whenever you're off on your own - exactly where a 120 duelist lives - and they protect the unbroken crit chain Precision Instrument needs. With S29 base range at 60, stability (31) is the binding stat: Smallbore and Ricochet both feed it while still adding range, all additive. Near-misses: Slideways or Slideshot in col 3 for slide-heavy movement, Accurized over Ricochet if you want falloff pushed to the horizon. Recommended MW: Stability.|tags:PVP
+dimwishlist:item=1617917863&perks=1482024992,1885400500,2579169598,555281244
+dimwishlist:item=2535187035&perks=1482024992,1885400500,2579169598,555281244
 
-// Crimil's Dagger - PVE-DMG 5/5
-// Fluted Barrel / Appended Mag / Outlaw / Kill Clip
-//notes:[PVE-DMG] True 5/5. Outlaw's instant reload on precision kill feeds Kill Clip's x1.25 damage window - the classic loop, and Kill Clip is the biggest pure damage perk in the pool. Fluted patches handling+stability additively; Appended stretches the 8-round mag so the Kill Clip window does more work. Alternative: Explosive Payload over Kill Clip if you'd rather have always-on damage with no reload dance. Recommended MW: Reload Speed.|tags:PVE-DMG
-dimwishlist:item=198854575&perks=1840239774,1087426260,1168162263,1015611457
+// Crimil's Dagger (S29) - PVE-DMG 5/5
+// Fluted Barrel / Appended Mag / Firefly / Kill Clip
+//notes:[PVE-DMG] True 5/5, S29. Outlaw left the pool, but Firefly inherits the loop: precision kills explode AND grant a big reload boost, which tees up Kill Clip's x1.25 window - damage perk feeding damage perk. Fluted patches handling+stability additively; Appended stretches the 8-round mag so the window holds more bullets. Alternative: Explosive Payload over Kill Clip for always-on damage with no reload choreography. Recommended MW: Reload Speed.|tags:PVE-DMG
+dimwishlist:item=1617917863&perks=1840239774,1087426260,3824105627,1015611457
+dimwishlist:item=2535187035&perks=1840239774,1087426260,3824105627,1015611457
 
 
 // ------------------------------------------------------------
 // MULTIMACH CCX - Kinetic 900rpm Lightweight SMG (Iron Banner)
-// Weaknesses: range (SMG family tax); recoil at range. Mobility and
-//   handling are already strong from the lightweight frame.
+// S29 Monument of Triumph. Hash: 3026836571 (no Upgraded twin listed).
+// S29 stats: Range 29 / Stab 38 / Handling 70 / Reload 26 / Recoil 100 / Mag 41.
+// Weaknesses: range (SMG family tax). Handling and recoil are excellent.
 // ELEM: none - kinetic weapon, no arc/void traits in pool. Section skipped.
+// S29 pool changes vs S23: col 3 lost Under-Over/Iron Gaze, gained Killing
+//   Wind (on-kill, barred from PVP by rule 1), Stopping Power, Bewildering
+//   Burst. Col 4 lost Frenzy, gained All-Star, Master of Arms. Both chosen
+//   rolls survive unchanged.
 // Additive col 1-2 pool: Corkscrew, Smallbore, Hammer-Forged, Fluted,
 //   Polygonal, Arrowhead | Accurized, Ricochet, Light Mag, Tactical,
 //   Flared Magwell, Appended, Alloy, AP Rounds, HCR, Assault Mag
@@ -52,38 +72,46 @@ dimwishlist:item=198854575&perks=1840239774,1087426260,1168162263,1015611457
 //   Skulking Wolf is the PVP escape hatch at low health.
 // ------------------------------------------------------------
 
-// Multimach CCX - PVP 5/5
+// Multimach CCX (S29) - PVP 5/5
 // Smallbore / Accurized Rounds / Dynamic Sway Reduction / Iron Reach
-//notes:[PVP] True 5/5. Iron Reach's passive +range made this gun's reputation; its -30 stability is the catch, and Dynamic Sway Reduction exists to pay that bill - hold the trigger, stay steady. Both work before the kill. Smallbore adds range AND stability additively to cushion Iron Reach further; Accurized maxes range. Near-misses: Hammer-Forged over Smallbore for pure range, Target Lock over Iron Reach for 6v6 forgiveness. Recommended MW: Range.|tags:PVP
-dimwishlist:item=3211624072&perks=1482024992,3142289711,1359896290,591790007
+//notes:[PVP] True 5/5, S29. Iron Reach's passive +range made this gun's reputation; its -30 stability is the catch, and Dynamic Sway Reduction exists to pay that bill - hold the trigger, stay steady. Both work before the kill. Smallbore adds range AND stability additively to cushion Iron Reach further; Accurized maxes range. Near-misses: Hammer-Forged over Smallbore for pure range, Target Lock over Iron Reach for 6v6 forgiveness. Recommended MW: Range.|tags:PVP
+dimwishlist:item=3026836571&perks=1482024992,3142289711,1359896290,591790007
 
-// Multimach CCX - PVE-DMG 5/5
+// Multimach CCX (S29) - PVE-DMG 5/5
 // Polygonal Rifling / Flared Magwell / Attrition Orbs / Kinetic Tremors
-//notes:[PVE-DMG] True 5/5. The canonical Multimach PvE roll: sustained fire generates orbs via Attrition Orbs (feeding armor charge and your damage mods) while Kinetic Tremors sends AoE shockwaves through the crowd after 14 hits on one target. Col 3 has no pure damage perks, so Attrition Orbs is the best damage-loop enabler. Polygonal and Flared Magwell patch stability and reload additively to keep the hit streams unbroken. Alternative: Frenzy in col 4 for flat x1.15 and gunfeel. Recommended MW: Stability.|tags:PVE-DMG
-dimwishlist:item=3211624072&perks=1392496348,3230963543,243981275,3891536761
+//notes:[PVE-DMG] True 5/5, S29. The canonical Multimach PvE roll: sustained fire generates orbs via Attrition Orbs (feeding armor charge and your damage mods) while Kinetic Tremors sends AoE shockwaves through the crowd after 14 hits on one target. Col 3 has no pure damage perks, so Attrition Orbs is the best damage-loop enabler. Polygonal and Flared Magwell patch stability and reload additively to keep the hit streams unbroken. Frenzy left the S29 pool, so Tremors stands alone in col 4. Recommended MW: Stability.|tags:PVE-DMG
+dimwishlist:item=3026836571&perks=1392496348,3230963543,243981275,3891536761
+
 
 // ------------------------------------------------------------
 // RANDY'S THROWING KNIFE - Kinetic 260rpm Rapid-Fire Scout (Crucible ritual)
-// Weaknesses: stability under sustained fire, drifting recoil; handling
-//   is midpack. Range is ample for the frame.
+// S29 Monument of Triumph. Hashes: 4176824345 (base) + 3975115486 (Upgraded).
+// S29 stats: Range 23 / Stab 39 / Handling 20 / Reload 28 / Recoil 59 / Mag 16.
+// Weaknesses: handling, reload, range; recoil 59 drifts, so Arrowhead matters.
 // ELEM: none - kinetic weapon, no arc/void traits in pool. Section skipped.
-//   (Adaptive Munitions is anti-shield utility, not elemental synergy.)
+// S29 pool changes vs S21: col 3 lost Pugilist/Well-Rounded/Perfect Float/
+//   Gutshot/Slickdraw/Shot Swap/Offhand Strike/Discord, gained Keep Away,
+//   Lone Wolf, Eye of the Storm. Col 4 lost Snapshot/Swashbuckler/Encore/
+//   Thresh/Harmony/Adaptive Munitions/Focused Fury, gained Precision
+//   Instrument, Firefly. Origin is now Accelerated Assault / Roar of Battle.
 // Additive col 1-2 pool: Arrowhead, Smallbore, Fluted, Corkscrew,
 //   Hammer-Forged, Polygonal | Appended, AP Rounds, Flared Magwell, HCR,
 //   Ricochet, Alloy, Light Mag, Accurized, Tactical
 // Excluded (negative modifier): Extended Barrel, Chambered Comp, Full Bore,
 //   Rifled Barrel | Extended Mag, Steady Rounds, Drop Mag
-// Note: classic Randy's PVP roll is Rapid Hit + Kill Clip; Kill Clip is
-//   on-kill, barred by rule 1. Box Breathing was the pre-kill damage
-//   alternative; owner chose consistency instead.
+// Note: classic Randy's roll was Rapid Hit + Kill Clip; Kill Clip is on-kill,
+//   barred by rule 1. Owner picked Lone Wolf over Rapid Hit for col 3 after
+//   weighing the solo-positioning tradeoff.
 // ------------------------------------------------------------
 
-// Randy's Throwing Knife - PVP 5/5
-// Arrowhead Brake / Ricochet Rounds / Rapid Hit / Snapshot Sights
-//notes:[PVP] True 5/5. All consistency, all pre-kill: Snapshot's instant ADS for peek-shooting, Rapid Hit stacking stability and reload on crits as the fight goes on. Arrowhead straightens the recoil to vertical so the fast follow-up crits land; Ricochet adds stability and range with no penalty. Near-misses: Box Breathing over Snapshot for lane-holding damage, Zen Moment over Rapid Hit for flinch resistance. Recommended MW: Stability.|tags:PVP
-dimwishlist:item=3292795429&perks=839105230,1885400500,247725512,957782887
+// Randy's Throwing Knife (S29) - PVP 5/5
+// Arrowhead Brake / Ricochet Rounds / Lone Wolf / Precision Instrument
+//notes:[PVP] True 5/5, S29. Lone Wolf's aim assist, handling, and flinch resistance run before the fight starts whenever you hold a lane solo, protecting the four-crit chain Precision Instrument pays out on. Arrowhead straightens the drifting recoil (59) so fast follow-ups stay on the head; Ricochet adds stability and range with no penalty. Near-misses: Rapid Hit in col 3 if you fight alongside teammates (Lone Wolf deactivates near allies), Keep Away for pure lane-holding, Box Breathing in col 4 for hard-scope damage. Recommended MW: Range.|tags:PVP
+dimwishlist:item=4176824345&perks=839105230,1885400500,2579169598,555281244
+dimwishlist:item=3975115486&perks=839105230,1885400500,2579169598,555281244
 
-// Randy's Throwing Knife - PVE-DMG 5/5
+// Randy's Throwing Knife (S29) - PVE-DMG 5/5
 // Arrowhead Brake / Appended Mag / Rapid Hit / Kinetic Tremors
-//notes:[PVE-DMG] True 5/5. A 260 scout procs Kinetic Tremors back to back - the frame fires fast enough to chain the AoE shockwaves, and Rapid Hit's stacking reload keeps the hit streams rolling. Arrowhead keeps the fast crits on target; Appended stretches the magazine so more Tremors procs fit between reloads. Alternative: Cascade Point in col 4 for burst RPM silliness (428rpm scout) over sustained damage. Recommended MW: Stability.|tags:PVE-DMG
-dimwishlist:item=3292795429&perks=839105230,1087426260,247725512,3891536761
+//notes:[PVE-DMG] True 5/5, S29. A 260 scout procs Kinetic Tremors back to back - the frame fires fast enough to chain the AoE shockwaves, and Rapid Hit's stacking reload keeps the hit streams rolling. Arrowhead keeps the fast crits on target; Appended stretches the magazine so more Tremors procs fit between reloads. Origin: Accelerated Assault's passive mag refill and x1.05 on triple hits is a quiet bonus for sustained fire. Alternatives: Firefly in col 4 for precision-kill explosions, Cascade Point for burst RPM silliness. Recommended MW: Stability.|tags:PVE-DMG
+dimwishlist:item=4176824345&perks=839105230,1087426260,247725512,3891536761
+dimwishlist:item=3975115486&perks=839105230,1087426260,247725512,3891536761
