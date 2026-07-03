@@ -195,6 +195,14 @@ dimwishlist:item=1540621132&perks=1392496348,3868766766,3643424744,1427256713
 //notes:[PVP] exotic, static roll - closest-fit category per owner rule.|tags:PVP
 dimwishlist:item=347366834
 
+// ---- Acosmic [1608003561] kinetic Grenade Launcher | heavy ----
+// Acosmic - ELEM: Smart Drift Control / Implosion Rounds / Clown Cartridge / Repulsor Brace
+//notes:[ELEM] auto: max elemental lean, rule 2a fallback (kinetic)|tags:ELEM
+dimwishlist:item=1608003561&perks=3798852852,3492396210,2284787283,776531651
+// Acosmic - PVE-DMG: Smart Drift Control / Implosion Rounds / Field Prep / Explosive Light
+//notes:[PVE-DMG] auto: Field Prep feeds Explosive Light|tags:PVE-DMG
+dimwishlist:item=1608003561&perks=3798852852,3492396210,2869569095,3194351027
+
 // ---- Acosmic [413901114] void Grenade Launcher | heavy ----
 // Acosmic - ELEM: Smart Drift Control / Implosion Rounds / Clown Cartridge / Repulsor Brace
 //notes:[ELEM] auto: max elemental lean, rule 2a fallback (void)|tags:ELEM
@@ -554,6 +562,17 @@ dimwishlist:item=38064944&perks=4090651448,1885400500,1631667848,4082225868
 // Arc Logic - PVE-DMG: Corkscrew Rifling / Ricochet Rounds / Overflow / Frenzy
 //notes:[PVE-DMG] auto: Overflow feeds Frenzy|tags:PVE-DMG
 dimwishlist:item=38064944&perks=4090651448,1885400500,3643424744,4104185692
+
+// ---- Arcane Embrace [1659137741] kinetic Shotgun | special ----
+// Arcane Embrace - PVP: Fluted Barrel / Ricochet Rounds / Lone Wolf / Precision Instrument
+//notes:[PVP] auto: Lone Wolf+Precision Instrument, pre-kill per rule 1|tags:PVP
+dimwishlist:item=1659137741&perks=1840239774,1885400500,2579169598,555281244
+// Arcane Embrace - ELEM: Fluted Barrel / Ricochet Rounds / Reconstruction / Rolling Storm
+//notes:[ELEM] auto: max elemental lean, rule 2a fallback (kinetic)|tags:ELEM
+dimwishlist:item=1659137741&perks=1840239774,1885400500,1523832109,3218042543
+// Arcane Embrace - PVE-DMG: Fluted Barrel / Ricochet Rounds / Reconstruction / Precision Instrument
+//notes:[PVE-DMG] auto: Reconstruction feeds Precision Instrument|tags:PVE-DMG
+dimwishlist:item=1659137741&perks=1840239774,1885400500,1523832109,555281244
 
 // ---- Arcane Embrace [3649985571] arc Shotgun | special ----
 // Arcane Embrace - PVP: Fluted Barrel / Ricochet Rounds / Lone Wolf / Precision Instrument
@@ -1827,6 +1846,10 @@ dimwishlist:item=219610523&perks=3250034553,2969185026,3017780555,4104185692
 //notes:[PVE-DMG] auto: Reconstruction feeds Frenzy|tags:PVE-DMG
 dimwishlist:item=219610523&perks=3250034553,2969185026,1523832109,4104185692
 
+// ---- Duality [2639743396] EXOTIC static | kinetic Auto Rifle ----
+//notes:[PVE-DMG] exotic, static roll - closest-fit category per owner rule.|tags:PVE-DMG
+dimwishlist:item=2639743396
+
 // ---- Duality [3460576091] EXOTIC static | solar Shotgun ----
 //notes:[ELEM] exotic, static roll - closest-fit category per owner rule.|tags:ELEM
 dimwishlist:item=3460576091
@@ -1894,6 +1917,14 @@ dimwishlist:item=2607304614&perks=1392496348,3230963543,2621346526,3891536761
 // Enyo-D - PVE-DMG: Fluted Barrel / Flared Magwell / Feeding Frenzy / Multikill Clip
 //notes:[PVE-DMG] auto: Feeding Frenzy feeds Multikill Clip|tags:PVE-DMG
 dimwishlist:item=1601177201&perks=1840239774,3230963543,2779035018,2458213969
+
+// ---- Eriana's Vow [2614062688] EXOTIC static | kinetic Hand Cannon ----
+//notes:[PVE-DMG] exotic, static roll - closest-fit category per owner rule.|tags:PVE-DMG
+dimwishlist:item=2614062688
+
+// ---- Eriana's Vow [2481356995] EXOTIC static | kinetic Hand Cannon ----
+//notes:[PVE-DMG] exotic, static roll - closest-fit category per owner rule.|tags:PVE-DMG
+dimwishlist:item=2481356995
 
 // ---- Eriana's Vow [3524313097] EXOTIC static | solar Hand Cannon ----
 //notes:[ELEM] exotic, static roll - closest-fit category per owner rule.|tags:ELEM
@@ -2086,6 +2117,14 @@ dimwishlist:item=218787950&perks=1300023272,3142289711,3017780555,4293542123
 //notes:[PVE-DMG] auto: Heal Clip feeds Bait and Switch|tags:PVE-DMG
 dimwishlist:item=218787950&perks=1300023272,3142289711,3017780555,3078487919
 
+// ---- Festival Flight [703202729] kinetic Grenade Launcher | special ----
+// Festival Flight - ELEM: Smart Drift Control / Implosion Rounds / Slice / Hatchling
+//notes:[ELEM] auto: rule 2a chain Slice->Hatchling (kinetic)|tags:ELEM
+dimwishlist:item=703202729&perks=3798852852,3492396210,923806249,831391274
+// Festival Flight - PVE-DMG: Smart Drift Control / Implosion Rounds / Envious Arsenal / Frenzy
+//notes:[PVE-DMG] auto: Envious Arsenal feeds Frenzy|tags:PVE-DMG
+dimwishlist:item=703202729&perks=3798852852,3492396210,3987942396,4104185692
+
 // ---- Festival Flight [4019651319] strand Grenade Launcher | special ----
 // Festival Flight - ELEM: Smart Drift Control / Implosion Rounds / Slice / Hatchling
 //notes:[ELEM] auto: rule 2a chain Slice->Hatchling (strand)|tags:ELEM
@@ -2211,6 +2250,17 @@ dimwishlist:item=1552443158&perks=1840239774,3230963543,3523296417,11612903
 // Forgiveness - PVE-DMG: Fluted Barrel / Flared Magwell / Demolitionist / Kill Clip
 //notes:[PVE-DMG] auto: Demolitionist feeds Kill Clip|tags:PVE-DMG
 dimwishlist:item=1552443158&perks=1840239774,3230963543,3523296417,1015611457
+
+// ---- Fortunate Star [4040885654] kinetic Combat Bow | primary ----
+// Fortunate Star - PVP: Tactile String / Compact Arrow Shaft / Archer's Tempo / Precision Instrument
+//notes:[PVP] auto: Archer's Tempo+Precision Instrument, pre-kill per rule 1|tags:PVP
+dimwishlist:item=4040885654&perks=1196733167,16392701,201365942,555281244
+// Fortunate Star - ELEM: Tactile String / Compact Arrow Shaft / Repulsor Brace / Destabilizing Rounds
+//notes:[ELEM] auto: rule 2a chain Repulsor Brace+Destabilizing Rounds (kinetic)|tags:ELEM
+dimwishlist:item=4040885654&perks=1196733167,16392701,776531651,2048641572
+// Fortunate Star - PVE-DMG: Tactile String / Compact Arrow Shaft / Archer's Tempo / Explosive Head
+//notes:[PVE-DMG] auto: Archer's Tempo feeds Explosive Head|tags:PVE-DMG
+dimwishlist:item=4040885654&perks=1196733167,16392701,201365942,3365897133
 
 // ---- Fortunate Star [2326578623] void Combat Bow | primary ----
 // Fortunate Star - PVP: Tactile String / Compact Arrow Shaft / Archer's Tempo / Precision Instrument
@@ -2436,6 +2486,14 @@ dimwishlist:item=3176697589&perks=1840239774,1885400500,776531651,2048641572
 // Gridskipper - PVE-DMG: Fluted Barrel / Ricochet Rounds / Demolitionist / Multikill Clip
 //notes:[PVE-DMG] auto: Demolitionist feeds Multikill Clip|tags:PVE-DMG
 dimwishlist:item=3176697589&perks=1840239774,1885400500,3523296417,2458213969
+
+// ---- Gunburn [3312324260] kinetic Submachine Gun | primary ----
+// Gunburn - PVP: Hammer-Forged Rifling / Accurized Rounds / Lone Wolf / Target Lock
+//notes:[PVP] auto: Lone Wolf+Target Lock, pre-kill per rule 1|tags:PVP
+dimwishlist:item=3312324260&perks=3250034553,3142289711,2579169598,365154968
+// Gunburn - PVE-DMG: Hammer-Forged Rifling / Flared Magwell / Stats for All / Kinetic Tremors
+//notes:[PVE-DMG] auto: Stats for All feeds Kinetic Tremors|tags:PVE-DMG
+dimwishlist:item=3312324260&perks=3250034553,3230963543,1583705720,3891536761
 
 // ---- Gunburn [3431536253] kinetic Submachine Gun | primary ----
 // Gunburn - PVP: Hammer-Forged Rifling / Accurized Rounds / Lone Wolf / Target Lock
@@ -2756,6 +2814,17 @@ dimwishlist:item=697459665&perks=4090651448,3230963543,3418782618,3824105627
 //notes:[PVE-DMG] auto: Rewind Rounds feeds Frenzy|tags:PVE-DMG
 dimwishlist:item=697459665&perks=4090651448,3230963543,3418782618,4104185692
 
+// ---- Hushed Whisper [3291371395] kinetic Combat Bow | primary ----
+// Hushed Whisper - PVP: Tactile String / Compact Arrow Shaft / Lone Wolf / Precision Instrument
+//notes:[PVP] auto: Lone Wolf+Precision Instrument, pre-kill per rule 1|tags:PVP
+dimwishlist:item=3291371395&perks=1196733167,16392701,2579169598,555281244
+// Hushed Whisper - ELEM: Tactile String / Compact Arrow Shaft / Slice / Hatchling
+//notes:[ELEM] auto: rule 2a chain Slice->Hatchling (kinetic)|tags:ELEM
+dimwishlist:item=3291371395&perks=1196733167,16392701,923806249,831391274
+// Hushed Whisper - PVE-DMG: Tactile String / Compact Arrow Shaft / Tear / Explosive Head
+//notes:[PVE-DMG] auto: Tear feeds Explosive Head|tags:PVE-DMG
+dimwishlist:item=3291371395&perks=1196733167,16392701,960997401,3365897133
+
 // ---- Hushed Whisper [1175295126] strand Combat Bow | primary ----
 // Hushed Whisper - PVP: Tactile String / Compact Arrow Shaft / Lone Wolf / Precision Instrument
 //notes:[PVP] auto: Lone Wolf+Precision Instrument, pre-kill per rule 1|tags:PVP
@@ -3056,6 +3125,17 @@ dimwishlist:item=2499834164&perks=1392496348,3230963543,4293542123,1089671869
 // Keen Thistle - PVE-DMG: Polygonal Rifling / Flared Magwell / Triple Tap / Bait and Switch
 //notes:[PVE-DMG] auto: Triple Tap feeds Bait and Switch|tags:PVE-DMG
 dimwishlist:item=2499834164&perks=1392496348,3230963543,3400784728,3078487919
+
+// ---- Keraunios [1980042536] kinetic Trace Rifle | special ----
+// Keraunios - PVP: Fluted Barrel / Particle Repeater / Rapid Hit / Target Lock
+//notes:[PVP] auto: Rapid Hit+Target Lock, pre-kill per rule 1|tags:PVP
+dimwishlist:item=1980042536&perks=1840239774,3868766766,247725512,365154968
+// Keraunios - ELEM: Fluted Barrel / Tactical Battery / Trickle Charge / Rolling Storm
+//notes:[ELEM] auto: max elemental lean, rule 2a fallback (kinetic)|tags:ELEM
+dimwishlist:item=1980042536&perks=1840239774,732557052,1115162408,3218042543
+// Keraunios - PVE-DMG: Fluted Barrel / Tactical Battery / Rewind Rounds / Chain Reaction
+//notes:[PVE-DMG] auto: Rewind Rounds feeds Chain Reaction|tags:PVE-DMG
+dimwishlist:item=1980042536&perks=1840239774,732557052,3418782618,2396489472
 
 // ---- Keraunios [2029899814] arc Trace Rifle | special ----
 // Keraunios - PVP: Fluted Barrel / Particle Repeater / Dynamic Sway Reduction / Closing Time
@@ -3534,6 +3614,20 @@ dimwishlist:item=2584830733&perks=3798852852,3492396210,3523296417,11612903
 // Martyr's Retribution - PVE-DMG: Smart Drift Control / Implosion Rounds / Auto-Loading Holster / Kill Clip
 //notes:[PVE-DMG] auto: Auto-Loading Holster feeds Kill Clip|tags:PVE-DMG
 dimwishlist:item=2584830733&perks=3798852852,3492396210,3300816228,1015611457
+
+// ---- Mechabre [2862929472] kinetic Sniper Rifle | special ----
+// Mechabre - PVP: Polygonal Rifling / Flared Magwell / Keep Away / Opening Shot
+//notes:[PVP] auto: Keep Away+Opening Shot, pre-kill per rule 1|tags:PVP
+dimwishlist:item=2862929472&perks=1392496348,3230963543,3619207468,47981717
+// Mechabre - ELEM: Polygonal Rifling / Flared Magwell / Eddy Current / Voltshot
+//notes:[ELEM] auto: rule 2a chain Eddy Current->Voltshot (kinetic)|tags:ELEM
+dimwishlist:item=2862929472&perks=1392496348,3230963543,684456054,2173046394
+// Mechabre - ABTY: Polygonal Rifling / Flared Magwell / Demolitionist / Adrenaline Junkie
+//notes:[ABTY] auto: rule 9 loop Demolitionist->Adrenaline Junkie|tags:ABTY
+dimwishlist:item=2862929472&perks=1392496348,3230963543,3523296417,11612903
+// Mechabre - PVE-DMG: Polygonal Rifling / Flared Magwell / Triple Tap / Adrenaline Junkie
+//notes:[PVE-DMG] auto: Triple Tap feeds Adrenaline Junkie|tags:PVE-DMG
+dimwishlist:item=2862929472&perks=1392496348,3230963543,3400784728,11612903
 
 // ---- Mechabre [1280894514] arc Sniper Rifle | special ----
 // Mechabre - PVP: Polygonal Rifling / Flared Magwell / Perpetual Motion / Opening Shot
@@ -4262,6 +4356,17 @@ dimwishlist:item=4108648762&perks=1300023272,106909392,691659142,2679249093
 // Perfect Paradox - PVE-DMG: Barrel Shroud / Tactical Mag / Threat Detector / Trench Barrel
 //notes:[PVE-DMG] auto: Threat Detector feeds Trench Barrel|tags:PVE-DMG
 dimwishlist:item=4108648762&perks=1300023272,106909392,4071163871,2360754333
+
+// ---- Phoneutria Fera [1559212288] kinetic Hand Cannon | primary ----
+// Phoneutria Fera - ELEM: Corkscrew Rifling / Flared Magwell / Threat Detector / Incandescent
+//notes:[ELEM] auto: max elemental lean, rule 2a fallback (kinetic)|tags:ELEM
+dimwishlist:item=1559212288&perks=4090651448,3230963543,4071163871,4293542123
+// Phoneutria Fera - ABTY: Corkscrew Rifling / Flared Magwell / Proximity Power / Swashbuckler
+//notes:[ABTY] auto: rule 9 loop Proximity Power->Swashbuckler|tags:ABTY
+dimwishlist:item=1559212288&perks=4090651448,3230963543,4190679284,4082225868
+// Phoneutria Fera - PVE-DMG: Corkscrew Rifling / Flared Magwell / Threat Detector / Frenzy
+//notes:[PVE-DMG] auto: Threat Detector feeds Frenzy|tags:PVE-DMG
+dimwishlist:item=1559212288&perks=4090651448,3230963543,4071163871,4104185692
 
 // ---- Phoneutria Fera [3496887154] solar Hand Cannon | primary ----
 // Phoneutria Fera - ELEM: Corkscrew Rifling / Flared Magwell / Threat Detector / Incandescent
@@ -5025,6 +5130,17 @@ dimwishlist:item=4049127142&perks=3798852852,3230963543,3017780555,4293542123
 //notes:[PVE-DMG] auto: Lead from Gold feeds One for All|tags:PVE-DMG
 dimwishlist:item=4049127142&perks=3798852852,3230963543,1556840489,4049631843
 
+// ---- Ribbontail [2570713743] kinetic Trace Rifle | special ----
+// Ribbontail - ELEM: Corkscrew Rifling / Tactical Battery / Subsistence / Tear
+//notes:[ELEM] auto: max elemental lean, rule 2a fallback (kinetic)|tags:ELEM
+dimwishlist:item=2570713743&perks=4090651448,732557052,1820235745,960997401
+// Ribbontail - ABTY: Corkscrew Rifling / Tactical Battery / Proximity Power / Binary Orbit
+//notes:[ABTY] auto: rule 9 loop Proximity Power->Binary Orbit|tags:ABTY
+dimwishlist:item=2570713743&perks=4090651448,732557052,4190679284,1546142478
+// Ribbontail - PVE-DMG: Corkscrew Rifling / Tactical Battery / Envious Arsenal / Killing Tally
+//notes:[PVE-DMG] auto: Envious Arsenal feeds Killing Tally|tags:PVE-DMG
+dimwishlist:item=2570713743&perks=4090651448,732557052,3987942396,557221067
+
 // ---- Ribbontail [3576134513] strand Trace Rifle | special ----
 // Ribbontail - ELEM: Corkscrew Rifling / Tactical Battery / Subsistence / Tear
 //notes:[ELEM] auto: max elemental lean, rule 2a fallback (strand)|tags:ELEM
@@ -5717,9 +5833,24 @@ dimwishlist:item=1248372789&perks=3250034553,3142289711,1428297954,1890422124
 //notes:[PVE-DMG] auto: Triple Tap feeds One for All|tags:PVE-DMG
 dimwishlist:item=1248372789&perks=3250034553,3230963543,3400784728,4049631843
 
+// ---- Symmetry [2617963291] EXOTIC static | kinetic Scout Rifle ----
+//notes:[PVP] exotic, static roll - closest-fit category per owner rule.|tags:PVP
+dimwishlist:item=2617963291
+
 // ---- Symmetry [4017959782] EXOTIC static | arc Scout Rifle ----
 //notes:[ELEM] exotic, static roll - closest-fit category per owner rule.|tags:ELEM
 dimwishlist:item=4017959782
+
+// ---- Synanceia [893582322] kinetic Sword | heavy ----
+// Synanceia - ELEM: Tempered Edge / Balanced Guard / Attrition Orbs / Elemental Honing
+//notes:[ELEM] auto: max elemental lean, rule 2a fallback (kinetic)|tags:ELEM
+dimwishlist:item=893582322&perks=938542991,52780822,243981275,1089671869
+// Synanceia - ABTY: Tempered Edge / Balanced Guard / Proximity Power / Binary Orbit
+//notes:[ABTY] auto: rule 9 loop Proximity Power->Binary Orbit|tags:ABTY
+dimwishlist:item=893582322&perks=938542991,52780822,4190679284,1546142478
+// Synanceia - PVE-DMG: Tempered Edge / Balanced Guard / Relentless Strikes / Chain Reaction
+//notes:[PVE-DMG] auto: Relentless Strikes feeds Chain Reaction|tags:PVE-DMG
+dimwishlist:item=893582322&perks=938542991,52780822,1749209109,2396489472
 
 // ---- Synanceia [1823308496] solar Sword | heavy ----
 // Synanceia - ELEM: Tempered Edge / Balanced Guard / Attrition Orbs / Elemental Honing
@@ -6516,6 +6647,10 @@ dimwishlist:item=4067556514&perks=1392496348,3230963543,3643424744,1771339417
 //notes:[ELEM] exotic, static roll - closest-fit category per owner rule.|tags:ELEM
 dimwishlist:item=3325463374
 
+// ---- Ticuu's Divination [1538967359] EXOTIC static | kinetic Combat Bow ----
+//notes:[PVP] exotic, static roll - closest-fit category per owner rule.|tags:PVP
+dimwishlist:item=1538967359
+
 // ---- Ticuu's Divination [3260753130] EXOTIC static | solar Combat Bow ----
 //notes:[ELEM] exotic, static roll - closest-fit category per owner rule.|tags:ELEM
 dimwishlist:item=3260753130
@@ -6560,6 +6695,10 @@ dimwishlist:item=247984828&perks=3798852852,3230963543,951095735,2978966579
 //notes:[PVE-DMG] auto: Impulse Amplifier feeds Bait and Switch|tags:PVE-DMG
 dimwishlist:item=247984828&perks=3798852852,3230963543,951095735,3078487919
 
+// ---- Tommy's Matchbook [3242052935] EXOTIC static | kinetic Auto Rifle ----
+//notes:[PVP] exotic, static roll - closest-fit category per owner rule.|tags:PVP
+dimwishlist:item=3242052935
+
 // ---- Tommy's Matchbook [776191470] EXOTIC static | solar Auto Rifle ----
 //notes:[ELEM] exotic, static roll - closest-fit category per owner rule.|tags:ELEM
 dimwishlist:item=776191470
@@ -6584,6 +6723,20 @@ dimwishlist:item=1940352487&perks=3798852852,2985827016,1134488199,3078487919
 // Tomorrow's Answer - PVE-DMG: Smart Drift Control / Alloy Casing / Reconstruction / Bait and Switch
 //notes:[PVE-DMG] auto: Reconstruction feeds Bait and Switch|tags:PVE-DMG
 dimwishlist:item=1940352487&perks=3798852852,2985827016,1523832109,3078487919
+
+// ---- Trachinus [1721059169] kinetic Shotgun | special ----
+// Trachinus - PVP: Fluted Barrel / Flared Magwell / Rapid Hit / Precision Instrument
+//notes:[PVP] auto: Rapid Hit+Precision Instrument, pre-kill per rule 1|tags:PVP
+dimwishlist:item=1721059169&perks=1840239774,3230963543,247725512,555281244
+// Trachinus - ELEM: Fluted Barrel / Flared Magwell / Rimestealer / Chill Clip
+//notes:[ELEM] auto: rule 2a chain Rimestealer->Chill Clip (kinetic)|tags:ELEM
+dimwishlist:item=1721059169&perks=1840239774,3230963543,1955165503,2978966579
+// Trachinus - ABTY: Fluted Barrel / Flared Magwell / Proximity Power / Swashbuckler
+//notes:[ABTY] auto: rule 9 loop Proximity Power->Swashbuckler|tags:ABTY
+dimwishlist:item=1721059169&perks=1840239774,3230963543,4190679284,4082225868
+// Trachinus - PVE-DMG: Fluted Barrel / Flared Magwell / Lead from Gold / Precision Instrument
+//notes:[PVE-DMG] auto: Lead from Gold feeds Precision Instrument|tags:PVE-DMG
+dimwishlist:item=1721059169&perks=1840239774,3230963543,1556840489,555281244
 
 // ---- Trachinus [3635232671] stasis Shotgun | special ----
 // Trachinus - PVP: Fluted Barrel / Flared Magwell / Rapid Hit / Precision Instrument
@@ -6741,6 +6894,70 @@ dimwishlist:item=960948343&perks=1392496348,3230963543,1115162408,3966416502
 // True Prophecy - PVE-DMG: Polygonal Rifling / Flared Magwell / Triple Tap / Explosive Payload
 //notes:[PVE-DMG] auto: Triple Tap feeds Explosive Payload|tags:PVE-DMG
 dimwishlist:item=960948343&perks=1392496348,3230963543,3400784728,3038247973
+
+// ---- Trust [1833744687] kinetic Hand Cannon | primary ----
+// Trust - PVP: Corkscrew Rifling / Ricochet Rounds / Opening Shot / Explosive Payload
+//notes:[PVP] auto: Opening Shot+Explosive Payload, pre-kill per rule 1|tags:PVP
+dimwishlist:item=1833744687&perks=4090651448,1885400500,47981717,3038247973
+// Trust - PVE-DMG: Fluted Barrel / Ricochet Rounds / Triple Tap / Explosive Payload
+//notes:[PVE-DMG] auto: Triple Tap feeds Explosive Payload|tags:PVE-DMG
+dimwishlist:item=1833744687&perks=1840239774,1885400500,3400784728,3038247973
+
+// ---- Trust [1702618248] kinetic Hand Cannon | primary ----
+// Trust - PVP: Corkscrew Rifling / Ricochet Rounds / Opening Shot / Explosive Payload
+//notes:[PVP] auto: Opening Shot+Explosive Payload, pre-kill per rule 1|tags:PVP
+dimwishlist:item=1702618248&perks=4090651448,1885400500,47981717,3038247973
+// Trust - PVE-DMG: Fluted Barrel / Ricochet Rounds / Triple Tap / Explosive Payload
+//notes:[PVE-DMG] auto: Triple Tap feeds Explosive Payload|tags:PVE-DMG
+dimwishlist:item=1702618248&perks=1840239774,1885400500,3400784728,3038247973
+
+// ---- Trust [2650944612] kinetic Hand Cannon | primary ----
+// Trust - PVP: Corkscrew Rifling / Ricochet Rounds / Opening Shot / Explosive Payload
+//notes:[PVP] auto: Opening Shot+Explosive Payload, pre-kill per rule 1|tags:PVP
+dimwishlist:item=2650944612&perks=4090651448,1885400500,47981717,3038247973
+// Trust - PVE-DMG: Fluted Barrel / Ricochet Rounds / Triple Tap / Explosive Payload
+//notes:[PVE-DMG] auto: Triple Tap feeds Explosive Payload|tags:PVE-DMG
+dimwishlist:item=2650944612&perks=1840239774,1885400500,3400784728,3038247973
+
+// ---- Trust [3856940575] kinetic Hand Cannon | primary ----
+// Trust - PVP: Corkscrew Rifling / Ricochet Rounds / Opening Shot / Explosive Payload
+//notes:[PVP] auto: Opening Shot+Explosive Payload, pre-kill per rule 1|tags:PVP
+dimwishlist:item=3856940575&perks=4090651448,1885400500,47981717,3038247973
+// Trust - PVE-DMG: Fluted Barrel / Ricochet Rounds / Triple Tap / Explosive Payload
+//notes:[PVE-DMG] auto: Triple Tap feeds Explosive Payload|tags:PVE-DMG
+dimwishlist:item=3856940575&perks=1840239774,1885400500,3400784728,3038247973
+
+// ---- Trust [695814388] kinetic Hand Cannon | primary ----
+// Trust - PVP: Corkscrew Rifling / Ricochet Rounds / Opening Shot / Explosive Payload
+//notes:[PVP] auto: Opening Shot+Explosive Payload, pre-kill per rule 1|tags:PVP
+dimwishlist:item=695814388&perks=4090651448,1885400500,47981717,3038247973
+// Trust - PVE-DMG: Fluted Barrel / Ricochet Rounds / Triple Tap / Explosive Payload
+//notes:[PVE-DMG] auto: Triple Tap feeds Explosive Payload|tags:PVE-DMG
+dimwishlist:item=695814388&perks=1840239774,1885400500,3400784728,3038247973
+
+// ---- Trust [2319004329] kinetic Hand Cannon | primary ----
+// Trust - PVP: Corkscrew Rifling / Ricochet Rounds / Opening Shot / Explosive Payload
+//notes:[PVP] auto: Opening Shot+Explosive Payload, pre-kill per rule 1|tags:PVP
+dimwishlist:item=2319004329&perks=4090651448,1885400500,47981717,3038247973
+// Trust - PVE-DMG: Fluted Barrel / Ricochet Rounds / Triple Tap / Explosive Payload
+//notes:[PVE-DMG] auto: Triple Tap feeds Explosive Payload|tags:PVE-DMG
+dimwishlist:item=2319004329&perks=1840239774,1885400500,3400784728,3038247973
+
+// ---- Trust [2703446873] kinetic Hand Cannon | primary ----
+// Trust - PVP: Corkscrew Rifling / Ricochet Rounds / Opening Shot / Explosive Payload
+//notes:[PVP] auto: Opening Shot+Explosive Payload, pre-kill per rule 1|tags:PVP
+dimwishlist:item=2703446873&perks=4090651448,1885400500,47981717,3038247973
+// Trust - PVE-DMG: Fluted Barrel / Ricochet Rounds / Triple Tap / Explosive Payload
+//notes:[PVE-DMG] auto: Triple Tap feeds Explosive Payload|tags:PVE-DMG
+dimwishlist:item=2703446873&perks=1840239774,1885400500,3400784728,3038247973
+
+// ---- Trust [2482526262] kinetic Hand Cannon | primary ----
+// Trust - PVP: Corkscrew Rifling / Ricochet Rounds / Opening Shot / Explosive Payload
+//notes:[PVP] auto: Opening Shot+Explosive Payload, pre-kill per rule 1|tags:PVP
+dimwishlist:item=2482526262&perks=4090651448,1885400500,47981717,3038247973
+// Trust - PVE-DMG: Fluted Barrel / Ricochet Rounds / Triple Tap / Explosive Payload
+//notes:[PVE-DMG] auto: Triple Tap feeds Explosive Payload|tags:PVE-DMG
+dimwishlist:item=2482526262&perks=1840239774,1885400500,3400784728,3038247973
 
 // ---- Trust [2850664015] solar Hand Cannon | primary ----
 // Trust - PVP: Corkscrew Rifling / Ricochet Rounds / Opening Shot / Explosive Payload
@@ -7359,6 +7576,10 @@ dimwishlist:item=3118061004
 //notes:[PVP] exotic, static roll - closest-fit category per owner rule.|tags:PVP
 dimwishlist:item=814876684
 
+// ---- Witherhoard [2522817335] EXOTIC static | kinetic Auto Rifle ----
+//notes:[PVE-DMG] exotic, static roll - closest-fit category per owner rule.|tags:PVE-DMG
+dimwishlist:item=2522817335
+
 // ---- Witherhoard [2357297366] EXOTIC static | kinetic Grenade Launcher ----
 //notes:[PVE-DMG] exotic, static roll - closest-fit category per owner rule.|tags:PVE-DMG
 dimwishlist:item=2357297366
@@ -7381,6 +7602,17 @@ dimwishlist:item=3959549446&perks=3250034553,3230963543,3418782618,124408337
 // Yarovit MG4 - PVE-DMG: Hammer-Forged Rifling / Flared Magwell / Rewind Rounds / Desperate Measures
 //notes:[PVE-DMG] auto: Rewind Rounds feeds Desperate Measures|tags:PVE-DMG
 dimwishlist:item=3959549446&perks=3250034553,3230963543,3418782618,2109543898
+
+// ---- Yeartide Apex [1163431805] kinetic Submachine Gun | primary ----
+// Yeartide Apex - PVP: Hammer-Forged Rifling / Flared Magwell / Lone Wolf / Target Lock
+//notes:[PVP] auto: Lone Wolf+Target Lock, pre-kill per rule 1|tags:PVP
+dimwishlist:item=1163431805&perks=3250034553,3230963543,2579169598,365154968
+// Yeartide Apex - ELEM: Corkscrew Rifling / Flared Magwell / Heal Clip / Incandescent
+//notes:[ELEM] auto: rule 2a chain Heal Clip->Incandescent (kinetic)|tags:ELEM
+dimwishlist:item=1163431805&perks=4090651448,3230963543,3017780555,4293542123
+// Yeartide Apex - PVE-DMG: Corkscrew Rifling / Flared Magwell / Attrition Orbs / Target Lock
+//notes:[PVE-DMG] auto: Attrition Orbs feeds Target Lock|tags:PVE-DMG
+dimwishlist:item=1163431805&perks=4090651448,3230963543,243981275,365154968
 
 // ---- Yeartide Apex [3293207827] solar Submachine Gun | primary ----
 // Yeartide Apex - PVP: Hammer-Forged Rifling / Flared Magwell / Lone Wolf / Target Lock
@@ -7447,4 +7679,3 @@ dimwishlist:item=1863583117&perks=1840239774,3868766766,3017780555,4293542123
 // Zealous Ideal - PVE-DMG: Fluted Barrel / Particle Repeater / Attrition Orbs / Onslaught
 //notes:[PVE-DMG] auto: Attrition Orbs feeds Onslaught|tags:PVE-DMG
 dimwishlist:item=1863583117&perks=1840239774,3868766766,243981275,95528736
-
