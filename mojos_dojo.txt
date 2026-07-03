@@ -1,11 +1,13 @@
 title:Paul's 5/5 Godroll Compendium
-description:True 5/5 rolls only, one weapon at a time, current-season versions first. Three tags: PVP (before-the-kill perks), ELEM (col 3+4 arc/void synergy), PVE-DMG (non-elemental damage). Cols 1-2 additive perks only, chosen to compensate the weapon's weaknesses, then range/stability, then handling. Built with Claude as workflow partner, July 2026. Rebuilt 2026-07-02 on S29 Monument of Triumph hashes.
+description:True 5/5 rolls only, one weapon at a time, current-season versions first. Three tags: PVP (before-the-kill perks), ELEM (col 3+4 elemental synergy, any element), PVE-DMG (non-elemental damage). Cols 1-2 additive perks only, chosen to compensate the weapon's weaknesses, then range/stability, then handling. Built with Claude as workflow partner, July 2026. Rebuilt 2026-07-02 on S29 Monument of Triumph hashes.
 
 // ============================================================
 // SELECTION RULES (reference for future sessions)
 // 1. PVP tag: col 3+4 perks must function before a kill (no on-kill procs).
-// 2. ELEM tag: col 3+4 lean into arc/void synergy (Voltshot, Jolting Feedback,
-//    Destabilizing Rounds, Repulsor Brace, etc). Skip if pool has none.
+// 2. ELEM tag: col 3+4 lean into elemental subclass synergy, ANY element
+//    (Voltshot, Jolting Feedback, Destabilizing Rounds, Repulsor Brace,
+//    Incandescent, Hatchling, Headstone, etc). Skip if pool has none.
+//    Scope widened from arc/void-only to all elements 2026-07-02, owner call.
 // 3. PVE-DMG tag: remaining damage-focused traits, non-elemental.
 // 4. Cols 1-2: additive only - no perk with a stat decrease. Exception:
 //    fusions/bows, where lower charge time / draw time is the good direction.
@@ -27,7 +29,7 @@ description:True 5/5 rolls only, one weapon at a time, current-season versions f
 // S29 stats: Range 60 / Stab 31 / Handling 31 / Reload 24 / Recoil 98 / Mag 8.
 // Weaknesses: stability, reload, handling. Range is now excellent; recoil
 //   near-vertical, so no barrel slot needed for recoil.
-// ELEM: none - kinetic weapon, no arc/void traits in pool. Section skipped.
+// ELEM: none - kinetic weapon, no elemental traits in pool. Section skipped.
 // S29 pool changes vs S24: col 3 lost Outlaw/Enlightened/Strategist/Air
 //   Trigger, gained Slideshot, Keep Away, Lone Wolf, Opening Shot, Firefly.
 //   Col 4 lost Zen/Opening Shot, gained Eye of the Storm, Rangefinder,
@@ -58,7 +60,7 @@ dimwishlist:item=2535187035&perks=1840239774,1087426260,3824105627,1015611457
 // S29 Monument of Triumph. Hash: 3026836571 (no Upgraded twin listed).
 // S29 stats: Range 29 / Stab 38 / Handling 70 / Reload 26 / Recoil 100 / Mag 41.
 // Weaknesses: range (SMG family tax). Handling and recoil are excellent.
-// ELEM: none - kinetic weapon, no arc/void traits in pool. Section skipped.
+// ELEM: none - kinetic weapon, no elemental traits in pool. Section skipped.
 // S29 pool changes vs S23: col 3 lost Under-Over/Iron Gaze, gained Killing
 //   Wind (on-kill, barred from PVP by rule 1), Stopping Power, Bewildering
 //   Burst. Col 4 lost Frenzy, gained All-Star, Master of Arms. Both chosen
@@ -88,7 +90,7 @@ dimwishlist:item=3026836571&perks=1392496348,3230963543,243981275,3891536761
 // S29 Monument of Triumph. Hashes: 4176824345 (base) + 3975115486 (Upgraded).
 // S29 stats: Range 23 / Stab 39 / Handling 20 / Reload 28 / Recoil 59 / Mag 16.
 // Weaknesses: handling, reload, range; recoil 59 drifts, so Arrowhead matters.
-// ELEM: none - kinetic weapon, no arc/void traits in pool. Section skipped.
+// ELEM: none - kinetic weapon, no elemental traits in pool. Section skipped.
 // S29 pool changes vs S21: col 3 lost Pugilist/Well-Rounded/Perfect Float/
 //   Gutshot/Slickdraw/Shot Swap/Offhand Strike/Discord, gained Keep Away,
 //   Lone Wolf, Eye of the Storm. Col 4 lost Snapshot/Swashbuckler/Encore/
@@ -115,3 +117,43 @@ dimwishlist:item=3975115486&perks=839105230,1885400500,2579169598,555281244
 //notes:[PVE-DMG] True 5/5, S29. A 260 scout procs Kinetic Tremors back to back - the frame fires fast enough to chain the AoE shockwaves, and Rapid Hit's stacking reload keeps the hit streams rolling. Arrowhead keeps the fast crits on target; Appended stretches the magazine so more Tremors procs fit between reloads. Origin: Accelerated Assault's passive mag refill and x1.05 on triple hits is a quiet bonus for sustained fire. Alternatives: Firefly in col 4 for precision-kill explosions, Cascade Point for burst RPM silliness. Recommended MW: Stability.|tags:PVE-DMG
 dimwishlist:item=4176824345&perks=839105230,1087426260,247725512,3891536761
 dimwishlist:item=3975115486&perks=839105230,1087426260,247725512,3891536761
+
+
+// ------------------------------------------------------------
+// PRESSURIZED PRECISION - Strand Adaptive Fusion Rifle, kinetic slot (Crucible)
+// S29 Monument of Triumph. Hashes: 293709640 (base) + 3891108190 (Upgraded).
+// S29 stats: Range 40 / Stab 42 / Handling 35 / Reload 40 / Recoil 55 /
+//   Charge 667 / Mag 6. Special ammo. Anti-Barrier intrinsic.
+// Weaknesses: recoil drift, handling; range and stability midpack.
+// ELEM: YES - first in the compendium. Strand: Hatchling spawns Threadlings
+//   on precision kills. (Rule 2 widened to all elements for this gun.)
+// Fusion exception (rule 4): Accelerated Coils (faster charge) = good
+//   direction, allowed. Liquid Coils and Ionized Battery excluded (slower
+//   charge / slower reload) even though PVE DPS meta often runs Liquid.
+// Additive col 1-2 pool: Arrowhead, Corkscrew, Fluted, Hammer-Forged,
+//   Polygonal, Smallbore | Accelerated Coils, Enhanced Battery,
+//   Particle Repeater, Projection Fuse
+// Excluded (negative modifier): Extended Barrel, Chambered Comp, Full Bore,
+//   Rifled Barrel | Liquid Coils, Ionized Battery
+// Origin: Skulking Wolf only.
+// Owner's tier-5 roll: Arrowhead / Acc Coils / Auto-Loading Holster /
+//   Eye of the Storm - matches PVE-DMG godroll in cols 1-3, col 4 differs.
+// ------------------------------------------------------------
+
+// Pressurized Precision (S29) - PVP 5/5
+// Hammer-Forged Rifling / Projection Fuse / Under Pressure / Rangefinder
+//notes:[PVP] True 5/5, S29. The classic fusion duelist package, all pre-kill: Under Pressure tightens bolt spread through the bottom half of the 6-shot battery, Rangefinder stretches projectile speed and damage falloff. Hammer-Forged and Projection Fuse both push range additively - bolt reach is the binding stat for a 667 adaptive fighting at the fusion range ceiling. Near-misses: Closing Time over Rangefinder for last-bolt duels, Smallbore over Hammer-Forged to split range/stability. Recommended MW: Range.|tags:PVP
+dimwishlist:item=293709640&perks=3250034553,2969185026,1645158859,2846385770
+dimwishlist:item=3891108190&perks=3250034553,2969185026,1645158859,2846385770
+
+// Pressurized Precision (S29) - ELEM 5/5 (Strand)
+// Arrowhead Brake / Accelerated Coils / Auto-Loading Holster / Hatchling
+//notes:[ELEM] True 5/5, S29, Strand synergy - the compendium's first ELEM entry. Hatchling turns precision kills into Threadlings, and a 6-bolt fusion crits groups reliably; Auto-Loading Holster keeps the gun perpetually charged in a swap rotation so the Threadling engine never reloads. Accelerated Coils speeds the cadence (fusion rule: faster charge is the good direction); Arrowhead patches the drifting recoil (55) and adds handling. Run it on a Strand subclass with Thread of Evolution. Recommended MW: Charge Time.|tags:ELEM
+dimwishlist:item=293709640&perks=839105230,689005463,3300816228,831391274
+dimwishlist:item=3891108190&perks=839105230,689005463,3300816228,831391274
+
+// Pressurized Precision (S29) - PVE-DMG 5/5
+// Arrowhead Brake / Accelerated Coils / Auto-Loading Holster / Vorpal Weapon
+//notes:[PVE-DMG] True 5/5, S29. Vorpal's always-on bonus against bosses, champions, and vehicles stacks with the Anti-Barrier intrinsic to make this a champion deleter; Auto-Loading Holster makes it the swap-rotation special that never reloads. Accelerated Coils per the fusion rule (Liquid Coils excluded for slowing charge - note the DPS meta disagrees, it trades cadence for bolt damage). Arrowhead patches recoil and handling. Alternative: High-Impact Reserves over Vorpal - the last 3 bolts of the small battery hit harder. Recommended MW: Charge Time.|tags:PVE-DMG
+dimwishlist:item=293709640&perks=839105230,689005463,3300816228,1546637391
+dimwishlist:item=3891108190&perks=839105230,689005463,3300816228,1546637391
