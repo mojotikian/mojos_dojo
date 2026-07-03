@@ -61,3 +61,29 @@ dimwishlist:item=3211624072&perks=1482024992,3142289711,1359896290,591790007
 // Polygonal Rifling / Flared Magwell / Attrition Orbs / Kinetic Tremors
 //notes:[PVE-DMG] True 5/5. The canonical Multimach PvE roll: sustained fire generates orbs via Attrition Orbs (feeding armor charge and your damage mods) while Kinetic Tremors sends AoE shockwaves through the crowd after 14 hits on one target. Col 3 has no pure damage perks, so Attrition Orbs is the best damage-loop enabler. Polygonal and Flared Magwell patch stability and reload additively to keep the hit streams unbroken. Alternative: Frenzy in col 4 for flat x1.15 and gunfeel. Recommended MW: Stability.|tags:PVE-DMG
 dimwishlist:item=3211624072&perks=1392496348,3230963543,243981275,3891536761
+
+// ------------------------------------------------------------
+// RANDY'S THROWING KNIFE - Kinetic 260rpm Rapid-Fire Scout (Crucible ritual)
+// Weaknesses: stability under sustained fire, drifting recoil; handling
+//   is midpack. Range is ample for the frame.
+// ELEM: none - kinetic weapon, no arc/void traits in pool. Section skipped.
+//   (Adaptive Munitions is anti-shield utility, not elemental synergy.)
+// Additive col 1-2 pool: Arrowhead, Smallbore, Fluted, Corkscrew,
+//   Hammer-Forged, Polygonal | Appended, AP Rounds, Flared Magwell, HCR,
+//   Ricochet, Alloy, Light Mag, Accurized, Tactical
+// Excluded (negative modifier): Extended Barrel, Chambered Comp, Full Bore,
+//   Rifled Barrel | Extended Mag, Steady Rounds, Drop Mag
+// Note: classic Randy's PVP roll is Rapid Hit + Kill Clip; Kill Clip is
+//   on-kill, barred by rule 1. Box Breathing was the pre-kill damage
+//   alternative; owner chose consistency instead.
+// ------------------------------------------------------------
+
+// Randy's Throwing Knife - PVP 5/5
+// Arrowhead Brake / Ricochet Rounds / Rapid Hit / Snapshot Sights
+//notes:[PVP] True 5/5. All consistency, all pre-kill: Snapshot's instant ADS for peek-shooting, Rapid Hit stacking stability and reload on crits as the fight goes on. Arrowhead straightens the recoil to vertical so the fast follow-up crits land; Ricochet adds stability and range with no penalty. Near-misses: Box Breathing over Snapshot for lane-holding damage, Zen Moment over Rapid Hit for flinch resistance. Recommended MW: Stability.|tags:PVP
+dimwishlist:item=3292795429&perks=839105230,1885400500,247725512,957782887
+
+// Randy's Throwing Knife - PVE-DMG 5/5
+// Arrowhead Brake / Appended Mag / Rapid Hit / Kinetic Tremors
+//notes:[PVE-DMG] True 5/5. A 260 scout procs Kinetic Tremors back to back - the frame fires fast enough to chain the AoE shockwaves, and Rapid Hit's stacking reload keeps the hit streams rolling. Arrowhead keeps the fast crits on target; Appended stretches the magazine so more Tremors procs fit between reloads. Alternative: Cascade Point in col 4 for burst RPM silliness (428rpm scout) over sustained damage. Recommended MW: Stability.|tags:PVE-DMG
+dimwishlist:item=3292795429&perks=839105230,1087426260,247725512,3891536761
