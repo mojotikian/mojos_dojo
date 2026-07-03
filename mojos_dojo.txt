@@ -1,0 +1,38 @@
+title:Paul's 5/5 Godroll Compendium
+description:True 5/5 rolls only, one weapon at a time. Three tags: PVP (before-the-kill perks), ELEM (col 3+4 arc/void synergy), PVE-DMG (non-elemental damage). Cols 1-2 additive perks only, chosen to compensate the weapon's weaknesses, then range/stability, then handling. Built with Claude as workflow partner, July 2026.
+
+// ============================================================
+// SELECTION RULES (reference for future sessions)
+// 1. PVP tag: col 3+4 perks must function before a kill (no on-kill procs).
+// 2. ELEM tag: col 3+4 lean into arc/void synergy (Voltshot, Jolting Feedback,
+//    Destabilizing Rounds, Repulsor Brace, etc). Skip if pool has none.
+// 3. PVE-DMG tag: remaining damage-focused traits, non-elemental.
+// 4. Cols 1-2: additive only - no perk with a stat decrease. Exception:
+//    fusions/bows, where lower charge time / draw time is the good direction.
+// 5. Cols 1-2 priority: patch the weapon's weak stats first, then range or
+//    stability, then handling, then whatever else lags.
+// 6. Base perk hashes only - DIM matches enhanced versions automatically.
+// 7. Masterworks can't be wishlisted; recommended MW lives in the notes line.
+// ============================================================
+
+
+// ------------------------------------------------------------
+// CRIMIL'S DAGGER - Kinetic 120rpm Aggressive Hand Cannon (Iron Banner)
+// Weaknesses: stability, handling, reload (aggressive frame); 8-round mag.
+// ELEM: none - kinetic weapon, no arc/void traits in pool. Section skipped.
+// Additive col 1-2 pool: Fluted, Smallbore, Corkscrew, Hammer-Forged,
+//   Arrowhead, Polygonal | Accurized, Ricochet, Light Mag, Tactical,
+//   Flared Magwell, Appended, Alloy, AP Rounds, HCR, Assault Mag
+// Excluded (negative modifier): Extended Barrel, Chambered Comp, Full Bore,
+//   Rifled Barrel | Extended Mag, Steady Rounds, Drop Mag
+// ------------------------------------------------------------
+
+// Crimil's Dagger - PVP 5/5
+// Smallbore / Accurized Rounds / Slideways / Precision Instrument
+//notes:[PVP] True 5/5. Slideways and Precision Instrument both work before the kill: slide for stability+handling+partial reload, PI ramps precision damage on successive hits and helps the 120 hit its 2-crit-1-body kill. Smallbore patches stability while still adding range with no penalty; Accurized maxes range. Near-misses worth keeping: Ricochet Rounds in place of Accurized (trades 5 range for 10 stability), Moving Target or Zen Moment in col 3/4. Recommended MW: Range.|tags:PVP
+dimwishlist:item=198854575&perks=1482024992,3142289711,2039302152,555281244
+
+// Crimil's Dagger - PVE-DMG 5/5
+// Fluted Barrel / Appended Mag / Outlaw / Kill Clip
+//notes:[PVE-DMG] True 5/5. Outlaw's instant reload on precision kill feeds Kill Clip's x1.25 damage window - the classic loop, and Kill Clip is the biggest pure damage perk in the pool. Fluted patches handling+stability additively; Appended stretches the 8-round mag so the Kill Clip window does more work. Alternative: Explosive Payload over Kill Clip if you'd rather have always-on damage with no reload dance. Recommended MW: Reload Speed.|tags:PVE-DMG
+dimwishlist:item=198854575&perks=1840239774,1087426260,1168162263,1015611457
