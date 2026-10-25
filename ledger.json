@@ -1,5 +1,5 @@
 {
- "version": "v2.4",
+ "version": "v2.5",
  "priority": [
   "PVE",
   "PVP",
@@ -57081,6 +57081,124 @@
         "Composite Stock",
         "Hand-Laid Stock",
         "Short-Action Stock"
+       ]
+      ]
+     }
+    }
+   }
+  },
+  "Perfect Pitch": {
+   "type": "Submachine Gun",
+   "frame": "Precision Frame",
+   "element": "solar",
+   "weak": [
+    "Reload Speed",
+    "Handling"
+   ],
+   "variants": [
+    2191451996
+   ],
+   "picks": {
+    "PVE": [
+     "Subsistence + Incandescent"
+    ],
+    "PVP": [
+     "Dynamic Sway Reduction + Rangefinder"
+    ],
+    "ELEM": [
+     "Heal Clip + Incandescent"
+    ]
+   },
+   "targets": {
+    "PVE": {
+     "Subsistence + Incandescent": {
+      "traits": [
+       [
+        "Subsistence"
+       ],
+       [
+        "Incandescent"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        1820235745
+       ],
+       [
+        4293542123
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Drop Mag",
+        "Flared Magwell"
+       ]
+      ]
+     }
+    },
+    "PVP": {
+     "Dynamic Sway Reduction + Rangefinder": {
+      "traits": [
+       [
+        "Dynamic Sway Reduction"
+       ],
+       [
+        "Rangefinder"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        1359896290
+       ],
+       [
+        2846385770
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Drop Mag",
+        "Flared Magwell"
+       ]
+      ]
+     }
+    },
+    "ELEM": {
+     "Heal Clip + Incandescent": {
+      "traits": [
+       [
+        "Heal Clip"
+       ],
+       [
+        "Incandescent"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        3017780555
+       ],
+       [
+        4293542123
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Drop Mag",
+        "Flared Magwell"
        ]
       ]
      }
