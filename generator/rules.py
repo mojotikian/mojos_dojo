@@ -56,7 +56,8 @@ T = {
  'Impromptu Ammunition':(0,4,6),'Bolt Scavenger':(0,4,7),'Lead From Light':(0,5,7),'Killing Tally':(0,7,0),
  'Light Touch':(0,4,0),'Hatchling':(0,7,0),'Pugilist':(4,4,0),'Iron Reach':(5,2,0),
  'Beacon Rounds':(0,5,0),'Tilting at Windmills':(0,5,0),'Fanatical Lance':(0,5,0),'Dimensional Shift':(0,5,0),
- 'Danger Zone':(3,5,0),'Recycled Energy':(0,5,3),'Threat Remover':(0,6,0),'Delicate Tuning':(0,4,0),
+ 'Danger Zone':(3,5,0),'Recycled Energy':(0,5,3),'Closing Time':(8,4,0),  # owner ruling 2026-10-25: top-tier PvP
+'Threat Remover':(0,6,0),'Delicate Tuning':(0,4,0),
 }
 INTRINSIC_FRAMES = {'Aggressive Frame','Caster Frame','Lightweight Frame','Vortex Frame','Wave Sword Frame','Empty Traits Socket','Full Auto Trigger System'}
 

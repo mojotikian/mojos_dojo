@@ -1,5 +1,5 @@
 {
- "version": "v2.3",
+ "version": "v2.4",
  "priority": [
   "PVE",
   "PVP",
@@ -5451,7 +5451,7 @@
      "Attrition Orbs + Jolting Feedback"
     ],
     "PVP": [
-     "Fragile Focus + Target Lock",
+     "Fragile Focus + Closing Time",
      "Zen Moment + Target Lock"
     ],
     "ELEM": [
@@ -5492,13 +5492,13 @@
      }
     },
     "PVP": {
-     "Fragile Focus + Target Lock": {
+     "Fragile Focus + Closing Time": {
       "traits": [
        [
         "Fragile Focus"
        ],
        [
-        "Target Lock"
+        "Closing Time"
        ]
       ],
       "trait_hashes": [
@@ -5506,7 +5506,7 @@
         2451262963
        ],
        [
-        365154968
+        1194056669
        ]
       ],
       "parts": [
@@ -8341,7 +8341,8 @@
      "Feeding Frenzy + Swashbuckler"
     ],
     "PVP": [
-     "Slideways + Snapshot Sights"
+     "Slideways + Snapshot Sights",
+     "Under Pressure + Closing Time"
     ],
     "UTLY": [
      "Lead from Gold + Thresh"
@@ -8433,6 +8434,36 @@
         "Cleanshot IS",
         "Red Dot 2 MOA",
         "Red Dot Micro"
+       ],
+       [
+        "Enhanced Battery",
+        "Particle Repeater",
+        "Projection Fuse"
+       ]
+      ]
+     },
+     "Under Pressure + Closing Time": {
+      "traits": [
+       [
+        "Under Pressure"
+       ],
+       [
+        "Closing Time"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        1645158859
+       ],
+       [
+        1194056669
+       ]
+      ],
+      "parts": [
+       [
+        "Corkscrew Rifling",
+        "Hammer-Forged Rifling",
+        "Smallbore"
        ],
        [
         "Enhanced Battery",
@@ -9058,6 +9089,7 @@
      "Field Prep + Auto-Loading Holster"
     ],
     "PVP": [
+     "Slideshot + Closing Time",
      "Slideshot + Eye of the Storm"
     ]
    },
@@ -9234,6 +9266,36 @@
        ],
        [
         699525795
+       ]
+      ],
+      "parts": [
+       [
+        "Fluted Barrel",
+        "Polygonal Rifling",
+        "Smallbore"
+       ],
+       [
+        "Enhanced Battery",
+        "Particle Repeater",
+        "Projection Fuse"
+       ]
+      ]
+     },
+     "Slideshot + Closing Time": {
+      "traits": [
+       [
+        "Slideshot"
+       ],
+       [
+        "Closing Time"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        3161816588
+       ],
+       [
+        1194056669
        ]
       ],
       "parts": [
@@ -9569,6 +9631,9 @@
     "PVE": [
      "Subsistence + Destabilizing Rounds"
     ],
+    "PVP": [
+     "Lone Wolf + Closing Time"
+    ],
     "ELEM": [
      "Repulsor Brace + Destabilizing Rounds"
     ]
@@ -9590,6 +9655,38 @@
        ],
        [
         2048641572
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Enhanced Battery",
+        "Particle Repeater",
+        "Projection Fuse"
+       ]
+      ]
+     }
+    },
+    "PVP": {
+     "Lone Wolf + Closing Time": {
+      "traits": [
+       [
+        "Lone Wolf"
+       ],
+       [
+        "Closing Time"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        2579169598
+       ],
+       [
+        1194056669
        ]
       ],
       "parts": [
@@ -9779,6 +9876,7 @@
      "Auto-Loading Holster + Hatchling"
     ],
     "PVP": [
+     "Moving Target + Closing Time",
      "Moving Target + Rangefinder"
     ]
    },
@@ -9831,6 +9929,36 @@
        ],
        [
         2846385770
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Enhanced Battery",
+        "Particle Repeater",
+        "Projection Fuse"
+       ]
+      ]
+     },
+     "Moving Target + Closing Time": {
+      "traits": [
+       [
+        "Moving Target"
+       ],
+       [
+        "Closing Time"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        588594999
+       ],
+       [
+        1194056669
        ]
       ],
       "parts": [
@@ -9954,7 +10082,8 @@
      "Subsistence + Chill Clip"
     ],
     "PVP": [
-     "Steady Hands + Snapshot Sights"
+     "Steady Hands + Snapshot Sights",
+     "Under Pressure + Closing Time"
     ],
     "UTLY": [
      "Lead from Gold + Wellspring"
@@ -10039,6 +10168,36 @@
        ],
        [
         957782887
+       ]
+      ],
+      "parts": [
+       [
+        "Corkscrew Rifling",
+        "Hammer-Forged Rifling",
+        "Smallbore"
+       ],
+       [
+        "Enhanced Battery",
+        "Particle Repeater",
+        "Projection Fuse"
+       ]
+      ]
+     },
+     "Under Pressure + Closing Time": {
+      "traits": [
+       [
+        "Under Pressure"
+       ],
+       [
+        "Closing Time"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        1645158859
+       ],
+       [
+        1194056669
        ]
       ],
       "parts": [
@@ -10393,6 +10552,9 @@
    "picks": {
     "PVE": [
      "Envious Arsenal + Bait and Switch"
+    ],
+    "PVP": [
+     "Lone Wolf + Closing Time"
     ]
    },
    "targets": {
@@ -10412,6 +10574,38 @@
        ],
        [
         3078487919
+       ]
+      ],
+      "parts": [
+       [
+        "Corkscrew Rifling",
+        "Hammer-Forged Rifling",
+        "Smallbore"
+       ],
+       [
+        "Enhanced Battery",
+        "Particle Repeater",
+        "Projection Fuse"
+       ]
+      ]
+     }
+    },
+    "PVP": {
+     "Lone Wolf + Closing Time": {
+      "traits": [
+       [
+        "Lone Wolf"
+       ],
+       [
+        "Closing Time"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        2579169598
+       ],
+       [
+        1194056669
        ]
       ],
       "parts": [
@@ -10603,6 +10797,7 @@
     "PVP": [
      "Moving Target + Iron Grip",
      "Moving Target + Rangefinder",
+     "Rangefinder + Closing Time",
      "Steady Hands + Fragile Focus"
     ],
     "UTLY": [
@@ -10823,6 +11018,36 @@
         "Projection Fuse"
        ]
       ]
+     },
+     "Rangefinder + Closing Time": {
+      "traits": [
+       [
+        "Rangefinder"
+       ],
+       [
+        "Closing Time"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        2846385770
+       ],
+       [
+        1194056669
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Enhanced Battery",
+        "Particle Repeater",
+        "Projection Fuse"
+       ]
+      ]
      }
     },
     "UTLY": {
@@ -10905,6 +11130,9 @@
     "PVE": [
      "Repulsor Brace + Chain Reaction"
     ],
+    "PVP": [
+     "Under Pressure + Closing Time"
+    ],
     "ELEM": [
      "Repulsor Brace + Destabilizing Rounds"
     ]
@@ -10926,6 +11154,38 @@
        ],
        [
         2396489472
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Enhanced Battery",
+        "Particle Repeater",
+        "Projection Fuse"
+       ]
+      ]
+     }
+    },
+    "PVP": {
+     "Under Pressure + Closing Time": {
+      "traits": [
+       [
+        "Under Pressure"
+       ],
+       [
+        "Closing Time"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        1645158859
+       ],
+       [
+        1194056669
        ]
       ],
       "parts": [
@@ -10996,6 +11256,9 @@
     "UTLY": [
      "Field Prep + Attrition Orbs"
     ],
+    "PVP": [
+     "Closing Time + Close to Melee"
+    ],
     "ELEM": [
      "Eddy Current + Collective Action",
      "Eddy Current + Voltshot",
@@ -11054,6 +11317,38 @@
        ],
        [
         243981275
+       ]
+      ],
+      "parts": [
+       [
+        "Ballistic Tuning",
+        "Lightweight Emitter",
+        "Tempered Truss Rod"
+       ],
+       [
+        "Accurized Rounds",
+        "Appended Mag",
+        "Light Mag"
+       ]
+      ]
+     }
+    },
+    "PVP": {
+     "Closing Time + Close to Melee": {
+      "traits": [
+       [
+        "Closing Time"
+       ],
+       [
+        "Close to Melee"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        1194056669
+       ],
+       [
+        1782407750
        ]
       ],
       "parts": [
@@ -16505,7 +16800,7 @@
      "Grave Robber + Desperate Measures"
     ],
     "PVP": [
-     "Threat Detector + Opening Shot"
+     "Threat Detector + Closing Time"
     ]
    },
    "targets": {
@@ -16541,13 +16836,13 @@
      }
     },
     "PVP": {
-     "Threat Detector + Opening Shot": {
+     "Threat Detector + Closing Time": {
       "traits": [
        [
         "Threat Detector"
        ],
        [
-        "Opening Shot"
+        "Closing Time"
        ]
       ],
       "trait_hashes": [
@@ -16555,7 +16850,7 @@
         4071163871
        ],
        [
-        47981717
+        1194056669
        ]
       ],
       "parts": [
@@ -19869,7 +20164,7 @@
      "Heal Clip + Kill Clip"
     ],
     "PVP": [
-     "Keep Away + Opening Shot",
+     "Keep Away + Closing Time",
      "Slideshot + Opening Shot"
     ],
     "ELEM": [
@@ -19941,13 +20236,13 @@
        ]
       ]
      },
-     "Keep Away + Opening Shot": {
+     "Keep Away + Closing Time": {
       "traits": [
        [
         "Keep Away"
        ],
        [
-        "Opening Shot"
+        "Closing Time"
        ]
       ],
       "trait_hashes": [
@@ -19955,7 +20250,7 @@
         3619207468
        ],
        [
-        47981717
+        1194056669
        ]
       ],
       "parts": [
@@ -22365,7 +22660,7 @@
      "Stats for All + One for All"
     ],
     "PVP": [
-     "Elemental Capacitor + Snapshot Sights",
+     "Closing Time + Snapshot Sights",
      "Lone Wolf + Snapshot Sights",
      "Quickdraw + Rangefinder"
     ],
@@ -22497,10 +22792,10 @@
        ]
       ]
      },
-     "Elemental Capacitor + Snapshot Sights": {
+     "Closing Time + Snapshot Sights": {
       "traits": [
        [
-        "Elemental Capacitor"
+        "Closing Time"
        ],
        [
         "Snapshot Sights"
@@ -22508,7 +22803,7 @@
       ],
       "trait_hashes": [
        [
-        3511092054
+        1194056669
        ],
        [
         957782887
@@ -23712,7 +24007,7 @@
      "Fourth Time's the Charm + Voltshot"
     ],
     "PVP": [
-     "Lone Wolf + Moving Target"
+     "Closing Time + Moving Target"
     ]
    },
    "targets": {
@@ -23748,10 +24043,10 @@
      }
     },
     "PVP": {
-     "Lone Wolf + Moving Target": {
+     "Closing Time + Moving Target": {
       "traits": [
        [
-        "Lone Wolf"
+        "Closing Time"
        ],
        [
         "Moving Target"
@@ -23759,7 +24054,7 @@
       ],
       "trait_hashes": [
        [
-        2579169598
+        1194056669
        ],
        [
         588594999
@@ -26215,7 +26510,7 @@
      "Subsistence + Killing Tally"
     ],
     "PVP": [
-     "Rangefinder + Target Lock"
+     "Rangefinder + Closing Time"
     ],
     "ELEM": [
      "Hatchling + Meganeura"
@@ -26255,13 +26550,13 @@
      }
     },
     "PVP": {
-     "Rangefinder + Target Lock": {
+     "Rangefinder + Closing Time": {
       "traits": [
        [
         "Rangefinder"
        ],
        [
-        "Target Lock"
+        "Closing Time"
        ]
       ],
       "trait_hashes": [
@@ -26269,7 +26564,7 @@
         2846385770
        ],
        [
-        365154968
+        1194056669
        ]
       ],
       "parts": [
@@ -28351,7 +28646,7 @@
      "Subsistence + Killing Tally"
     ],
     "PVP": [
-     "Moving Target + Dynamic Sway Reduction"
+     "Moving Target + Closing Time"
     ],
     "ELEM": [
      "Headstone + Rimestealer"
@@ -28390,13 +28685,13 @@
      }
     },
     "PVP": {
-     "Moving Target + Dynamic Sway Reduction": {
+     "Moving Target + Closing Time": {
       "traits": [
        [
         "Moving Target"
        ],
        [
-        "Dynamic Sway Reduction"
+        "Closing Time"
        ]
       ],
       "trait_hashes": [
@@ -28404,7 +28699,7 @@
         588594999
        ],
        [
-        1359896290
+        1194056669
        ]
       ],
       "parts": [
@@ -30102,6 +30397,7 @@
      "Kill Clip + Outlaw"
     ],
     "PVP": [
+     "Keep Away + Closing Time",
      "Keep Away + Headseeker",
      "Opening Shot + Headseeker"
     ],
@@ -30215,6 +30511,35 @@
        ],
        [
         460017080
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Drop Mag",
+        "Flared Magwell"
+       ]
+      ]
+     },
+     "Keep Away + Closing Time": {
+      "traits": [
+       [
+        "Keep Away"
+       ],
+       [
+        "Closing Time"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        3619207468
+       ],
+       [
+        1194056669
        ]
       ],
       "parts": [
@@ -32212,6 +32537,7 @@
      "Demolitionist + Destabilizing Rounds"
     ],
     "PVP": [
+     "Closing Time + Headseeker",
      "Lone Wolf + Headseeker"
     ],
     "ELEM": [
@@ -32256,6 +32582,35 @@
      }
     },
     "PVP": {
+     "Closing Time + Headseeker": {
+      "traits": [
+       [
+        "Closing Time"
+       ],
+       [
+        "Headseeker"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        1194056669
+       ],
+       [
+        460017080
+       ]
+      ],
+      "parts": [
+       [
+        "Fluted Barrel",
+        "Polygonal Rifling",
+        "Smallbore"
+       ],
+       [
+        "Drop Mag",
+        "Flared Magwell"
+       ]
+      ]
+     },
      "Lone Wolf + Headseeker": {
       "traits": [
        [
@@ -34100,6 +34455,7 @@
      "Outlaw + Frenzy"
     ],
     "PVP": [
+     "Keep Away + Closing Time",
      "Keep Away + Headseeker",
      "Snapshot Sights + Moving Target"
     ],
@@ -34216,6 +34572,35 @@
        ],
        [
         588594999
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Drop Mag",
+        "Flared Magwell"
+       ]
+      ]
+     },
+     "Keep Away + Closing Time": {
+      "traits": [
+       [
+        "Keep Away"
+       ],
+       [
+        "Closing Time"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        3619207468
+       ],
+       [
+        1194056669
        ]
       ],
       "parts": [
@@ -34909,7 +35294,7 @@
      "Stats for All + One for All"
     ],
     "PVP": [
-     "Keep Away + Headseeker"
+     "Closing Time + Headseeker"
     ],
     "ELEM": [
      "Eddy Current + Jolting Feedback"
@@ -34949,10 +35334,10 @@
      }
     },
     "PVP": {
-     "Keep Away + Headseeker": {
+     "Closing Time + Headseeker": {
       "traits": [
        [
-        "Keep Away"
+        "Closing Time"
        ],
        [
         "Headseeker"
@@ -34960,7 +35345,7 @@
       ],
       "trait_hashes": [
        [
-        3619207468
+        1194056669
        ],
        [
         460017080
@@ -38065,7 +38450,7 @@
      "Repulsor Brace + Precision Instrument"
     ],
     "PVP": [
-     "Keep Away + Precision Instrument"
+     "Keep Away + Closing Time"
     ],
     "ELEM": [
      "Heal Clip + Elemental Honing",
@@ -38138,13 +38523,13 @@
      }
     },
     "PVP": {
-     "Keep Away + Precision Instrument": {
+     "Keep Away + Closing Time": {
       "traits": [
        [
         "Keep Away"
        ],
        [
-        "Precision Instrument"
+        "Closing Time"
        ]
       ],
       "trait_hashes": [
@@ -38152,7 +38537,7 @@
         3619207468
        ],
        [
-        555281244
+        1194056669
        ]
       ],
       "parts": [
@@ -40918,7 +41303,7 @@
      "Outlaw + Kill Clip"
     ],
     "PVP": [
-     "Keep Away + Eye of the Storm",
+     "Closing Time + Eye of the Storm",
      "Moving Target + Keep Away",
      "Moving Target + Precision Instrument"
     ]
@@ -41077,10 +41462,10 @@
        ]
       ]
      },
-     "Keep Away + Eye of the Storm": {
+     "Closing Time + Eye of the Storm": {
       "traits": [
        [
-        "Keep Away"
+        "Closing Time"
        ],
        [
         "Eye of the Storm"
@@ -41088,7 +41473,7 @@
       ],
       "trait_hashes": [
        [
-        3619207468
+        1194056669
        ],
        [
         699525795
@@ -41552,6 +41937,7 @@
     ],
     "PVP": [
      "Slideshot + Opening Shot",
+     "Threat Detector + Closing Time",
      "Threat Detector + Opening Shot",
      "Threat Detector + Snapshot Sights"
     ],
@@ -41736,6 +42122,36 @@
        ],
        [
         47981717
+       ]
+      ],
+      "parts": [
+       [
+        "Barrel Shroud",
+        "Corkscrew Rifling",
+        "Smoothbore"
+       ],
+       [
+        "Accurized Rounds",
+        "Assault Mag",
+        "Light Mag"
+       ]
+      ]
+     },
+     "Threat Detector + Closing Time": {
+      "traits": [
+       [
+        "Threat Detector"
+       ],
+       [
+        "Closing Time"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        4071163871
+       ],
+       [
+        1194056669
        ]
       ],
       "parts": [
@@ -41960,7 +42376,7 @@
     ],
     "PVP": [
      "Lone Wolf + Precision Instrument",
-     "Slideshot + Tap the Trigger"
+     "Slideshot + Closing Time"
     ],
     "ELEM": [
      "Grave Robber + Voltshot",
@@ -42031,13 +42447,13 @@
      }
     },
     "PVP": {
-     "Slideshot + Tap the Trigger": {
+     "Slideshot + Closing Time": {
       "traits": [
        [
         "Slideshot"
        ],
        [
-        "Tap the Trigger"
+        "Closing Time"
        ]
       ],
       "trait_hashes": [
@@ -42045,7 +42461,7 @@
         3161816588
        ],
        [
-        1890422124
+        1194056669
        ]
       ],
       "parts": [
@@ -43283,7 +43699,7 @@
     ],
     "PVP": [
      "Firmly Planted + Opening Shot",
-     "Slideshot + Opening Shot"
+     "Slideshot + Closing Time"
     ],
     "UTLY": [
      "Field Prep + Demolitionist"
@@ -43383,13 +43799,13 @@
        ]
       ]
      },
-     "Slideshot + Opening Shot": {
+     "Slideshot + Closing Time": {
       "traits": [
        [
         "Slideshot"
        ],
        [
-        "Opening Shot"
+        "Closing Time"
        ]
       ],
       "trait_hashes": [
@@ -43397,7 +43813,7 @@
         3161816588
        ],
        [
-        47981717
+        1194056669
        ]
       ],
       "parts": [
@@ -43468,8 +43884,8 @@
      "Subsistence + One-Two Punch"
     ],
     "PVP": [
-     "Opening Shot + Hip-Fire Grip",
-     "Opening Shot + Trench Barrel"
+     "Opening Shot + Closing Time",
+     "Opening Shot + Hip-Fire Grip"
     ],
     "UTLY": [
      "Field Prep + Demolitionist"
@@ -43606,13 +44022,13 @@
        ]
       ]
      },
-     "Opening Shot + Trench Barrel": {
+     "Opening Shot + Closing Time": {
       "traits": [
        [
         "Opening Shot"
        ],
        [
-        "Trench Barrel"
+        "Closing Time"
        ]
       ],
       "trait_hashes": [
@@ -43620,7 +44036,7 @@
         47981717
        ],
        [
-        2360754333
+        1194056669
        ]
       ],
       "parts": [
@@ -43780,6 +44196,9 @@
     "PVE": [
      "Auto-Loading Holster + Incandescent"
     ],
+    "PVP": [
+     "Lone Wolf + Closing Time"
+    ],
     "ELEM": [
      "Heal Clip + Incandescent"
     ]
@@ -43801,6 +44220,38 @@
        ],
        [
         4293542123
+       ]
+      ],
+      "parts": [
+       [
+        "Fluted Barrel",
+        "Polygonal Rifling",
+        "Smallbore"
+       ],
+       [
+        "Assault Mag",
+        "Flared Magwell",
+        "Tactical Mag"
+       ]
+      ]
+     }
+    },
+    "PVP": {
+     "Lone Wolf + Closing Time": {
+      "traits": [
+       [
+        "Lone Wolf"
+       ],
+       [
+        "Closing Time"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        2579169598
+       ],
+       [
+        1194056669
        ]
       ],
       "parts": [
@@ -45776,7 +46227,7 @@
     ],
     "PVP": [
      "Perpetual Motion + Opening Shot",
-     "Slideshot + Opening Shot"
+     "Slideshot + Closing Time"
     ]
    },
    "targets": {
@@ -45903,13 +46354,13 @@
        ]
       ]
      },
-     "Slideshot + Opening Shot": {
+     "Slideshot + Closing Time": {
       "traits": [
        [
         "Slideshot"
        ],
        [
-        "Opening Shot"
+        "Closing Time"
        ]
       ],
       "trait_hashes": [
@@ -45917,7 +46368,7 @@
         3161816588
        ],
        [
-        47981717
+        1194056669
        ]
       ],
       "parts": [
@@ -46076,8 +46527,8 @@
      "Outlaw + Kill Clip"
     ],
     "PVP": [
-     "Quickdraw + Opening Shot",
-     "Rangefinder + Precision Instrument"
+     "Closing Time + Precision Instrument",
+     "Quickdraw + Opening Shot"
     ],
     "ELEM": [
      "Eddy Current + Voltshot"
@@ -46181,10 +46632,10 @@
        ]
       ]
      },
-     "Rangefinder + Precision Instrument": {
+     "Closing Time + Precision Instrument": {
       "traits": [
        [
-        "Rangefinder"
+        "Closing Time"
        ],
        [
         "Precision Instrument"
@@ -46192,7 +46643,7 @@
       ],
       "trait_hashes": [
        [
-        2846385770
+        1194056669
        ],
        [
         555281244
@@ -49509,7 +49960,7 @@
      "Triple Tap + Golden Tricorn"
     ],
     "PVP": [
-     "Lone Wolf + Snapshot Sights",
+     "Lone Wolf + Closing Time",
      "Quickdraw + Snapshot Sights"
     ],
     "UTLY": [
@@ -49610,13 +50061,13 @@
        ]
       ]
      },
-     "Lone Wolf + Snapshot Sights": {
+     "Lone Wolf + Closing Time": {
       "traits": [
        [
         "Lone Wolf"
        ],
        [
-        "Snapshot Sights"
+        "Closing Time"
        ]
       ],
       "trait_hashes": [
@@ -49624,7 +50075,7 @@
         2579169598
        ],
        [
-        957782887
+        1194056669
        ]
       ],
       "parts": [
@@ -49813,7 +50264,7 @@
      "Jolting Feedback + Elemental Honing"
     ],
     "PVP": [
-     "Snapshot Sights + Opening Shot"
+     "Snapshot Sights + Closing Time"
     ],
     "ELEM": [
      "Elemental Capacitor + Collective Action",
@@ -49856,13 +50307,13 @@
      }
     },
     "PVP": {
-     "Snapshot Sights + Opening Shot": {
+     "Snapshot Sights + Closing Time": {
       "traits": [
        [
         "Snapshot Sights"
        ],
        [
-        "Opening Shot"
+        "Closing Time"
        ]
       ],
       "trait_hashes": [
@@ -49870,7 +50321,7 @@
         957782887
        ],
        [
-        47981717
+        1194056669
        ]
       ],
       "parts": [
@@ -50029,8 +50480,8 @@
      "Shoot to Loot + Precision Instrument"
     ],
     "PVP": [
-     "Moving Target + Snapshot Sights",
-     "Triple Tap + Opening Shot"
+     "Closing Time + Opening Shot",
+     "Moving Target + Snapshot Sights"
     ],
     "UTLY": [
      "Lead from Gold + Wellspring"
@@ -50133,10 +50584,10 @@
        ]
       ]
      },
-     "Triple Tap + Opening Shot": {
+     "Closing Time + Opening Shot": {
       "traits": [
        [
-        "Triple Tap"
+        "Closing Time"
        ],
        [
         "Opening Shot"
@@ -50144,7 +50595,7 @@
       ],
       "trait_hashes": [
        [
-        3400784728
+        1194056669
        ],
        [
         47981717
@@ -51081,6 +51532,7 @@
      "Triple Tap + Voltshot"
     ],
     "PVP": [
+     "Snapshot Sights + Closing Time",
      "Snapshot Sights + Opening Shot"
     ],
     "ELEM": [
@@ -51167,6 +51619,36 @@
        ],
        [
         47981717
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Appended Mag",
+        "Flared Magwell",
+        "Tactical Mag"
+       ]
+      ]
+     },
+     "Snapshot Sights + Closing Time": {
+      "traits": [
+       [
+        "Snapshot Sights"
+       ],
+       [
+        "Closing Time"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        957782887
+       ],
+       [
+        1194056669
        ]
       ],
       "parts": [
@@ -52886,7 +53368,7 @@
      "Rewind Rounds + Kinetic Tremors"
     ],
     "PVP": [
-     "Moving Target + Snapshot Sights",
+     "Closing Time + Snapshot Sights",
      "Rangefinder + Snapshot Sights"
     ],
     "ABTY": [
@@ -52990,10 +53472,10 @@
        ]
       ]
      },
-     "Moving Target + Snapshot Sights": {
+     "Closing Time + Snapshot Sights": {
       "traits": [
        [
-        "Moving Target"
+        "Closing Time"
        ],
        [
         "Snapshot Sights"
@@ -53001,7 +53483,7 @@
       ],
       "trait_hashes": [
        [
-        588594999
+        1194056669
        ],
        [
         957782887
@@ -53448,7 +53930,7 @@
      "Repulsor Brace + Destabilizing Rounds"
     ],
     "PVP": [
-     "Snapshot Sights + Opening Shot"
+     "Snapshot Sights + Closing Time"
     ],
     "ELEM": [
      "Repulsor Brace + Destabilizing Rounds"
@@ -53488,13 +53970,13 @@
      }
     },
     "PVP": {
-     "Snapshot Sights + Opening Shot": {
+     "Snapshot Sights + Closing Time": {
       "traits": [
        [
         "Snapshot Sights"
        ],
        [
-        "Opening Shot"
+        "Closing Time"
        ]
       ],
       "trait_hashes": [
@@ -53502,7 +53984,7 @@
         957782887
        ],
        [
-        47981717
+        1194056669
        ]
       ],
       "parts": [
@@ -53835,7 +54317,7 @@
      "Subsistence + Swashbuckler"
     ],
     "PVP": [
-     "Hip-Fire Grip + Tap the Trigger"
+     "Closing Time + Tap the Trigger"
     ],
     "ABTY": [
      "Pugilist + Offhand Strike",
@@ -53875,10 +54357,10 @@
      }
     },
     "PVP": {
-     "Hip-Fire Grip + Tap the Trigger": {
+     "Closing Time + Tap the Trigger": {
       "traits": [
        [
-        "Hip-Fire Grip"
+        "Closing Time"
        ],
        [
         "Tap the Trigger"
@@ -53886,7 +54368,7 @@
       ],
       "trait_hashes": [
        [
-        1866048759
+        1194056669
        ],
        [
         1890422124
@@ -58176,6 +58658,7 @@
      "Stats for All + One for All"
     ],
     "PVP": [
+     "Closing Time + Rangefinder",
      "Dynamic Sway Reduction + Moving Target",
      "Threat Detector + Rangefinder"
     ],
@@ -58321,6 +58804,35 @@
       "trait_hashes": [
        [
         4071163871
+       ],
+       [
+        2846385770
+       ]
+      ],
+      "parts": [
+       [
+        "Fluted Barrel",
+        "Polygonal Rifling",
+        "Smallbore"
+       ],
+       [
+        "Drop Mag",
+        "Flared Magwell"
+       ]
+      ]
+     },
+     "Closing Time + Rangefinder": {
+      "traits": [
+       [
+        "Closing Time"
+       ],
+       [
+        "Rangefinder"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        1194056669
        ],
        [
         2846385770
@@ -61130,13 +61642,14 @@
      "Fourth Time's the Charm + Chain Reaction",
      "Overflow + Killing Tally"
     ],
+    "PVP": [
+     "Dynamic Sway Reduction + Closing Time",
+     "Fourth Time's the Charm + Target Lock"
+    ],
     "ELEM": [
      "Eddy Current + Jolting Feedback",
      "Eddy Current + Rolling Storm",
      "Trickle Charge + Rolling Storm"
-    ],
-    "PVP": [
-     "Fourth Time's the Charm + Target Lock"
     ]
    },
    "targets": {
@@ -61186,6 +61699,68 @@
        ],
        [
         2396489472
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Enhanced Battery",
+        "Light Battery",
+        "Tactical Battery"
+       ]
+      ]
+     }
+    },
+    "PVP": {
+     "Dynamic Sway Reduction + Closing Time": {
+      "traits": [
+       [
+        "Dynamic Sway Reduction"
+       ],
+       [
+        "Closing Time"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        1359896290
+       ],
+       [
+        1194056669
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Enhanced Battery",
+        "Light Battery",
+        "Tactical Battery"
+       ]
+      ]
+     },
+     "Fourth Time's the Charm + Target Lock": {
+      "traits": [
+       [
+        "Fourth Time's the Charm"
+       ],
+       [
+        "Target Lock"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        1354429876
+       ],
+       [
+        365154968
        ]
       ],
       "parts": [
@@ -61278,38 +61853,6 @@
        ],
        [
         3218042543
-       ]
-      ],
-      "parts": [
-       [
-        "Arrowhead Brake",
-        "Corkscrew Rifling",
-        "Fluted Barrel"
-       ],
-       [
-        "Enhanced Battery",
-        "Light Battery",
-        "Tactical Battery"
-       ]
-      ]
-     }
-    },
-    "PVP": {
-     "Fourth Time's the Charm + Target Lock": {
-      "traits": [
-       [
-        "Fourth Time's the Charm"
-       ],
-       [
-        "Target Lock"
-       ]
-      ],
-      "trait_hashes": [
-       [
-        1354429876
-       ],
-       [
-        365154968
        ]
       ],
       "parts": [
