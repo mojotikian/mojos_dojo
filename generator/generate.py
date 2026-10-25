@@ -4,7 +4,8 @@ from rules import *
 
 I = json.load(open('../items.json'))
 D = json.load(open('pools.json'))
-VERSION = 'v2.0'
+VERSION = 'v2.1'
+PRIORITY = ['PVE','PVP','ELEM','ABTY','UTLY','JKPT']  # Paul's tie order (2026-10-25); also note tag order
 DMG = {1:'kinetic',2:'arc',3:'solar',4:'void',6:'stasis',7:'strand'}
 PARTCATS = {'barrels','magazines','tubes','magazines_gl','batteries','blades','guards','bowstrings','arrows',
             'hafts','scopes','stocks','grips','rails','bolts','v950.new.sword0.blades','v950.new.sword0.guards'}
@@ -118,12 +119,22 @@ for h, w in sorted(D.items(), key=lambda x: (x[1]['type'], x[1]['name'])):
     if w['tier'] != 'Legendary': skipped['exotic/other'] += 1; continue
     res = choose(w)
     if not res: skipped['no trait pairs'] += 1; continue
-    led = ledger.setdefault(w['name'], {'type': w['type'], 'frame': w['frame'], 'weak': weak_stats(w), 'picks': {}})
-    for tag in ['PVP','ELEM','ABTY','PVE','UTLY']:
+    led = ledger.setdefault(w['name'], {'type': w['type'], 'frame': w['frame'], 'element': DMG.get(w['dmg'], 'kinetic'),
+                                        'weak': weak_stats(w), 'variants': [], 'picks': {}, 'targets': {}})
+    led['variants'].append(int(h))
+    pcols = [c for c in w['cols'] if c[0]['c'] in PARTCATS]
+    for tag in PRIORITY[:-1]:
         for pair in res.get(tag, []):
             body += lines_for(h, w, tag, pair, False)
             jk += lines_for(h, w, 'JKPT', pair, True)
             led['picks'].setdefault(tag, set()).add(f"{pair[0]['n']} + {pair[1]['n']}")
+            key = f"{pair[0]['n']} + {pair[1]['n']}"
+            tl = led['targets'].setdefault(tag, {})
+            if key not in tl:  # trait hashes accumulate across variants (Adept/reissue share names, hashes usually identical)
+                tl[key] = {'traits': [[pair[0]['n']], [pair[1]['n']]], 'trait_hashes': [[], []],
+                           'parts': [sorted({p['n'] for p in part_choices(w, c)}) for c in pcols]}
+            for i in (0, 1):
+                if pair[i]['h'] not in tl[key]['trait_hashes'][i]: tl[key]['trait_hashes'][i].append(pair[i]['h'])
 
 # merge: one line per item+perkset, note lists every tag it satisfies
 M = collections.OrderedDict()
@@ -134,7 +145,7 @@ for h, perks, note in jk + body:
     if tag not in e['tags']: e['tags'].append(tag)
     if tag == 'JKPT': e['jk'] = e['jk'] or note
     else: e['five'] = e['five'] or note
-ORDER = ['PVP','ELEM','ABTY','PVE','UTLY','JKPT']
+ORDER = PRIORITY
 final = []
 for (h,_), e in M.items():
     tags = ''.join(f'[{t}]' for t in ORDER if t in e['tags'])
@@ -145,8 +156,12 @@ for (h,_), e in M.items():
 # ---------- validation gates ----------
 bad = enh = sub4 = 0
 rx = re.compile(r'^dimwishlist:item=\d+&perks=\d+(,\d+)*#notes:.+$')
-text = []
+text = []; blocks = []; prev = None
 for h, perks, note in final:
+    if note != prev:
+        if prev is not None: blocks.append('')
+        blocks.append('//notes:' + note); prev = note
+    blocks.append(f"dimwishlist:item={h}&perks={','.join(str(p) for p in perks)}")
     line = f"dimwishlist:item={h}&perks={','.join(str(p) for p in perks)}#notes:{note}"
     if not rx.match(line): bad += 1
     for p in perks:
@@ -155,15 +170,17 @@ for h, perks, note in final:
     text.append(line)
 dupes = len(text) - len(set(text))
 hdr = [f"title:Mojo's Dojo {VERSION}",
-       "description:Paul's 5/5 godroll compendium. Tags: [JKPT] [PVP] [ELEM] [ABTY] [PVE] [UTLY]. Base hashes only.",
-       f"// {VERSION}: full rebuild from scratch against all owned random-roll legendaries ({len(ledger)} weapons). JKPT global section at top."]
+       "description:Paul's 5/5 godroll compendium. Tags in priority order: [PVE] [PVP] [ELEM] [ABTY] [UTLY] [JKPT]. Base hashes only.",
+       f"// {VERSION}: {len(ledger)} owned random-roll legendaries, every Adept/reissue variant. Live: raw.githubusercontent.com/mojotikian/mojos_dojo/main/mojos_dojo.txt"]
 jk_n = len(text)
-out = hdr + ['// One line per roll; the note lists every category it satisfies. [JKPT] = any additive parts.'] + text
-open('mojos_dojo_full.txt','w').write('\n'.join(out) + '\n')
-json.dump({k:{**v,'picks':{t:sorted(s) for t,s in v['picks'].items()}} for k,v in ledger.items()}, open('ledger.json','w'), indent=0)
-tagc = collections.Counter(t for _,_,n in final for t in re.findall(r'\\[(\\w+)\\]', n.split(' ')[0]))
+out = hdr + ['// One line per roll; the note lists every category it satisfies, in priority order. [JKPT] = any additive parts.', ''] + blocks
+open('mojos_dojo.txt','w').write('\n'.join(out) + '\n')
+json.dump({'version': VERSION, 'priority': PRIORITY,
+           'weapons': {k:{**v,'picks':{t:sorted(s) for t,s in v['picks'].items()}} for k,v in ledger.items()}},
+          open('ledger.json','w'), indent=1)
+tagc = collections.Counter(t for _,_,n in final for t in re.findall(r'\[(\w+)\]', n.split(' ')[0]))
 wc = collections.Counter(t for v in ledger.values() for t in v['picks'])
 print('weapons', len(ledger), 'lines', len(text), 'by tag', dict(tagc))
 print('weapons with each tag', dict(wc))
 print('GATES bad', bad, 'dupes', dupes, 'enhanced', enh, 'sub4', sub4, 'skipped', dict(skipped))
-import os; print('size MB', round(os.path.getsize('mojos_dojo_full.txt')/1e6, 2))
+import os; print('size MB', round(os.path.getsize('mojos_dojo.txt')/1e6, 2))
