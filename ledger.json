@@ -1,5 +1,5 @@
 {
- "version": "v2.2",
+ "version": "v2.3",
  "priority": [
   "PVE",
   "PVP",
@@ -6776,7 +6776,6 @@
     "Reload Speed"
    ],
    "variants": [
-    3434944005,
     888872889,
     3465233192,
     911019136
@@ -6784,8 +6783,7 @@
    "picks": {
     "PVE": [
      "Archer's Tempo + Golden Tricorn",
-     "Archer's Tempo + Voltshot",
-     "Archer's Tempo + Vorpal Weapon"
+     "Archer's Tempo + Voltshot"
     ],
     "PVP": [
      "Air Trigger + Eye of the Storm",
@@ -6799,32 +6797,6 @@
    },
    "targets": {
     "PVE": {
-     "Archer's Tempo + Vorpal Weapon": {
-      "traits": [
-       [
-        "Archer's Tempo"
-       ],
-       [
-        "Vorpal Weapon"
-       ]
-      ],
-      "trait_hashes": [
-       [
-        201365942
-       ],
-       [
-        1546637391
-       ]
-      ],
-      "parts": [
-       [
-        "Elastic String"
-       ],
-       [
-        "Natural Fletching"
-       ]
-      ]
-     },
      "Archer's Tempo + Golden Tricorn": {
       "traits": [
        [
@@ -11456,12 +11428,10 @@
     "Handling"
    ],
    "variants": [
-    3001205424,
     1942143745
    ],
    "picks": {
     "PVE": [
-     "Immovable Object + Destabilizing Rounds",
      "Repulsor Brace + Destabilizing Rounds"
     ],
     "ELEM": [
@@ -11470,32 +11440,6 @@
    },
    "targets": {
     "PVE": {
-     "Immovable Object + Destabilizing Rounds": {
-      "traits": [
-       [
-        "Immovable Object"
-       ],
-       [
-        "Destabilizing Rounds"
-       ]
-      ],
-      "trait_hashes": [
-       [
-        3800201097
-       ],
-       [
-        2048641572
-       ]
-      ],
-      "parts": [
-       [
-        "Ballistic Tuning"
-       ],
-       [
-        "Alloy Magazine"
-       ]
-      ]
-     },
      "Repulsor Brace + Destabilizing Rounds": {
       "traits": [
        [
@@ -12432,7 +12376,6 @@
     "Stability"
    ],
    "variants": [
-    616582330,
     768696858
    ],
    "picks": {
@@ -12461,10 +12404,14 @@
       ],
       "parts": [
        [
-        "Volatile Launch"
+        "Countermass",
+        "Quick Launch",
+        "Smart Drift Control"
        ],
        [
-        "Mini Frags"
+        "High-Velocity Rounds",
+        "Spike Grenades",
+        "Sticky Grenades"
        ]
       ]
      }
@@ -17929,7 +17876,6 @@
     "Range"
    ],
    "variants": [
-    1123421440,
     3851394887
    ],
    "picks": {
@@ -17937,7 +17883,6 @@
      "Stats for All + Incandescent"
     ],
     "PVP": [
-     "Keep Away + Eye of the Storm",
      "Opening Shot + Eye of the Storm"
     ],
     "ELEM": [
@@ -17965,41 +17910,18 @@
       ],
       "parts": [
        [
+        "Corkscrew Rifling",
+        "Hammer-Forged Rifling",
         "Smallbore"
        ],
        [
-        "Ricochet Rounds"
+        "Drop Mag",
+        "Flared Magwell"
        ]
       ]
      }
     },
     "PVP": {
-     "Keep Away + Eye of the Storm": {
-      "traits": [
-       [
-        "Keep Away"
-       ],
-       [
-        "Eye of the Storm"
-       ]
-      ],
-      "trait_hashes": [
-       [
-        3619207468
-       ],
-       [
-        699525795
-       ]
-      ],
-      "parts": [
-       [
-        "Smallbore"
-       ],
-       [
-        "Ricochet Rounds"
-       ]
-      ]
-     },
      "Opening Shot + Eye of the Storm": {
       "traits": [
        [
@@ -20210,12 +20132,10 @@
     "Stability"
    ],
    "variants": [
-    3337727085,
     979721268
    ],
    "picks": {
     "PVE": [
-     "Discord + Explosive Payload",
      "Shoot to Loot + Kill Clip"
     ],
     "PVP": [
@@ -20224,32 +20144,6 @@
    },
    "targets": {
     "PVE": {
-     "Discord + Explosive Payload": {
-      "traits": [
-       [
-        "Discord"
-       ],
-       [
-        "Explosive Payload"
-       ]
-      ],
-      "trait_hashes": [
-       [
-        3978468247
-       ],
-       [
-        3038247973
-       ]
-      ],
-      "parts": [
-       [
-        "Fluted Barrel"
-       ],
-       [
-        "Flared Magwell"
-       ]
-      ]
-     },
      "Shoot to Loot + Kill Clip": {
       "traits": [
        [
@@ -25791,12 +25685,10 @@
     "Range"
    ],
    "variants": [
-    3105930175,
     1716620044
    ],
    "picks": {
     "PVE": [
-     "Adrenaline Junkie + Demolitionist",
      "Subsistence + Killing Tally"
     ],
     "PVP": [
@@ -25808,32 +25700,6 @@
    },
    "targets": {
     "PVE": {
-     "Adrenaline Junkie + Demolitionist": {
-      "traits": [
-       [
-        "Adrenaline Junkie"
-       ],
-       [
-        "Demolitionist"
-       ]
-      ],
-      "trait_hashes": [
-       [
-        11612903
-       ],
-       [
-        3523296417
-       ]
-      ],
-      "parts": [
-       [
-        "Arrowhead Brake"
-       ],
-       [
-        "High-Caliber Rounds"
-       ]
-      ]
-     },
      "Subsistence + Killing Tally": {
       "traits": [
        [
@@ -35157,7 +35023,6 @@
     "Reload Speed"
    ],
    "variants": [
-    2276328320,
     438540299
    ],
    "picks": {
@@ -35193,9 +35058,12 @@
       ],
       "parts": [
        [
-        "Chambered Compensator"
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
        ],
        [
+        "Drop Mag",
         "Flared Magwell"
        ]
       ]
@@ -35303,43 +35171,15 @@
     "Blast Radius"
    ],
    "variants": [
-    725408022,
     1713388226
    ],
    "picks": {
     "PVE": [
-     "Impulse Amplifier + Explosive Light",
      "Reconstruction + Explosive Light"
     ]
    },
    "targets": {
     "PVE": {
-     "Impulse Amplifier + Explosive Light": {
-      "traits": [
-       [
-        "Impulse Amplifier"
-       ],
-       [
-        "Explosive Light"
-       ]
-      ],
-      "trait_hashes": [
-       [
-        951095735
-       ],
-       [
-        3194351027
-       ]
-      ],
-      "parts": [
-       [
-        "Quick Launch"
-       ],
-       [
-        "Impact Casing"
-       ]
-      ]
-     },
      "Reconstruction + Explosive Light": {
       "traits": [
        [
@@ -39437,12 +39277,10 @@
     "Handling"
    ],
    "variants": [
-    542573208,
     3708636616
    ],
    "picks": {
     "PVE": [
-     "Reconstruction + Focused Fury",
      "Shoot to Loot + Adhesive Ordnance"
     ],
     "PVP": [
@@ -39451,32 +39289,6 @@
    },
    "targets": {
     "PVE": {
-     "Reconstruction + Focused Fury": {
-      "traits": [
-       [
-        "Reconstruction"
-       ],
-       [
-        "Focused Fury"
-       ]
-      ],
-      "trait_hashes": [
-       [
-        1523832109
-       ],
-       [
-        2896038713
-       ]
-      ],
-      "parts": [
-       [
-        "Full Bore"
-       ],
-       [
-        "Ricochet Rounds"
-       ]
-      ]
-     },
      "Shoot to Loot + Adhesive Ordnance": {
       "traits": [
        [
@@ -39528,10 +39340,14 @@
       ],
       "parts": [
        [
-        "Full Bore"
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
        ],
        [
-        "Ricochet Rounds"
+        "Flared Magwell",
+        "Ricochet Rounds",
+        "Tactical Mag"
        ]
       ]
      }
@@ -40487,7 +40303,6 @@
     "Range"
    ],
    "variants": [
-    3535742959,
     3292795429,
     4176824345,
     3975115486
@@ -40495,13 +40310,11 @@
    "picks": {
     "PVE": [
      "Gutshot Straight + Kill Clip",
-     "Rapid Hit + Kill Clip",
      "Under-Over + Kill Clip"
     ],
     "PVP": [
      "Keep Away + Box Breathing",
-     "Slickdraw + Snapshot Sights",
-     "Snapshot Sights + Zen Moment"
+     "Slickdraw + Snapshot Sights"
     ],
     "ABTY": [
      "Offhand Strike + Swashbuckler",
@@ -40513,32 +40326,6 @@
    },
    "targets": {
     "PVE": {
-     "Rapid Hit + Kill Clip": {
-      "traits": [
-       [
-        "Rapid Hit"
-       ],
-       [
-        "Kill Clip"
-       ]
-      ],
-      "trait_hashes": [
-       [
-        247725512
-       ],
-       [
-        1015611457
-       ]
-      ],
-      "parts": [
-       [
-        "Fluted Barrel"
-       ],
-       [
-        "Extended Mag"
-       ]
-      ]
-     },
      "Gutshot Straight + Kill Clip": {
       "traits": [
        [
@@ -40601,32 +40388,6 @@
      }
     },
     "PVP": {
-     "Snapshot Sights + Zen Moment": {
-      "traits": [
-       [
-        "Snapshot Sights"
-       ],
-       [
-        "Zen Moment"
-       ]
-      ],
-      "trait_hashes": [
-       [
-        957782887
-       ],
-       [
-        2387244414
-       ]
-      ],
-      "parts": [
-       [
-        "Fluted Barrel"
-       ],
-       [
-        "Extended Mag"
-       ]
-      ]
-     },
      "Slickdraw + Snapshot Sights": {
       "traits": [
        [
@@ -42921,17 +42682,15 @@
    "frame": "Shot Package",
    "element": "solar",
    "weak": [
-    "Stability",
-    "Range"
+    "Range",
+    "Stability"
    ],
    "variants": [
-    1179141605,
     218787950
    ],
    "picks": {
     "PVE": [
-     "Heal Clip + Bait and Switch",
-     "Slideshot + Vorpal Weapon"
+     "Heal Clip + Bait and Switch"
     ],
     "PVP": [
      "Slideshot + Opening Shot"
@@ -42942,30 +42701,6 @@
    },
    "targets": {
     "PVE": {
-     "Slideshot + Vorpal Weapon": {
-      "traits": [
-       [
-        "Slideshot"
-       ],
-       [
-        "Vorpal Weapon"
-       ]
-      ],
-      "trait_hashes": [
-       [
-        3161816588
-       ],
-       [
-        1546637391
-       ]
-      ],
-      "parts": [
-       [],
-       [
-        "Accurized Rounds"
-       ]
-      ]
-     },
      "Heal Clip + Bait and Switch": {
       "traits": [
        [
@@ -43016,9 +42751,15 @@
        ]
       ],
       "parts": [
-       [],
        [
-        "Accurized Rounds"
+        "Barrel Shroud",
+        "Smallbore",
+        "Smoothbore"
+       ],
+       [
+        "Accurized Rounds",
+        "Assault Mag",
+        "Tactical Mag"
        ]
       ]
      }
@@ -45080,12 +44821,10 @@
     "Range"
    ],
    "variants": [
-    838556752,
     4276696962
    ],
    "picks": {
     "PVE": [
-     "Overflow + One-Two Punch",
      "Repulsor Brace + Destabilizing Rounds"
     ],
     "PVP": [
@@ -45101,32 +44840,6 @@
    },
    "targets": {
     "PVE": {
-     "Overflow + One-Two Punch": {
-      "traits": [
-       [
-        "Overflow"
-       ],
-       [
-        "One-Two Punch"
-       ]
-      ],
-      "trait_hashes": [
-       [
-        3643424744
-       ],
-       [
-        2679249093
-       ]
-      ],
-      "parts": [
-       [
-        "Smallbore"
-       ],
-       [
-        "Extended Mag"
-       ]
-      ]
-     },
      "Repulsor Brace + Destabilizing Rounds": {
       "traits": [
        [
@@ -46785,13 +46498,11 @@
    "variants": [
     213264394,
     927835311,
-    805677041,
     4237970862
    ],
    "picks": {
     "PVE": [
-     "Encore + Frenzy",
-     "Outlaw + Swashbuckler"
+     "Encore + Frenzy"
     ],
     "PVP": [
      "Perpetual Motion + Rangefinder"
@@ -46825,32 +46536,6 @@
        [
         "Drop Mag",
         "Flared Magwell"
-       ]
-      ]
-     },
-     "Outlaw + Swashbuckler": {
-      "traits": [
-       [
-        "Outlaw"
-       ],
-       [
-        "Swashbuckler"
-       ]
-      ],
-      "trait_hashes": [
-       [
-        1168162263
-       ],
-       [
-        4082225868
-       ]
-      ],
-      "parts": [
-       [
-        "Extended Barrel"
-       ],
-       [
-        "Alloy Magazine"
        ]
       ]
      }
@@ -50120,18 +49805,15 @@
     "Stability"
    ],
    "variants": [
-    4184808992,
     1405095983,
     891765152
    ],
    "picks": {
     "PVE": [
-     "Jolting Feedback + Elemental Honing",
-     "Triple Tap + Vorpal Weapon"
+     "Jolting Feedback + Elemental Honing"
     ],
     "PVP": [
-     "Snapshot Sights + Opening Shot",
-     "Triple Tap + Snapshot Sights"
+     "Snapshot Sights + Opening Shot"
     ],
     "ELEM": [
      "Elemental Capacitor + Collective Action",
@@ -50142,32 +49824,6 @@
    },
    "targets": {
     "PVE": {
-     "Triple Tap + Vorpal Weapon": {
-      "traits": [
-       [
-        "Triple Tap"
-       ],
-       [
-        "Vorpal Weapon"
-       ]
-      ],
-      "trait_hashes": [
-       [
-        3400784728
-       ],
-       [
-        1546637391
-       ]
-      ],
-      "parts": [
-       [
-        "Hammer-Forged Rifling"
-       ],
-       [
-        "Accurized Rounds"
-       ]
-      ]
-     },
      "Jolting Feedback + Elemental Honing": {
       "traits": [
        [
@@ -50200,32 +49856,6 @@
      }
     },
     "PVP": {
-     "Triple Tap + Snapshot Sights": {
-      "traits": [
-       [
-        "Triple Tap"
-       ],
-       [
-        "Snapshot Sights"
-       ]
-      ],
-      "trait_hashes": [
-       [
-        3400784728
-       ],
-       [
-        957782887
-       ]
-      ],
-      "parts": [
-       [
-        "Hammer-Forged Rifling"
-       ],
-       [
-        "Accurized Rounds"
-       ]
-      ]
-     },
      "Snapshot Sights + Opening Shot": {
       "traits": [
        [
@@ -59720,7 +59350,6 @@
     "Charge Rate"
    ],
    "variants": [
-    3438139008,
     938936806
    ],
    "picks": {
@@ -59755,7 +59384,7 @@
         "Tempered Edge"
        ],
        [
-        "Balanced Guard"
+        "Enduring Guard"
        ]
       ]
      }
@@ -59783,7 +59412,7 @@
         "Tempered Edge"
        ],
        [
-        "Balanced Guard"
+        "Enduring Guard"
        ]
       ]
      }

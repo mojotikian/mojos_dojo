@@ -23,11 +23,15 @@ def fixed(v):
     return len(fr) >= 2 and all(len(P.get(str(s['reusablePlugSetHash']), {}).get('reusablePlugItems', [])) > 1 for s in fr)
 rand = lambda v: any(s.get('randomizedPlugSetHash') for s in v.get('sockets', {}).get('socketEntries', [])) or fixed(v)
 names = {clean(d(h)['displayProperties']['name']) for h in owned if rand(d(h))}
+israndom = lambda v: any(s.get('randomizedPlugSetHash') for s in v.get('sockets', {}).get('socketEntries', []))
+# fixed-roll variants count only for names with NO random-roll variant (else they pollute targets; v2.3)
+has_random = {clean(v.get('displayProperties', {}).get('name', '')) for v in I.values() if v.get('itemType') == 3 and israndom(v)}
 out = {}
 for h, v in I.items():
     if v.get('itemType') != 3 or not rand(v): continue
     n = clean(v.get('displayProperties', {}).get('name', ''))
     if n not in names: continue
+    if not israndom(v) and n in has_random: continue
     cols = []
     for s in v['sockets']['socketEntries']:
         r = pool(v, s)
