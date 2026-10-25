@@ -8,7 +8,20 @@ def clean(n):
     for s in [' (Adept)', ' (Timelost)', ' (Harrowed)', ' (Baroque)']: n = n.replace(s, '')
     return n
 owned = open('owned.txt').read().strip().split(',')
-rand = lambda v: any(s.get('randomizedPlugSetHash') for s in v.get('sockets', {}).get('socketEntries', []))
+PERKCATS = {'frames','barrels','magazines','tubes','magazines_gl','batteries','blades','guards','bowstrings','arrows',
+            'hafts','scopes','stocks','grips','rails','bolts','v950.new.sword0.blades','v950.new.sword0.guards'}
+def pool(v, s):
+    # random-roll socket, or (fixed-roll weapon) a perk socket with selectable options (Komodo-4FR case, v2.2)
+    if s.get('randomizedPlugSetHash'): return s['randomizedPlugSetHash']
+    if fixed(v) and s.get('reusablePlugSetHash') and d(s.get('singleInitialItemHash')).get('plug', {}).get('plugCategoryIdentifier') in PERKCATS:
+        return s['reusablePlugSetHash']
+    return None
+def fixed(v):
+    se = v.get('sockets', {}).get('socketEntries', [])
+    if any(s.get('randomizedPlugSetHash') for s in se): return False
+    fr = [s for s in se if d(s.get('singleInitialItemHash')).get('plug', {}).get('plugCategoryIdentifier') == 'frames' and s.get('reusablePlugSetHash')]
+    return len(fr) >= 2 and all(len(P.get(str(s['reusablePlugSetHash']), {}).get('reusablePlugItems', [])) > 1 for s in fr)
+rand = lambda v: any(s.get('randomizedPlugSetHash') for s in v.get('sockets', {}).get('socketEntries', [])) or fixed(v)
 names = {clean(d(h)['displayProperties']['name']) for h in owned if rand(d(h))}
 out = {}
 for h, v in I.items():
@@ -17,7 +30,7 @@ for h, v in I.items():
     if n not in names: continue
     cols = []
     for s in v['sockets']['socketEntries']:
-        r = s.get('randomizedPlugSetHash')
+        r = pool(v, s)
         if not r: continue
         pl, seen = [], set()
         for x in P.get(str(r), {}).get('reusablePlugItems', []):

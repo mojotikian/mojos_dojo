@@ -4,7 +4,7 @@ from rules import *
 
 I = json.load(open('../items.json'))
 D = json.load(open('pools.json'))
-VERSION = 'v2.1'
+VERSION = 'v2.2'
 PRIORITY = ['PVE','PVP','ELEM','ABTY','UTLY','JKPT']  # Paul's tie order (2026-10-25); also note tag order
 DMG = {1:'kinetic',2:'arc',3:'solar',4:'void',6:'stasis',7:'strand'}
 PARTCATS = {'barrels','magazines','tubes','magazines_gl','batteries','blades','guards','bowstrings','arrows',
