@@ -113,3 +113,9 @@ NEG_GOOD = {'Charge Time','Draw Time'}
 # Stats to judge deficiency by weapon class
 DEFSTATS = ['Range','Stability','Handling','Reload Speed','Aim Assistance','Velocity','Blast Radius','Accuracy','Swing Speed','Guard Resistance','Charge Rate','Guard Endurance','Shield Duration']
 BANNED_PARTS = {'Full Choke','Jagged Edge'}
+
+# Owner overrides: extra targets for one weapon, added when both traits are in a variant's pool.
+# {name: {CAT: [(trait_a, trait_b)]}}
+OVERRIDES = {
+ 'Doomsday': {'PVE': [('Auto-Loading Holster','Explosive Light')]},  # Paul 2026-10-27, triage ruling
+}
