@@ -1,5 +1,5 @@
 {
- "version": "v2.5",
+ "version": "v2.6",
  "priority": [
   "PVE",
   "PVP",
@@ -31853,6 +31853,291 @@
        ],
        [
         2048641572
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Accurized Rounds",
+        "Light Mag",
+        "Ricochet Rounds"
+       ]
+      ]
+     }
+    },
+    "ABTY": {
+     "Demolitionist + Desperate Measures": {
+      "traits": [
+       [
+        "Demolitionist"
+       ],
+       [
+        "Desperate Measures"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        3523296417
+       ],
+       [
+        2109543898
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Accurized Rounds",
+        "Light Mag",
+        "Ricochet Rounds"
+       ]
+      ]
+     }
+    }
+   }
+  },
+  "Hailing Confusion": {
+   "type": "Pulse Rifle",
+   "frame": "Adaptive Frame",
+   "element": "kinetic",
+   "weak": [
+    "Range",
+    "Handling"
+   ],
+   "variants": [
+    2870169846,
+    4236134153
+   ],
+   "picks": {
+    "PVE": [
+     "Headstone + Crystalline Corpsebloom",
+     "Outlaw + Demolitionist"
+    ],
+    "PVP": [
+     "Slideways + Quickdraw",
+     "Zen Moment + Headseeker"
+    ],
+    "UTLY": [
+     "Slideways + Wellspring"
+    ],
+    "ELEM": [
+     "Headstone + Crystalline Corpsebloom",
+     "Rimestealer + Crystalline Corpsebloom"
+    ],
+    "ABTY": [
+     "Demolitionist + Desperate Measures"
+    ]
+   },
+   "targets": {
+    "PVE": {
+     "Outlaw + Demolitionist": {
+      "traits": [
+       [
+        "Outlaw"
+       ],
+       [
+        "Demolitionist"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        1168162263
+       ],
+       [
+        3523296417
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Accurized Rounds",
+        "Light Mag",
+        "Ricochet Rounds"
+       ]
+      ]
+     },
+     "Headstone + Crystalline Corpsebloom": {
+      "traits": [
+       [
+        "Headstone"
+       ],
+       [
+        "Crystalline Corpsebloom"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        124408337
+       ],
+       [
+        2922950962
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Accurized Rounds",
+        "Light Mag",
+        "Ricochet Rounds"
+       ]
+      ]
+     }
+    },
+    "PVP": {
+     "Slideways + Quickdraw": {
+      "traits": [
+       [
+        "Slideways"
+       ],
+       [
+        "Quickdraw"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        2039302152
+       ],
+       [
+        706527188
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Accurized Rounds",
+        "Light Mag",
+        "Ricochet Rounds"
+       ]
+      ]
+     },
+     "Zen Moment + Headseeker": {
+      "traits": [
+       [
+        "Zen Moment"
+       ],
+       [
+        "Headseeker"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        2387244414
+       ],
+       [
+        460017080
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Accurized Rounds",
+        "Light Mag",
+        "Ricochet Rounds"
+       ]
+      ]
+     }
+    },
+    "UTLY": {
+     "Slideways + Wellspring": {
+      "traits": [
+       [
+        "Slideways"
+       ],
+       [
+        "Wellspring"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        2039302152
+       ],
+       [
+        3592538738
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Accurized Rounds",
+        "Light Mag",
+        "Ricochet Rounds"
+       ]
+      ]
+     }
+    },
+    "ELEM": {
+     "Rimestealer + Crystalline Corpsebloom": {
+      "traits": [
+       [
+        "Rimestealer"
+       ],
+       [
+        "Crystalline Corpsebloom"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        1955165503
+       ],
+       [
+        2922950962
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Accurized Rounds",
+        "Light Mag",
+        "Ricochet Rounds"
+       ]
+      ]
+     },
+     "Headstone + Crystalline Corpsebloom": {
+      "traits": [
+       [
+        "Headstone"
+       ],
+       [
+        "Crystalline Corpsebloom"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        124408337
+       ],
+       [
+        2922950962
        ]
       ],
       "parts": [
