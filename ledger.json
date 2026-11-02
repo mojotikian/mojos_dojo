@@ -1,5 +1,5 @@
 {
- "version": "v2.7",
+ "version": "v2.8",
  "priority": [
   "PVE",
   "PVP",
@@ -8323,6 +8323,284 @@
     }
    }
   },
+  "Aurvandil FR6": {
+   "type": "Fusion Rifle",
+   "frame": "High-Impact Frame",
+   "element": "stasis",
+   "weak": [
+    "Handling",
+    "Reload Speed"
+   ],
+   "variants": [
+    963710795,
+    3786215462
+   ],
+   "picks": {
+    "PVE": [
+     "Stats for All + One for All"
+    ],
+    "PVP": [
+     "Slideways + Chill Clip"
+    ],
+    "UTLY": [
+     "Reconstruction + Demolitionist"
+    ]
+   },
+   "targets": {
+    "PVE": {
+     "Stats for All + One for All": {
+      "traits": [
+       [
+        "Stats for All"
+       ],
+       [
+        "One for All"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        1583705720
+       ],
+       [
+        4049631843
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Enhanced Battery",
+        "Particle Repeater",
+        "Projection Fuse"
+       ]
+      ]
+     }
+    },
+    "PVP": {
+     "Slideways + Chill Clip": {
+      "traits": [
+       [
+        "Slideways"
+       ],
+       [
+        "Chill Clip"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        2039302152
+       ],
+       [
+        2978966579
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Enhanced Battery",
+        "Particle Repeater",
+        "Projection Fuse"
+       ]
+      ]
+     }
+    },
+    "UTLY": {
+     "Reconstruction + Demolitionist": {
+      "traits": [
+       [
+        "Reconstruction"
+       ],
+       [
+        "Demolitionist"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        1523832109
+       ],
+       [
+        3523296417
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Enhanced Battery",
+        "Particle Repeater",
+        "Projection Fuse"
+       ]
+      ]
+     }
+    }
+   }
+  },
+  "Axial Lacuna": {
+   "type": "Fusion Rifle",
+   "frame": "Precision Frame",
+   "element": "solar",
+   "weak": [
+    "Reload Speed",
+    "Handling"
+   ],
+   "variants": [
+    3867373351
+   ],
+   "picks": {
+    "PVE": [
+     "Demolitionist + Frenzy"
+    ],
+    "PVP": [
+     "Threat Detector + Closing Time"
+    ],
+    "ELEM": [
+     "Heal Clip + Incandescent"
+    ],
+    "ABTY": [
+     "Demolitionist + Desperate Measures"
+    ]
+   },
+   "targets": {
+    "PVE": {
+     "Demolitionist + Frenzy": {
+      "traits": [
+       [
+        "Demolitionist"
+       ],
+       [
+        "Frenzy"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        3523296417
+       ],
+       [
+        4104185692
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Enhanced Battery",
+        "Particle Repeater",
+        "Projection Fuse"
+       ]
+      ]
+     }
+    },
+    "PVP": {
+     "Threat Detector + Closing Time": {
+      "traits": [
+       [
+        "Threat Detector"
+       ],
+       [
+        "Closing Time"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        4071163871
+       ],
+       [
+        1194056669
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Enhanced Battery",
+        "Particle Repeater",
+        "Projection Fuse"
+       ]
+      ]
+     }
+    },
+    "ELEM": {
+     "Heal Clip + Incandescent": {
+      "traits": [
+       [
+        "Heal Clip"
+       ],
+       [
+        "Incandescent"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        3017780555
+       ],
+       [
+        4293542123
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Enhanced Battery",
+        "Particle Repeater",
+        "Projection Fuse"
+       ]
+      ]
+     }
+    },
+    "ABTY": {
+     "Demolitionist + Desperate Measures": {
+      "traits": [
+       [
+        "Demolitionist"
+       ],
+       [
+        "Desperate Measures"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        3523296417
+       ],
+       [
+        2109543898
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Enhanced Battery",
+        "Particle Repeater",
+        "Projection Fuse"
+       ]
+      ]
+     }
+    }
+   }
+  },
   "Cartesian Coordinate": {
    "type": "Fusion Rifle",
    "frame": "Rapid-Fire Frame",
@@ -13962,6 +14240,127 @@
     }
    }
   },
+  "Interference VI": {
+   "type": "Grenade Launcher",
+   "frame": "Adaptive Frame",
+   "element": "arc",
+   "weak": [
+    "Velocity",
+    "Stability"
+   ],
+   "variants": [
+    2257180473
+   ],
+   "picks": {
+    "PVE": [
+     "Auto-Loading Holster + Demolitionist"
+    ],
+    "PVP": [
+     "Field Prep + Threat Detector"
+    ],
+    "UTLY": [
+     "Field Prep + Demolitionist"
+    ]
+   },
+   "targets": {
+    "PVE": {
+     "Auto-Loading Holster + Demolitionist": {
+      "traits": [
+       [
+        "Auto-Loading Holster"
+       ],
+       [
+        "Demolitionist"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        3300816228
+       ],
+       [
+        3523296417
+       ]
+      ],
+      "parts": [
+       [
+        "Countermass",
+        "Quick Launch",
+        "Smart Drift Control"
+       ],
+       [
+        "High-Velocity Rounds",
+        "Spike Grenades",
+        "Thermoplastic Grenades"
+       ]
+      ]
+     }
+    },
+    "PVP": {
+     "Field Prep + Threat Detector": {
+      "traits": [
+       [
+        "Field Prep"
+       ],
+       [
+        "Threat Detector"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        2869569095
+       ],
+       [
+        4071163871
+       ]
+      ],
+      "parts": [
+       [
+        "Countermass",
+        "Quick Launch",
+        "Smart Drift Control"
+       ],
+       [
+        "High-Velocity Rounds",
+        "Spike Grenades",
+        "Thermoplastic Grenades"
+       ]
+      ]
+     }
+    },
+    "UTLY": {
+     "Field Prep + Demolitionist": {
+      "traits": [
+       [
+        "Field Prep"
+       ],
+       [
+        "Demolitionist"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        2869569095
+       ],
+       [
+        3523296417
+       ]
+      ],
+      "parts": [
+       [
+        "Countermass",
+        "Quick Launch",
+        "Smart Drift Control"
+       ],
+       [
+        "High-Velocity Rounds",
+        "Spike Grenades",
+        "Thermoplastic Grenades"
+       ]
+      ]
+     }
+    }
+   }
+  },
   "Liturgy": {
    "type": "Grenade Launcher",
    "frame": "Double Fire",
@@ -17347,6 +17746,222 @@
         "Corkscrew Rifling",
         "Hammer-Forged Rifling",
         "Smallbore"
+       ],
+       [
+        "Drop Mag",
+        "Flared Magwell"
+       ]
+      ]
+     }
+    }
+   }
+  },
+  "Bold Endings": {
+   "type": "Hand Cannon",
+   "frame": "Heavy Burst",
+   "element": "stasis",
+   "weak": [
+    "Handling",
+    "Reload Speed"
+   ],
+   "variants": [
+    496728945
+   ],
+   "picks": {
+    "PVE": [
+     "Headstone + Golden Tricorn"
+    ],
+    "PVP": [
+     "Opening Shot + Moving Target"
+    ],
+    "ELEM": [
+     "Headstone + Crystalline Corpsebloom",
+     "Rimestealer + Crystalline Corpsebloom"
+    ],
+    "ABTY": [
+     "Strategist + Golden Tricorn"
+    ],
+    "UTLY": [
+     "Attrition Orbs + Demolitionist"
+    ]
+   },
+   "targets": {
+    "PVE": {
+     "Headstone + Golden Tricorn": {
+      "traits": [
+       [
+        "Headstone"
+       ],
+       [
+        "Golden Tricorn"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        124408337
+       ],
+       [
+        2610012052
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Drop Mag",
+        "Flared Magwell"
+       ]
+      ]
+     }
+    },
+    "PVP": {
+     "Opening Shot + Moving Target": {
+      "traits": [
+       [
+        "Opening Shot"
+       ],
+       [
+        "Moving Target"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        47981717
+       ],
+       [
+        588594999
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Drop Mag",
+        "Flared Magwell"
+       ]
+      ]
+     }
+    },
+    "ELEM": {
+     "Rimestealer + Crystalline Corpsebloom": {
+      "traits": [
+       [
+        "Rimestealer"
+       ],
+       [
+        "Crystalline Corpsebloom"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        1955165503
+       ],
+       [
+        2922950962
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Drop Mag",
+        "Flared Magwell"
+       ]
+      ]
+     },
+     "Headstone + Crystalline Corpsebloom": {
+      "traits": [
+       [
+        "Headstone"
+       ],
+       [
+        "Crystalline Corpsebloom"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        124408337
+       ],
+       [
+        2922950962
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Drop Mag",
+        "Flared Magwell"
+       ]
+      ]
+     }
+    },
+    "ABTY": {
+     "Strategist + Golden Tricorn": {
+      "traits": [
+       [
+        "Strategist"
+       ],
+       [
+        "Golden Tricorn"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        880644845
+       ],
+       [
+        2610012052
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Drop Mag",
+        "Flared Magwell"
+       ]
+      ]
+     }
+    },
+    "UTLY": {
+     "Attrition Orbs + Demolitionist": {
+      "traits": [
+       [
+        "Attrition Orbs"
+       ],
+       [
+        "Demolitionist"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        243981275
+       ],
+       [
+        3523296417
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
        ],
        [
         "Drop Mag",
@@ -25033,6 +25648,92 @@
        ],
        [
         1354429876
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Enhanced Battery",
+        "Particle Repeater",
+        "Projection Fuse"
+       ]
+      ]
+     }
+    }
+   }
+  },
+  "Threaded Needle": {
+   "type": "Linear Fusion Rifle",
+   "frame": "Precision Frame",
+   "element": "void",
+   "weak": [
+    "Reload Speed",
+    "Handling"
+   ],
+   "variants": [
+    3075224551
+   ],
+   "picks": {
+    "PVE": [
+     "Clown Cartridge + Demolitionist"
+    ],
+    "UTLY": [
+     "Field Prep + Demolitionist"
+    ]
+   },
+   "targets": {
+    "PVE": {
+     "Clown Cartridge + Demolitionist": {
+      "traits": [
+       [
+        "Clown Cartridge"
+       ],
+       [
+        "Demolitionist"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        2284787283
+       ],
+       [
+        3523296417
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Enhanced Battery",
+        "Particle Repeater",
+        "Projection Fuse"
+       ]
+      ]
+     }
+    },
+    "UTLY": {
+     "Field Prep + Demolitionist": {
+      "traits": [
+       [
+        "Field Prep"
+       ],
+       [
+        "Demolitionist"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        2869569095
+       ],
+       [
+        3523296417
        ]
       ],
       "parts": [
@@ -33648,6 +34349,128 @@
     }
    }
   },
+  "Ogma PR6": {
+   "type": "Pulse Rifle",
+   "frame": "Lightweight Frame",
+   "element": "solar",
+   "weak": [
+    "Range",
+    "Stability"
+   ],
+   "variants": [
+    2342054803,
+    324584912
+   ],
+   "picks": {
+    "PVE": [
+     "Stats for All + One for All"
+    ],
+    "PVP": [
+     "Perpetual Motion + Turnabout"
+    ],
+    "UTLY": [
+     "Perpetual Motion + Wellspring"
+    ]
+   },
+   "targets": {
+    "PVE": {
+     "Stats for All + One for All": {
+      "traits": [
+       [
+        "Stats for All"
+       ],
+       [
+        "One for All"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        1583705720
+       ],
+       [
+        4049631843
+       ]
+      ],
+      "parts": [
+       [
+        "Corkscrew Rifling",
+        "Hammer-Forged Rifling",
+        "Smallbore"
+       ],
+       [
+        "Accurized Rounds",
+        "Assault Mag",
+        "Ricochet Rounds"
+       ]
+      ]
+     }
+    },
+    "PVP": {
+     "Perpetual Motion + Turnabout": {
+      "traits": [
+       [
+        "Perpetual Motion"
+       ],
+       [
+        "Turnabout"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        1428297954
+       ],
+       [
+        2209918983
+       ]
+      ],
+      "parts": [
+       [
+        "Corkscrew Rifling",
+        "Hammer-Forged Rifling",
+        "Smallbore"
+       ],
+       [
+        "Accurized Rounds",
+        "Assault Mag",
+        "Ricochet Rounds"
+       ]
+      ]
+     }
+    },
+    "UTLY": {
+     "Perpetual Motion + Wellspring": {
+      "traits": [
+       [
+        "Perpetual Motion"
+       ],
+       [
+        "Wellspring"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        1428297954
+       ],
+       [
+        3592538738
+       ]
+      ],
+      "parts": [
+       [
+        "Corkscrew Rifling",
+        "Hammer-Forged Rifling",
+        "Smallbore"
+       ],
+       [
+        "Accurized Rounds",
+        "Assault Mag",
+        "Ricochet Rounds"
+       ]
+      ]
+     }
+    }
+   }
+  },
   "Phyllotactic Spiral": {
    "type": "Pulse Rifle",
    "frame": "High-Impact Frame",
@@ -40055,6 +40878,91 @@
     }
    }
   },
+  "Live Fire": {
+   "type": "Scout Rifle",
+   "frame": "Precision Frame",
+   "element": "stasis",
+   "weak": [
+    "Reload Speed",
+    "Range"
+   ],
+   "variants": [
+    3612142623,
+    3156551031
+   ],
+   "picks": {
+    "PVE": [
+     "Subsistence + Headstone"
+    ],
+    "ELEM": [
+     "Rimestealer + Headstone"
+    ]
+   },
+   "targets": {
+    "PVE": {
+     "Subsistence + Headstone": {
+      "traits": [
+       [
+        "Subsistence"
+       ],
+       [
+        "Headstone"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        1820235745
+       ],
+       [
+        124408337
+       ]
+      ],
+      "parts": [
+       [
+        "Corkscrew Rifling",
+        "Hammer-Forged Rifling",
+        "Smallbore"
+       ],
+       [
+        "Drop Mag",
+        "Flared Magwell"
+       ]
+      ]
+     }
+    },
+    "ELEM": {
+     "Rimestealer + Headstone": {
+      "traits": [
+       [
+        "Rimestealer"
+       ],
+       [
+        "Headstone"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        1955165503
+       ],
+       [
+        124408337
+       ]
+      ],
+      "parts": [
+       [
+        "Corkscrew Rifling",
+        "Hammer-Forged Rifling",
+        "Smallbore"
+       ],
+       [
+        "Drop Mag",
+        "Flared Magwell"
+       ]
+      ]
+     }
+    }
+   }
+  },
   "Long Arm": {
    "type": "Scout Rifle",
    "frame": "Aggressive Frame",
@@ -40868,6 +41776,125 @@
         "Accurized Rounds",
         "Light Mag",
         "Ricochet Rounds"
+       ]
+      ]
+     }
+    }
+   }
+  },
+  "Patron of Lost Causes": {
+   "type": "Scout Rifle",
+   "frame": "Lightweight Frame",
+   "element": "kinetic",
+   "weak": [
+    "Stability",
+    "Range"
+   ],
+   "variants": [
+    2723241847,
+    2249996761,
+    3156551030
+   ],
+   "picks": {
+    "PVE": [
+     "Grave Robber + Vorpal Weapon",
+     "Triple Tap + Focused Fury"
+    ],
+    "PVP": [
+     "Pulse Monitor + Opening Shot"
+    ]
+   },
+   "targets": {
+    "PVE": {
+     "Grave Robber + Vorpal Weapon": {
+      "traits": [
+       [
+        "Grave Robber"
+       ],
+       [
+        "Vorpal Weapon"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        1631667848
+       ],
+       [
+        1546637391
+       ]
+      ],
+      "parts": [
+       [
+        "Corkscrew Rifling",
+        "Hammer-Forged Rifling",
+        "Smallbore"
+       ],
+       [
+        "Accurized Rounds",
+        "Ricochet Rounds",
+        "Tactical Mag"
+       ]
+      ]
+     },
+     "Triple Tap + Focused Fury": {
+      "traits": [
+       [
+        "Triple Tap"
+       ],
+       [
+        "Focused Fury"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        3400784728
+       ],
+       [
+        2896038713
+       ]
+      ],
+      "parts": [
+       [
+        "Corkscrew Rifling",
+        "Hammer-Forged Rifling",
+        "Smallbore"
+       ],
+       [
+        "Accurized Rounds",
+        "Ricochet Rounds",
+        "Tactical Mag"
+       ]
+      ]
+     }
+    },
+    "PVP": {
+     "Pulse Monitor + Opening Shot": {
+      "traits": [
+       [
+        "Pulse Monitor"
+       ],
+       [
+        "Opening Shot"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        205890336
+       ],
+       [
+        47981717
+       ]
+      ],
+      "parts": [
+       [
+        "Corkscrew Rifling",
+        "Hammer-Forged Rifling",
+        "Smallbore"
+       ],
+       [
+        "Accurized Rounds",
+        "Ricochet Rounds",
+        "Tactical Mag"
        ]
       ]
      }
@@ -43402,6 +44429,128 @@
        [
         "Assault Mag",
         "Flared Magwell",
+        "Tactical Mag"
+       ]
+      ]
+     }
+    }
+   }
+  },
+  "Ded Gramarye IV": {
+   "type": "Shotgun",
+   "frame": "Lightweight Frame",
+   "element": "arc",
+   "weak": [
+    "Stability",
+    "Range"
+   ],
+   "variants": [
+    499245245,
+    870893339
+   ],
+   "picks": {
+    "PVE": [
+     "Stats for All + Golden Tricorn"
+    ],
+    "PVP": [
+     "Threat Detector + Disruption Break"
+    ],
+    "ELEM": [
+     "Eddy Current + Voltshot"
+    ]
+   },
+   "targets": {
+    "PVE": {
+     "Stats for All + Golden Tricorn": {
+      "traits": [
+       [
+        "Stats for All"
+       ],
+       [
+        "Golden Tricorn"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        1583705720
+       ],
+       [
+        2610012052
+       ]
+      ],
+      "parts": [
+       [
+        "Barrel Shroud",
+        "Smallbore",
+        "Smoothbore"
+       ],
+       [
+        "Accurized Rounds",
+        "Assault Mag",
+        "Tactical Mag"
+       ]
+      ]
+     }
+    },
+    "PVP": {
+     "Threat Detector + Disruption Break": {
+      "traits": [
+       [
+        "Threat Detector"
+       ],
+       [
+        "Disruption Break"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        4071163871
+       ],
+       [
+        1683379515
+       ]
+      ],
+      "parts": [
+       [
+        "Barrel Shroud",
+        "Smallbore",
+        "Smoothbore"
+       ],
+       [
+        "Accurized Rounds",
+        "Assault Mag",
+        "Tactical Mag"
+       ]
+      ]
+     }
+    },
+    "ELEM": {
+     "Eddy Current + Voltshot": {
+      "traits": [
+       [
+        "Eddy Current"
+       ],
+       [
+        "Voltshot"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        684456054
+       ],
+       [
+        2173046394
+       ]
+      ],
+      "parts": [
+       [
+        "Barrel Shroud",
+        "Smallbore",
+        "Smoothbore"
+       ],
+       [
+        "Accurized Rounds",
+        "Assault Mag",
         "Tactical Mag"
        ]
       ]
@@ -45955,6 +47104,162 @@
     }
    }
   },
+  "Someday": {
+   "type": "Shotgun",
+   "frame": "Precision Frame",
+   "element": "kinetic",
+   "weak": [
+    "Handling",
+    "Stability"
+   ],
+   "variants": [
+    3232203524
+   ],
+   "picks": {
+    "PVE": [
+     "One-Two Punch + Collective Action"
+    ],
+    "PVP": [
+     "Threat Detector + Opening Shot"
+    ],
+    "ELEM": [
+     "Elemental Capacitor + Collective Action"
+    ],
+    "ABTY": [
+     "One-Two Punch + Swashbuckler"
+    ]
+   },
+   "targets": {
+    "PVE": {
+     "One-Two Punch + Collective Action": {
+      "traits": [
+       [
+        "One-Two Punch"
+       ],
+       [
+        "Collective Action"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        2679249093
+       ],
+       [
+        3324494224
+       ]
+      ],
+      "parts": [
+       [
+        "Barrel Shroud",
+        "Corkscrew Rifling",
+        "Smallbore"
+       ],
+       [
+        "Assault Mag",
+        "Flared Magwell",
+        "Tactical Mag"
+       ]
+      ]
+     }
+    },
+    "PVP": {
+     "Threat Detector + Opening Shot": {
+      "traits": [
+       [
+        "Threat Detector"
+       ],
+       [
+        "Opening Shot"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        4071163871
+       ],
+       [
+        47981717
+       ]
+      ],
+      "parts": [
+       [
+        "Barrel Shroud",
+        "Corkscrew Rifling",
+        "Smallbore"
+       ],
+       [
+        "Assault Mag",
+        "Flared Magwell",
+        "Tactical Mag"
+       ]
+      ]
+     }
+    },
+    "ELEM": {
+     "Elemental Capacitor + Collective Action": {
+      "traits": [
+       [
+        "Elemental Capacitor"
+       ],
+       [
+        "Collective Action"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        3511092054
+       ],
+       [
+        3324494224
+       ]
+      ],
+      "parts": [
+       [
+        "Barrel Shroud",
+        "Corkscrew Rifling",
+        "Smallbore"
+       ],
+       [
+        "Assault Mag",
+        "Flared Magwell",
+        "Tactical Mag"
+       ]
+      ]
+     }
+    },
+    "ABTY": {
+     "One-Two Punch + Swashbuckler": {
+      "traits": [
+       [
+        "One-Two Punch"
+       ],
+       [
+        "Swashbuckler"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        2679249093
+       ],
+       [
+        4082225868
+       ]
+      ],
+      "parts": [
+       [
+        "Barrel Shroud",
+        "Corkscrew Rifling",
+        "Smallbore"
+       ],
+       [
+        "Assault Mag",
+        "Flared Magwell",
+        "Tactical Mag"
+       ]
+      ]
+     }
+    }
+   }
+  },
   "Supercluster": {
    "type": "Shotgun",
    "frame": "Pinpoint Slug Frame",
@@ -47254,6 +48559,219 @@
     }
    }
   },
+  "Breachlight": {
+   "type": "Sidearm",
+   "frame": "Heavy Burst",
+   "element": "kinetic",
+   "weak": [
+    "Reload Speed",
+    "Handling"
+   ],
+   "variants": [
+    1289997971,
+    2328923181
+   ],
+   "picks": {
+    "PVE": [
+     "Demolitionist + Desperate Measures",
+     "Demolitionist + Rampage"
+    ],
+    "PVP": [
+     "Threat Detector + Quickdraw"
+    ],
+    "ELEM": [
+     "Slice + Hatchling"
+    ],
+    "ABTY": [
+     "Demolitionist + Desperate Measures",
+     "Pugilist + Swashbuckler"
+    ]
+   },
+   "targets": {
+    "PVE": {
+     "Demolitionist + Rampage": {
+      "traits": [
+       [
+        "Demolitionist"
+       ],
+       [
+        "Rampage"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        3523296417
+       ],
+       [
+        3425386926
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Drop Mag",
+        "Flared Magwell"
+       ]
+      ]
+     },
+     "Demolitionist + Desperate Measures": {
+      "traits": [
+       [
+        "Demolitionist"
+       ],
+       [
+        "Desperate Measures"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        3523296417
+       ],
+       [
+        2109543898
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Drop Mag",
+        "Flared Magwell"
+       ]
+      ]
+     }
+    },
+    "PVP": {
+     "Threat Detector + Quickdraw": {
+      "traits": [
+       [
+        "Threat Detector"
+       ],
+       [
+        "Quickdraw"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        4071163871
+       ],
+       [
+        706527188
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Drop Mag",
+        "Flared Magwell"
+       ]
+      ]
+     }
+    },
+    "ELEM": {
+     "Slice + Hatchling": {
+      "traits": [
+       [
+        "Slice"
+       ],
+       [
+        "Hatchling"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        923806249
+       ],
+       [
+        831391274
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Drop Mag",
+        "Flared Magwell"
+       ]
+      ]
+     }
+    },
+    "ABTY": {
+     "Demolitionist + Desperate Measures": {
+      "traits": [
+       [
+        "Demolitionist"
+       ],
+       [
+        "Desperate Measures"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        3523296417
+       ],
+       [
+        2109543898
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Drop Mag",
+        "Flared Magwell"
+       ]
+      ]
+     },
+     "Pugilist + Swashbuckler": {
+      "traits": [
+       [
+        "Pugilist"
+       ],
+       [
+        "Swashbuckler"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        691659142
+       ],
+       [
+        4082225868
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Drop Mag",
+        "Flared Magwell"
+       ]
+      ]
+     }
+    }
+   }
+  },
   "Buzzard": {
    "type": "Sidearm",
    "frame": "Adaptive Frame",
@@ -48214,6 +49732,127 @@
     }
    }
   },
+  "Faustus Decline": {
+   "type": "Sidearm",
+   "frame": "Lightweight Frame",
+   "element": "stasis",
+   "weak": [
+    "Range",
+    "Stability"
+   ],
+   "variants": [
+    1663482635
+   ],
+   "picks": {
+    "PVE": [
+     "Demolitionist + Headstone"
+    ],
+    "PVP": [
+     "Rangefinder + Snapshot Sights"
+    ],
+    "ELEM": [
+     "Rimestealer + Headstone"
+    ]
+   },
+   "targets": {
+    "PVE": {
+     "Demolitionist + Headstone": {
+      "traits": [
+       [
+        "Demolitionist"
+       ],
+       [
+        "Headstone"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        3523296417
+       ],
+       [
+        124408337
+       ]
+      ],
+      "parts": [
+       [
+        "Corkscrew Rifling",
+        "Hammer-Forged Rifling",
+        "Smallbore"
+       ],
+       [
+        "Accurized Rounds",
+        "Ricochet Rounds",
+        "Tactical Mag"
+       ]
+      ]
+     }
+    },
+    "PVP": {
+     "Rangefinder + Snapshot Sights": {
+      "traits": [
+       [
+        "Rangefinder"
+       ],
+       [
+        "Snapshot Sights"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        2846385770
+       ],
+       [
+        957782887
+       ]
+      ],
+      "parts": [
+       [
+        "Corkscrew Rifling",
+        "Hammer-Forged Rifling",
+        "Smallbore"
+       ],
+       [
+        "Accurized Rounds",
+        "Ricochet Rounds",
+        "Tactical Mag"
+       ]
+      ]
+     }
+    },
+    "ELEM": {
+     "Rimestealer + Headstone": {
+      "traits": [
+       [
+        "Rimestealer"
+       ],
+       [
+        "Headstone"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        1955165503
+       ],
+       [
+        124408337
+       ]
+      ],
+      "parts": [
+       [
+        "Corkscrew Rifling",
+        "Hammer-Forged Rifling",
+        "Smallbore"
+       ],
+       [
+        "Accurized Rounds",
+        "Ricochet Rounds",
+        "Tactical Mag"
+       ]
+      ]
+     }
+    }
+   }
+  },
   "Forgiveness": {
    "type": "Sidearm",
    "frame": "Heavy Burst",
@@ -48847,6 +50486,159 @@
         "Flared Magwell",
         "High-Velocity Rounds",
         "Tactical Mag"
+       ]
+      ]
+     }
+    }
+   }
+  },
+  "Insurmountable": {
+   "type": "Sidearm",
+   "frame": "Precision Frame",
+   "element": "void",
+   "weak": [
+    "Reload Speed",
+    "Handling"
+   ],
+   "variants": [
+    414045521,
+    2596736862
+   ],
+   "picks": {
+    "PVE": [
+     "Repulsor Brace + Destabilizing Rounds"
+    ],
+    "PVP": [
+     "Threat Detector + Closing Time"
+    ],
+    "ELEM": [
+     "Repulsor Brace + Destabilizing Rounds"
+    ],
+    "ABTY": [
+     "Demolitionist + Desperate Measures"
+    ]
+   },
+   "targets": {
+    "PVE": {
+     "Repulsor Brace + Destabilizing Rounds": {
+      "traits": [
+       [
+        "Repulsor Brace"
+       ],
+       [
+        "Destabilizing Rounds"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        776531651
+       ],
+       [
+        2048641572
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Drop Mag",
+        "Flared Magwell"
+       ]
+      ]
+     }
+    },
+    "PVP": {
+     "Threat Detector + Closing Time": {
+      "traits": [
+       [
+        "Threat Detector"
+       ],
+       [
+        "Closing Time"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        4071163871
+       ],
+       [
+        1194056669
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Drop Mag",
+        "Flared Magwell"
+       ]
+      ]
+     }
+    },
+    "ELEM": {
+     "Repulsor Brace + Destabilizing Rounds": {
+      "traits": [
+       [
+        "Repulsor Brace"
+       ],
+       [
+        "Destabilizing Rounds"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        776531651
+       ],
+       [
+        2048641572
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Drop Mag",
+        "Flared Magwell"
+       ]
+      ]
+     }
+    },
+    "ABTY": {
+     "Demolitionist + Desperate Measures": {
+      "traits": [
+       [
+        "Demolitionist"
+       ],
+       [
+        "Desperate Measures"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        3523296417
+       ],
+       [
+        2109543898
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Drop Mag",
+        "Flared Magwell"
        ]
       ]
      }
@@ -50997,6 +52789,279 @@
     }
    }
   },
+  "Distant Tumulus": {
+   "type": "Sniper Rifle",
+   "frame": "Rapid-Fire Frame",
+   "element": "solar",
+   "weak": [
+    "Range",
+    "Stability"
+   ],
+   "variants": [
+    2807687156
+   ],
+   "picks": {
+    "PVE": [
+     "Clown Cartridge + Firing Line"
+    ],
+    "PVP": [
+     "Pulse Monitor + Opening Shot"
+    ]
+   },
+   "targets": {
+    "PVE": {
+     "Clown Cartridge + Firing Line": {
+      "traits": [
+       [
+        "Clown Cartridge"
+       ],
+       [
+        "Firing Line"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        2284787283
+       ],
+       [
+        1771339417
+       ]
+      ],
+      "parts": [
+       [
+        "Corkscrew Rifling",
+        "Hammer-Forged Rifling",
+        "Smallbore"
+       ],
+       [
+        "Accurized Rounds",
+        "Flared Magwell",
+        "Tactical Mag"
+       ]
+      ]
+     }
+    },
+    "PVP": {
+     "Pulse Monitor + Opening Shot": {
+      "traits": [
+       [
+        "Pulse Monitor"
+       ],
+       [
+        "Opening Shot"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        972757866
+       ],
+       [
+        47981717
+       ]
+      ],
+      "parts": [
+       [
+        "Corkscrew Rifling",
+        "Hammer-Forged Rifling",
+        "Smallbore"
+       ],
+       [
+        "Accurized Rounds",
+        "Flared Magwell",
+        "Tactical Mag"
+       ]
+      ]
+     }
+    }
+   }
+  },
+  "Embraced Identity": {
+   "type": "Sniper Rifle",
+   "frame": "Adaptive Frame",
+   "element": "void",
+   "weak": [
+    "Reload Speed",
+    "Stability"
+   ],
+   "variants": [
+    2821677368
+   ],
+   "picks": {
+    "PVE": [
+     "Destabilizing Rounds + Precision Instrument"
+    ],
+    "PVP": [
+     "Opening Shot + Moving Target"
+    ],
+    "ELEM": [
+     "Destabilizing Rounds + Elemental Capacitor",
+     "Destabilizing Rounds + Elemental Honing"
+    ],
+    "UTLY": [
+     "Attrition Orbs + Fourth Time's the Charm"
+    ]
+   },
+   "targets": {
+    "PVE": {
+     "Destabilizing Rounds + Precision Instrument": {
+      "traits": [
+       [
+        "Destabilizing Rounds"
+       ],
+       [
+        "Precision Instrument"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        2048641572
+       ],
+       [
+        555281244
+       ]
+      ],
+      "parts": [
+       [
+        "Fluted Barrel",
+        "Polygonal Rifling",
+        "Smallbore"
+       ],
+       [
+        "Appended Mag",
+        "Flared Magwell",
+        "Tactical Mag"
+       ]
+      ]
+     }
+    },
+    "PVP": {
+     "Opening Shot + Moving Target": {
+      "traits": [
+       [
+        "Opening Shot"
+       ],
+       [
+        "Moving Target"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        47981717
+       ],
+       [
+        588594999
+       ]
+      ],
+      "parts": [
+       [
+        "Fluted Barrel",
+        "Polygonal Rifling",
+        "Smallbore"
+       ],
+       [
+        "Appended Mag",
+        "Flared Magwell",
+        "Tactical Mag"
+       ]
+      ]
+     }
+    },
+    "ELEM": {
+     "Destabilizing Rounds + Elemental Honing": {
+      "traits": [
+       [
+        "Destabilizing Rounds"
+       ],
+       [
+        "Elemental Honing"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        2048641572
+       ],
+       [
+        1089671869
+       ]
+      ],
+      "parts": [
+       [
+        "Fluted Barrel",
+        "Polygonal Rifling",
+        "Smallbore"
+       ],
+       [
+        "Appended Mag",
+        "Flared Magwell",
+        "Tactical Mag"
+       ]
+      ]
+     },
+     "Destabilizing Rounds + Elemental Capacitor": {
+      "traits": [
+       [
+        "Destabilizing Rounds"
+       ],
+       [
+        "Elemental Capacitor"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        2048641572
+       ],
+       [
+        3511092054
+       ]
+      ],
+      "parts": [
+       [
+        "Fluted Barrel",
+        "Polygonal Rifling",
+        "Smallbore"
+       ],
+       [
+        "Appended Mag",
+        "Flared Magwell",
+        "Tactical Mag"
+       ]
+      ]
+     }
+    },
+    "UTLY": {
+     "Attrition Orbs + Fourth Time's the Charm": {
+      "traits": [
+       [
+        "Attrition Orbs"
+       ],
+       [
+        "Fourth Time's the Charm"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        243981275
+       ],
+       [
+        1354429876
+       ]
+      ],
+      "parts": [
+       [
+        "Fluted Barrel",
+        "Polygonal Rifling",
+        "Smallbore"
+       ],
+       [
+        "Appended Mag",
+        "Flared Magwell",
+        "Tactical Mag"
+       ]
+      ]
+     }
+    }
+   }
+  },
   "Frozen Orbit": {
    "type": "Sniper Rifle",
    "frame": "Aggressive Frame",
@@ -53021,6 +55086,92 @@
        [
         "Drop Mag",
         "Flared Magwell"
+       ]
+      ]
+     }
+    }
+   }
+  },
+  "Shoreline Dissident": {
+   "type": "Sniper Rifle",
+   "frame": "Rapid-Fire Frame",
+   "element": "void",
+   "weak": [
+    "Range",
+    "Stability"
+   ],
+   "variants": [
+    1193318082
+   ],
+   "picks": {
+    "PVE": [
+     "Outlaw + Destabilizing Rounds"
+    ],
+    "PVP": [
+     "Lone Wolf + Closing Time"
+    ]
+   },
+   "targets": {
+    "PVE": {
+     "Outlaw + Destabilizing Rounds": {
+      "traits": [
+       [
+        "Outlaw"
+       ],
+       [
+        "Destabilizing Rounds"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        1168162263
+       ],
+       [
+        2048641572
+       ]
+      ],
+      "parts": [
+       [
+        "Corkscrew Rifling",
+        "Hammer-Forged Rifling",
+        "Smallbore"
+       ],
+       [
+        "Accurized Rounds",
+        "Flared Magwell",
+        "Tactical Mag"
+       ]
+      ]
+     }
+    },
+    "PVP": {
+     "Lone Wolf + Closing Time": {
+      "traits": [
+       [
+        "Lone Wolf"
+       ],
+       [
+        "Closing Time"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        2579169598
+       ],
+       [
+        1194056669
+       ]
+      ],
+      "parts": [
+       [
+        "Corkscrew Rifling",
+        "Hammer-Forged Rifling",
+        "Smallbore"
+       ],
+       [
+        "Accurized Rounds",
+        "Flared Magwell",
+        "Tactical Mag"
        ]
       ]
      }
@@ -57886,6 +60037,90 @@
     }
    }
   },
+  "Rapacious Appetite": {
+   "type": "Submachine Gun",
+   "frame": "Aggressive Frame",
+   "element": "stasis",
+   "weak": [
+    "Stability",
+    "Reload Speed"
+   ],
+   "variants": [
+    1081724548
+   ],
+   "picks": {
+    "PVE": [
+     "Envious Assassin + One for All"
+    ],
+    "PVP": [
+     "Perpetual Motion + Target Lock"
+    ]
+   },
+   "targets": {
+    "PVE": {
+     "Envious Assassin + One for All": {
+      "traits": [
+       [
+        "Envious Assassin"
+       ],
+       [
+        "One for All"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        968510818
+       ],
+       [
+        4049631843
+       ]
+      ],
+      "parts": [
+       [
+        "Fluted Barrel",
+        "Polygonal Rifling",
+        "Smallbore"
+       ],
+       [
+        "Drop Mag",
+        "Flared Magwell"
+       ]
+      ]
+     }
+    },
+    "PVP": {
+     "Perpetual Motion + Target Lock": {
+      "traits": [
+       [
+        "Perpetual Motion"
+       ],
+       [
+        "Target Lock"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        1428297954
+       ],
+       [
+        365154968
+       ]
+      ],
+      "parts": [
+       [
+        "Fluted Barrel",
+        "Polygonal Rifling",
+        "Smallbore"
+       ],
+       [
+        "Drop Mag",
+        "Flared Magwell"
+       ]
+      ]
+     }
+    }
+   }
+  },
   "Seraphine Haze": {
    "type": "Submachine Gun",
    "frame": "Aggressive Frame",
@@ -60686,6 +62921,50 @@
        ],
        [
         "Enduring Guard"
+       ]
+      ]
+     }
+    }
+   }
+  },
+  "Eternity's Edge": {
+   "type": "Sword",
+   "frame": "Vortex Frame",
+   "element": "solar",
+   "weak": [
+    "Charge Rate",
+    "Swing Speed"
+   ],
+   "variants": [
+    2782325301
+   ],
+   "picks": {
+    "PVE": [
+     "Tireless Blade + Whirlwind Blade"
+    ]
+   },
+   "targets": {
+    "PVE": {
+     "Tireless Blade + Whirlwind Blade": {
+      "traits": [
+       [
+        "Tireless Blade"
+       ],
+       [
+        "Whirlwind Blade"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        2590710093
+       ],
+       [
+        3913600130
+       ]
+      ],
+      "parts": [
+       [
+        "Tempered Edge"
        ]
       ]
      }
