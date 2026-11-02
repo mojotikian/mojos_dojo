@@ -4,7 +4,7 @@ from rules import *
 
 I = json.load(open('../items.json'))
 D = json.load(open('pools.json'))
-VERSION = 'v2.8'
+VERSION = 'v2.9'
 PRIORITY = ['PVE','PVP','ELEM','ABTY','UTLY','JKPT']  # Paul's tie order (2026-10-25); also note tag order
 DMG = {1:'kinetic',2:'arc',3:'solar',4:'void',6:'stasis',7:'strand'}
 PARTCATS = {'barrels','magazines','tubes','magazines_gl','batteries','blades','guards','bowstrings','arrows',
@@ -100,6 +100,12 @@ def choose(w):
             for a, b in P:
                 if {a['n'], b['n']} == {x, y} and (a, b) not in res.get(cat, []):
                     res.setdefault(cat, []).append((a, b))
+    for cat, anchors in TYPE_ANCHORS.get(wt, {}).items():
+        for t in anchors:
+            cand = [(a, b) for a, b in P if t in (a['n'], b['n'])]
+            if not cand: continue
+            a, b = max(cand, key=lambda p: g(p[0]['n'],1)+g(p[1]['n'],1)+PVE_PAIRS.get(frozenset([p[0]['n'],p[1]['n']]),0))
+            if (a, b) not in res.get(cat, []): res.setdefault(cat, []).append((a, b))
     return res
 
 def lines_for(h, w, tag, pair, jackpot):

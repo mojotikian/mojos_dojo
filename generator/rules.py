@@ -119,3 +119,9 @@ BANNED_PARTS = {'Full Choke','Jagged Edge'}
 OVERRIDES = {
  'Doomsday': {'PVE': [('Auto-Loading Holster','Explosive Light')]},  # Paul 2026-10-27, triage ruling
 }
+
+# Owner anchors: a trait Paul wants on every weapon of a type that can roll it. For each anchor in a
+# variant's pool, add the best PVE-scored pair containing it to that category. {type: {CAT: [trait]}}
+TYPE_ANCHORS = {
+ 'Sword': {'PVE': ['Flash Counter']},  # Paul 2026-11-02: favorite sword perk; pairs with Stronghold guard play
+}

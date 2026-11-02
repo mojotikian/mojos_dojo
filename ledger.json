@@ -1,5 +1,5 @@
 {
- "version": "v2.8",
+ "version": "v2.9",
  "priority": [
   "PVE",
   "PVP",
@@ -62243,6 +62243,7 @@
    "picks": {
     "PVE": [
      "Duelist's Trance + Incandescent",
+     "Relentless Strikes + Flash Counter",
      "Relentless Strikes + Whirlwind Blade"
     ],
     "UTLY": [
@@ -62266,6 +62267,32 @@
        ],
        [
         3913600130
+       ]
+      ],
+      "parts": [
+       [
+        "Tempered Edge"
+       ],
+       [
+        "Enduring Guard"
+       ]
+      ]
+     },
+     "Relentless Strikes + Flash Counter": {
+      "traits": [
+       [
+        "Relentless Strikes"
+       ],
+       [
+        "Flash Counter"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        1749209109
+       ],
+       [
+        2244851822
        ]
       ],
       "parts": [
@@ -62351,7 +62378,8 @@
    ],
    "picks": {
     "PVE": [
-     "Duelist's Trance + Hatchling"
+     "Duelist's Trance + Hatchling",
+     "Flash Counter + Hatchling"
     ],
     "ELEM": [
      "Slice + Elemental Honing",
@@ -62372,6 +62400,32 @@
       "trait_hashes": [
        [
         3705817207
+       ],
+       [
+        831391274
+       ]
+      ],
+      "parts": [
+       [
+        "Tempered Edge"
+       ],
+       [
+        "Enduring Guard"
+       ]
+      ]
+     },
+     "Flash Counter + Hatchling": {
+      "traits": [
+       [
+        "Flash Counter"
+       ],
+       [
+        "Hatchling"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        2244851822
        ],
        [
         831391274
@@ -62457,6 +62511,7 @@
    ],
    "picks": {
     "PVE": [
+     "Flash Counter + Whirlwind Blade",
      "Proximity Power + Whirlwind Blade"
     ],
     "ELEM": [
@@ -62477,6 +62532,32 @@
       "trait_hashes": [
        [
         4190679284
+       ],
+       [
+        3913600130
+       ]
+      ],
+      "parts": [
+       [
+        "Tempered Edge"
+       ],
+       [
+        "Enduring Guard"
+       ]
+      ]
+     },
+     "Flash Counter + Whirlwind Blade": {
+      "traits": [
+       [
+        "Flash Counter"
+       ],
+       [
+        "Whirlwind Blade"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        2244851822
        ],
        [
         3913600130
@@ -62535,7 +62616,8 @@
    ],
    "picks": {
     "PVE": [
-     "Repulsor Brace + Destabilizing Rounds"
+     "Repulsor Brace + Destabilizing Rounds",
+     "Repulsor Brace + Flash Counter"
     ],
     "ELEM": [
      "Repulsor Brace + Destabilizing Rounds"
@@ -62558,6 +62640,32 @@
        ],
        [
         2048641572
+       ]
+      ],
+      "parts": [
+       [
+        "Tempered Edge"
+       ],
+       [
+        "Enduring Guard"
+       ]
+      ]
+     },
+     "Repulsor Brace + Flash Counter": {
+      "traits": [
+       [
+        "Repulsor Brace"
+       ],
+       [
+        "Flash Counter"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        776531651
+       ],
+       [
+        2244851822
        ]
       ],
       "parts": [
@@ -62804,7 +62912,8 @@
    ],
    "picks": {
     "PVE": [
-     "Duelist's Trance + Chain Reaction"
+     "Duelist's Trance + Chain Reaction",
+     "Flash Counter + Chain Reaction"
     ],
     "ELEM": [
      "Slice + Elemental Honing",
@@ -62828,6 +62937,32 @@
       "trait_hashes": [
        [
         3705817207
+       ],
+       [
+        2396489472
+       ]
+      ],
+      "parts": [
+       [
+        "Tempered Edge"
+       ],
+       [
+        "Enduring Guard"
+       ]
+      ]
+     },
+     "Flash Counter + Chain Reaction": {
+      "traits": [
+       [
+        "Flash Counter"
+       ],
+       [
+        "Chain Reaction"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        2244851822
        ],
        [
         2396489472
@@ -62940,6 +63075,7 @@
    ],
    "picks": {
     "PVE": [
+     "Tireless Blade + Flash Counter",
      "Tireless Blade + Whirlwind Blade"
     ]
    },
@@ -62967,6 +63103,29 @@
         "Tempered Edge"
        ]
       ]
+     },
+     "Tireless Blade + Flash Counter": {
+      "traits": [
+       [
+        "Tireless Blade"
+       ],
+       [
+        "Flash Counter"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        2590710093
+       ],
+       [
+        2244851822
+       ]
+      ],
+      "parts": [
+       [
+        "Tempered Edge"
+       ]
+      ]
      }
     }
    }
@@ -62984,6 +63143,7 @@
    ],
    "picks": {
     "PVE": [
+     "Flash Counter + Bait and Switch",
      "Incandescent + Bait and Switch"
     ],
     "ELEM": [
@@ -63005,6 +63165,32 @@
       "trait_hashes": [
        [
         4293542123
+       ],
+       [
+        3078487919
+       ]
+      ],
+      "parts": [
+       [
+        "Tempered Edge"
+       ],
+       [
+        "Enduring Guard"
+       ]
+      ]
+     },
+     "Flash Counter + Bait and Switch": {
+      "traits": [
+       [
+        "Flash Counter"
+       ],
+       [
+        "Bait and Switch"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        2244851822
        ],
        [
         3078487919
@@ -63238,7 +63424,8 @@
    "picks": {
     "PVE": [
      "Demolitionist + Chain Reaction",
-     "Duelist's Trance + Chain Reaction"
+     "Duelist's Trance + Chain Reaction",
+     "Flash Counter + Chain Reaction"
     ],
     "ELEM": [
      "Collective Action + Elemental Honing",
@@ -63285,6 +63472,32 @@
       "trait_hashes": [
        [
         3523296417
+       ],
+       [
+        2396489472
+       ]
+      ],
+      "parts": [
+       [
+        "Tempered Edge"
+       ],
+       [
+        "Enduring Guard"
+       ]
+      ]
+     },
+     "Flash Counter + Chain Reaction": {
+      "traits": [
+       [
+        "Flash Counter"
+       ],
+       [
+        "Chain Reaction"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        2244851822
        ],
        [
         2396489472
@@ -63371,6 +63584,7 @@
    "picks": {
     "PVE": [
      "Duelist's Trance + Whirlwind Blade",
+     "Flash Counter + Whirlwind Blade",
      "Relentless Strikes + Whirlwind Blade"
     ],
     "UTLY": [
@@ -63391,6 +63605,32 @@
       "trait_hashes": [
        [
         1749209109
+       ],
+       [
+        3913600130
+       ]
+      ],
+      "parts": [
+       [
+        "Tempered Edge"
+       ],
+       [
+        "Enduring Guard"
+       ]
+      ]
+     },
+     "Flash Counter + Whirlwind Blade": {
+      "traits": [
+       [
+        "Flash Counter"
+       ],
+       [
+        "Whirlwind Blade"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        2244851822
        ],
        [
         3913600130
@@ -63477,6 +63717,7 @@
    "picks": {
     "PVE": [
      "Demolitionist + Whirlwind Blade",
+     "Flash Counter + Whirlwind Blade",
      "Relentless Strikes + Whirlwind Blade"
     ],
     "ELEM": [
@@ -63498,6 +63739,32 @@
       "trait_hashes": [
        [
         1749209109
+       ],
+       [
+        3913600130
+       ]
+      ],
+      "parts": [
+       [
+        "Tempered Edge"
+       ],
+       [
+        "Enduring Guard"
+       ]
+      ]
+     },
+     "Flash Counter + Whirlwind Blade": {
+      "traits": [
+       [
+        "Flash Counter"
+       ],
+       [
+        "Whirlwind Blade"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        2244851822
        ],
        [
         3913600130
@@ -63693,6 +63960,7 @@
    "picks": {
     "PVE": [
      "Duelist's Trance + Chain Reaction",
+     "Tireless Blade + Flash Counter",
      "Tireless Blade + Whirlwind Blade"
     ]
    },
@@ -63713,6 +63981,32 @@
        ],
        [
         3913600130
+       ]
+      ],
+      "parts": [
+       [
+        "Tempered Edge"
+       ],
+       [
+        "Enduring Guard"
+       ]
+      ]
+     },
+     "Tireless Blade + Flash Counter": {
+      "traits": [
+       [
+        "Tireless Blade"
+       ],
+       [
+        "Flash Counter"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        2590710093
+       ],
+       [
+        2244851822
        ]
       ],
       "parts": [
@@ -63848,7 +64142,8 @@
    ],
    "picks": {
     "PVE": [
-     "Chain Reaction + Bait and Switch"
+     "Chain Reaction + Bait and Switch",
+     "Flash Counter + Bait and Switch"
     ],
     "UTLY": [
      "Attrition Orbs + Demolitionist"
@@ -63868,6 +64163,32 @@
       "trait_hashes": [
        [
         2396489472
+       ],
+       [
+        3078487919
+       ]
+      ],
+      "parts": [
+       [
+        "Tempered Edge"
+       ],
+       [
+        "Enduring Guard"
+       ]
+      ]
+     },
+     "Flash Counter + Bait and Switch": {
+      "traits": [
+       [
+        "Flash Counter"
+       ],
+       [
+        "Bait and Switch"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        2244851822
        ],
        [
         3078487919
@@ -63926,7 +64247,8 @@
    ],
    "picks": {
     "PVE": [
-     "Duelist's Trance + Golden Tricorn"
+     "Duelist's Trance + Golden Tricorn",
+     "Flash Counter + Golden Tricorn"
     ]
    },
    "targets": {
@@ -63943,6 +64265,32 @@
       "trait_hashes": [
        [
         3705817207
+       ],
+       [
+        2610012052
+       ]
+      ],
+      "parts": [
+       [
+        "Tempered Edge"
+       ],
+       [
+        "Enduring Guard"
+       ]
+      ]
+     },
+     "Flash Counter + Golden Tricorn": {
+      "traits": [
+       [
+        "Flash Counter"
+       ],
+       [
+        "Golden Tricorn"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        2244851822
        ],
        [
         2610012052
@@ -63975,6 +64323,7 @@
    "picks": {
     "PVE": [
      "Duelist's Trance + Incandescent",
+     "Flash Counter + Incandescent",
      "Shattering Blade + Whirlwind Blade"
     ]
    },
@@ -63992,6 +64341,29 @@
       "trait_hashes": [
        [
         3705817207
+       ],
+       [
+        4293542123
+       ]
+      ],
+      "parts": [
+       [
+        "Tempered Edge"
+       ]
+      ]
+     },
+     "Flash Counter + Incandescent": {
+      "traits": [
+       [
+        "Flash Counter"
+       ],
+       [
+        "Incandescent"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        2244851822
        ],
        [
         4293542123
