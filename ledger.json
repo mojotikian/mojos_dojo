@@ -1,5 +1,5 @@
 {
- "version": "v2.9",
+ "version": "v2.10",
  "priority": [
   "PVE",
   "PVP",
@@ -32333,6 +32333,7 @@
    ],
    "picks": {
     "PVE": [
+     "Demolitionist + Destabilizing Rounds",
      "Demolitionist + Frenzy",
      "Heating Up + Frenzy"
     ],
@@ -32399,6 +32400,36 @@
        ],
        [
         4104185692
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Accurized Rounds",
+        "Light Mag",
+        "Ricochet Rounds"
+       ]
+      ]
+     },
+     "Demolitionist + Destabilizing Rounds": {
+      "traits": [
+       [
+        "Demolitionist"
+       ],
+       [
+        "Destabilizing Rounds"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        3523296417
+       ],
+       [
+        2048641572
        ]
       ],
       "parts": [

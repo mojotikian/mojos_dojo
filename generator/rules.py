@@ -118,6 +118,7 @@ BANNED_PARTS = {'Full Choke','Jagged Edge'}
 # {name: {CAT: [(trait_a, trait_b)]}}
 OVERRIDES = {
  'Doomsday': {'PVE': [('Auto-Loading Holster','Explosive Light')]},  # Paul 2026-10-27, triage ruling
+ 'Gridskipper': {'PVE': [('Demolitionist','Destabilizing Rounds')]},  # Paul 2026-11-02, triage ruling
 }
 
 # Owner anchors: a trait Paul wants on every weapon of a type that can roll it. For each anchor in a
