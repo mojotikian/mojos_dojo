@@ -1,0 +1,8 @@
+# Manifest tables (download per pass; ~200MB)
+items.json
+plugsets.json
+statdefs.json
+# Generator scratch
+generator/pools.json
+generator/owned.txt
+__pycache__/
