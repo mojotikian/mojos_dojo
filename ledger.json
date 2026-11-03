@@ -1,5 +1,5 @@
 {
- "version": "v2.10",
+ "version": "v2.11",
  "priority": [
   "PVE",
   "PVP",
@@ -30211,7 +30211,8 @@
      "Demolitionist + Kill Clip"
     ],
     "PVP": [
-     "Rangefinder + Moving Target"
+     "Rangefinder + Moving Target",
+     "Zen Moment + Headseeker"
     ],
     "ABTY": [
      "Offhand Strike + Swashbuckler",
@@ -30300,6 +30301,36 @@
        ],
        [
         588594999
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Accurized Rounds",
+        "Light Mag",
+        "Ricochet Rounds"
+       ]
+      ]
+     },
+     "Zen Moment + Headseeker": {
+      "traits": [
+       [
+        "Zen Moment"
+       ],
+       [
+        "Headseeker"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        2387244414
+       ],
+       [
+        460017080
        ]
       ],
       "parts": [
