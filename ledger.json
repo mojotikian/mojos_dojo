@@ -1,5 +1,5 @@
 {
- "version": "v2.12",
+ "version": "v2.13",
  "priority": [
   "PVE",
   "PVP",
@@ -25092,6 +25092,7 @@
    "picks": {
     "PVE": [
      "Collective Demolition + Chain Reaction",
+     "Fourth Time's the Charm + Precision Instrument",
      "Subsistence + Chain Reaction"
     ],
     "ELEM": [
@@ -25145,6 +25146,36 @@
        ],
        [
         2396489472
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Enhanced Battery",
+        "Particle Repeater",
+        "Projection Fuse"
+       ]
+      ]
+     },
+     "Fourth Time's the Charm + Precision Instrument": {
+      "traits": [
+       [
+        "Fourth Time's the Charm"
+       ],
+       [
+        "Precision Instrument"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        1354429876
+       ],
+       [
+        555281244
        ]
       ],
       "parts": [

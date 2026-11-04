@@ -120,6 +120,7 @@ OVERRIDES = {
  'Doomsday': {'PVE': [('Auto-Loading Holster','Explosive Light')]},  # Paul 2026-10-27, triage ruling
  'Gridskipper': {'PVE': [('Demolitionist','Destabilizing Rounds')]},  # Paul 2026-11-02, triage ruling
  'Autumn Wind': {'PVP': [('Zen Moment','Headseeker')]},  # Paul 2026-11-03, triage ruling
+ 'Eyes Unveiled': {'PVE': [("Fourth Time's the Charm",'Precision Instrument')]},  # Paul 2026-11-04: LFR boss-damage pair
 }
 
 # Owner anchors: a trait Paul wants on every weapon of a type that can roll it. For each anchor in a
