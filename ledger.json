@@ -1,5 +1,5 @@
 {
- "version": "v2.11",
+ "version": "v2.12",
  "priority": [
   "PVE",
   "PVP",
@@ -25056,6 +25056,127 @@
        ],
        [
         588594999
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Enhanced Battery",
+        "Particle Repeater",
+        "Projection Fuse"
+       ]
+      ]
+     }
+    }
+   }
+  },
+  "Eyes Unveiled": {
+   "type": "Linear Fusion Rifle",
+   "frame": "Precision Frame",
+   "element": "void",
+   "weak": [
+    "Reload Speed",
+    "Handling"
+   ],
+   "variants": [
+    727781522,
+    282549639,
+    615373993,
+    4173311704,
+    4147428506
+   ],
+   "picks": {
+    "PVE": [
+     "Collective Demolition + Chain Reaction",
+     "Subsistence + Chain Reaction"
+    ],
+    "ELEM": [
+     "Demoralize + Elemental Honing"
+    ]
+   },
+   "targets": {
+    "PVE": {
+     "Subsistence + Chain Reaction": {
+      "traits": [
+       [
+        "Subsistence"
+       ],
+       [
+        "Chain Reaction"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        1820235745
+       ],
+       [
+        2396489472
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Enhanced Battery",
+        "Particle Repeater",
+        "Projection Fuse"
+       ]
+      ]
+     },
+     "Collective Demolition + Chain Reaction": {
+      "traits": [
+       [
+        "Collective Demolition"
+       ],
+       [
+        "Chain Reaction"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        4019266109
+       ],
+       [
+        2396489472
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Enhanced Battery",
+        "Particle Repeater",
+        "Projection Fuse"
+       ]
+      ]
+     }
+    },
+    "ELEM": {
+     "Demoralize + Elemental Honing": {
+      "traits": [
+       [
+        "Demoralize"
+       ],
+       [
+        "Elemental Honing"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        1464081238
+       ],
+       [
+        1089671869
        ]
       ],
       "parts": [
