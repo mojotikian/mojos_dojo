@@ -1,5 +1,5 @@
 {
- "version": "v2.14",
+ "version": "v2.15",
  "priority": [
   "PVE",
   "PVP",
@@ -23313,6 +23313,7 @@
      "Subsistence + Kill Clip"
     ],
     "PVP": [
+     "Keep Away + Opening Shot",
      "Snapshot Sights + Opening Shot",
      "Snapshot Sights + Rangefinder"
     ],
@@ -23471,6 +23472,36 @@
         "Accurized Rounds",
         "Ricochet Rounds",
         "Tactical Mag"
+       ]
+      ]
+     },
+     "Keep Away + Opening Shot": {
+      "traits": [
+       [
+        "Keep Away"
+       ],
+       [
+        "Opening Shot"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        3619207468
+       ],
+       [
+        47981717
+       ]
+      ],
+      "parts": [
+       [
+        "Corkscrew Rifling",
+        "Hammer-Forged Rifling",
+        "Smallbore"
+       ],
+       [
+        "Accurized Rounds",
+        "Assault Mag",
+        "Ricochet Rounds"
        ]
       ]
      }
@@ -56395,6 +56426,7 @@
      "Envious Assassin + Bait and Switch"
     ],
     "PVP": [
+     "No Distractions + Closing Time",
      "Snapshot Sights + Opening Shot"
     ]
    },
@@ -56485,6 +56517,40 @@
        ],
        [
         47981717
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Drop Mag",
+        "Flared Magwell"
+       ],
+       [
+        "Composite Stock",
+        "Hand-Laid Stock",
+        "Short-Action Stock"
+       ]
+      ]
+     },
+     "No Distractions + Closing Time": {
+      "traits": [
+       [
+        "No Distractions"
+       ],
+       [
+        "Closing Time"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        2866798147
+       ],
+       [
+        1194056669
        ]
       ],
       "parts": [

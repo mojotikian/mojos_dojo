@@ -121,6 +121,8 @@ OVERRIDES = {
  'Gridskipper': {'PVE': [('Demolitionist','Destabilizing Rounds')]},  # Paul 2026-11-02, triage ruling
  'Autumn Wind': {'PVP': [('Zen Moment','Headseeker')]},  # Paul 2026-11-03, triage ruling
  'Eyes Unveiled': {'PVE': [("Fourth Time's the Charm",'Precision Instrument')]},  # Paul 2026-11-04: LFR boss-damage pair
+ 'Mercurial Overreach': {'PVP': [('No Distractions','Closing Time')]},  # Paul 2026-11-06, triage ruling
+ 'Spare Rations': {'PVP': [('Keep Away','Opening Shot')]},  # Paul 2026-11-06, triage ruling (lane HC)
 }
 
 # Owner anchors: a trait Paul wants on every weapon of a type that can roll it. For each anchor in a
