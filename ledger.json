@@ -1,5 +1,5 @@
 {
- "version": "v2.15",
+ "version": "v2.16",
  "priority": [
   "PVE",
   "PVP",
@@ -10035,7 +10035,8 @@
      "Lone Wolf + Closing Time"
     ],
     "ELEM": [
-     "Repulsor Brace + Destabilizing Rounds"
+     "Repulsor Brace + Destabilizing Rounds",
+     "Repulsor Brace + Withering Gaze"
     ]
    },
    "targets": {
@@ -10119,6 +10120,36 @@
        ],
        [
         2048641572
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Enhanced Battery",
+        "Particle Repeater",
+        "Projection Fuse"
+       ]
+      ]
+     },
+     "Repulsor Brace + Withering Gaze": {
+      "traits": [
+       [
+        "Repulsor Brace"
+       ],
+       [
+        "Withering Gaze"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        776531651
+       ],
+       [
+        1134488199
        ]
       ],
       "parts": [
@@ -11534,7 +11565,8 @@
      "Under Pressure + Closing Time"
     ],
     "ELEM": [
-     "Repulsor Brace + Destabilizing Rounds"
+     "Repulsor Brace + Destabilizing Rounds",
+     "Repulsor Brace + Withering Gaze"
     ]
    },
    "targets": {
@@ -11603,6 +11635,36 @@
      }
     },
     "ELEM": {
+     "Repulsor Brace + Withering Gaze": {
+      "traits": [
+       [
+        "Repulsor Brace"
+       ],
+       [
+        "Withering Gaze"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        776531651
+       ],
+       [
+        1134488199
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Enhanced Battery",
+        "Particle Repeater",
+        "Projection Fuse"
+       ]
+      ]
+     },
      "Repulsor Brace + Destabilizing Rounds": {
       "traits": [
        [
@@ -12130,7 +12192,8 @@
      "Repulsor Brace + Destabilizing Rounds"
     ],
     "ELEM": [
-     "Repulsor Brace + Destabilizing Rounds"
+     "Repulsor Brace + Destabilizing Rounds",
+     "Repulsor Brace + Withering Gaze"
     ]
    },
    "targets": {
@@ -12182,6 +12245,36 @@
        ],
        [
         2048641572
+       ]
+      ],
+      "parts": [
+       [
+        "Ballistic Tuning",
+        "Lightweight Emitter",
+        "Tempered Truss Rod"
+       ],
+       [
+        "Accurized Rounds",
+        "Appended Mag",
+        "Light Mag"
+       ]
+      ]
+     },
+     "Repulsor Brace + Withering Gaze": {
+      "traits": [
+       [
+        "Repulsor Brace"
+       ],
+       [
+        "Withering Gaze"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        776531651
+       ],
+       [
+        1134488199
        ]
       ],
       "parts": [
@@ -13651,7 +13744,8 @@
     ],
     "ELEM": [
      "Repulsor Brace + Destabilizing Rounds",
-     "Repulsor Brace + Elemental Honing"
+     "Repulsor Brace + Elemental Honing",
+     "Repulsor Brace + Withering Gaze"
     ]
    },
    "targets": {
@@ -13795,6 +13889,36 @@
        ],
        [
         2048641572
+       ]
+      ],
+      "parts": [
+       [
+        "Linear Compensator",
+        "Quick Launch",
+        "Smart Drift Control"
+       ],
+       [
+        "High-Velocity Rounds",
+        "Spike Grenades",
+        "Sticky Grenades"
+       ]
+      ]
+     },
+     "Repulsor Brace + Withering Gaze": {
+      "traits": [
+       [
+        "Repulsor Brace"
+       ],
+       [
+        "Withering Gaze"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        776531651
+       ],
+       [
+        1134488199
        ]
       ],
       "parts": [
@@ -17001,7 +17125,8 @@
     ],
     "ELEM": [
      "Repulsor Brace + Destabilizing Rounds",
-     "Repulsor Brace + Elemental Honing"
+     "Repulsor Brace + Elemental Honing",
+     "Repulsor Brace + Withering Gaze"
     ]
    },
    "targets": {
@@ -17112,6 +17237,35 @@
        ],
        [
         2048641572
+       ]
+      ],
+      "parts": [
+       [
+        "Countermass",
+        "Linear Compensator",
+        "Smart Drift Control"
+       ],
+       [
+        "High-Velocity Rounds",
+        "Spike Grenades"
+       ]
+      ]
+     },
+     "Repulsor Brace + Withering Gaze": {
+      "traits": [
+       [
+        "Repulsor Brace"
+       ],
+       [
+        "Withering Gaze"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        776531651
+       ],
+       [
+        1134488199
        ]
       ],
       "parts": [
@@ -19078,7 +19232,8 @@
     ],
     "ELEM": [
      "Destabilizing Rounds + Demoralize",
-     "Destabilizing Rounds + Repulsor Brace"
+     "Destabilizing Rounds + Repulsor Brace",
+     "Withering Gaze + Repulsor Brace"
     ]
    },
    "targets": {
@@ -19273,6 +19428,35 @@
       "trait_hashes": [
        [
         2048641572
+       ],
+       [
+        776531651
+       ]
+      ],
+      "parts": [
+       [
+        "Corkscrew Rifling",
+        "Hammer-Forged Rifling",
+        "Smallbore"
+       ],
+       [
+        "Drop Mag",
+        "Flared Magwell"
+       ]
+      ]
+     },
+     "Withering Gaze + Repulsor Brace": {
+      "traits": [
+       [
+        "Withering Gaze"
+       ],
+       [
+        "Repulsor Brace"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        1134488199
        ],
        [
         776531651
@@ -33735,7 +33919,8 @@
     ],
     "ELEM": [
      "Destabilizing Rounds + Demoralize",
-     "Repulsor Brace + Demoralize"
+     "Repulsor Brace + Demoralize",
+     "Repulsor Brace + Withering Gaze"
     ]
    },
    "targets": {
@@ -33772,6 +33957,36 @@
      }
     },
     "ELEM": {
+     "Repulsor Brace + Withering Gaze": {
+      "traits": [
+       [
+        "Repulsor Brace"
+       ],
+       [
+        "Withering Gaze"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        776531651
+       ],
+       [
+        1134488199
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Light Heatsink",
+        "Projection Fuse",
+        "Tactical Heatsink"
+       ]
+      ]
+     },
      "Repulsor Brace + Demoralize": {
       "traits": [
        [
@@ -34442,7 +34657,8 @@
     ],
     "ELEM": [
      "Repulsor Brace + Demoralize",
-     "Repulsor Brace + Destabilizing Rounds"
+     "Repulsor Brace + Destabilizing Rounds",
+     "Repulsor Brace + Withering Gaze"
     ],
     "ABTY": [
      "Demolitionist + Desperate Measures",
@@ -34557,6 +34773,35 @@
        ],
        [
         2048641572
+       ]
+      ],
+      "parts": [
+       [
+        "Fluted Barrel",
+        "Polygonal Rifling",
+        "Smallbore"
+       ],
+       [
+        "Drop Mag",
+        "Flared Magwell"
+       ]
+      ]
+     },
+     "Repulsor Brace + Withering Gaze": {
+      "traits": [
+       [
+        "Repulsor Brace"
+       ],
+       [
+        "Withering Gaze"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        776531651
+       ],
+       [
+        1134488199
        ]
       ],
       "parts": [
@@ -35671,7 +35916,8 @@
     ],
     "ELEM": [
      "Demoralize + Destabilizing Rounds",
-     "Repulsor Brace + Destabilizing Rounds"
+     "Repulsor Brace + Destabilizing Rounds",
+     "Repulsor Brace + Withering Gaze"
     ]
    },
    "targets": {
@@ -35842,6 +36088,35 @@
        ],
        [
         2048641572
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Drop Mag",
+        "Tactical Mag"
+       ]
+      ]
+     },
+     "Repulsor Brace + Withering Gaze": {
+      "traits": [
+       [
+        "Repulsor Brace"
+       ],
+       [
+        "Withering Gaze"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        776531651
+       ],
+       [
+        1134488199
        ]
       ],
       "parts": [
@@ -37528,7 +37803,8 @@
     ],
     "ELEM": [
      "Demoralize + Destabilizing Rounds",
-     "Repulsor Brace + Destabilizing Rounds"
+     "Repulsor Brace + Destabilizing Rounds",
+     "Repulsor Brace + Withering Gaze"
     ]
    },
    "targets": {
@@ -37610,6 +37886,35 @@
        ],
        [
         2048641572
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Drop Mag",
+        "Flared Magwell"
+       ]
+      ]
+     },
+     "Repulsor Brace + Withering Gaze": {
+      "traits": [
+       [
+        "Repulsor Brace"
+       ],
+       [
+        "Withering Gaze"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        776531651
+       ],
+       [
+        1134488199
        ]
       ],
       "parts": [
@@ -40684,7 +40989,8 @@
      "Heal Clip + Elemental Honing",
      "Heal Clip + Incandescent",
      "Repulsor Brace + Demoralize",
-     "Repulsor Brace + Elemental Honing"
+     "Repulsor Brace + Elemental Honing",
+     "Repulsor Brace + Withering Gaze"
     ]
    },
    "targets": {
@@ -40783,6 +41089,36 @@
      }
     },
     "ELEM": {
+     "Repulsor Brace + Withering Gaze": {
+      "traits": [
+       [
+        "Repulsor Brace"
+       ],
+       [
+        "Withering Gaze"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        776531651
+       ],
+       [
+        1134488199
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Flared Magwell",
+        "Ricochet Rounds",
+        "Tactical Mag"
+       ]
+      ]
+     },
      "Repulsor Brace + Demoralize": {
       "traits": [
        [
@@ -48253,7 +48589,8 @@
      "Threat Detector + Opening Shot"
     ],
     "ELEM": [
-     "Repulsor Brace + Destabilizing Rounds"
+     "Repulsor Brace + Destabilizing Rounds",
+     "Repulsor Brace + Withering Gaze"
     ],
     "ABTY": [
      "Pugilist + One-Two Punch",
@@ -48341,6 +48678,36 @@
        ],
        [
         2048641572
+       ]
+      ],
+      "parts": [
+       [
+        "Barrel Shroud",
+        "Smallbore",
+        "Smoothbore"
+       ],
+       [
+        "Accurized Rounds",
+        "Assault Mag",
+        "Tactical Mag"
+       ]
+      ]
+     },
+     "Repulsor Brace + Withering Gaze": {
+      "traits": [
+       [
+        "Repulsor Brace"
+       ],
+       [
+        "Withering Gaze"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        776531651
+       ],
+       [
+        1134488199
        ]
       ],
       "parts": [
@@ -48446,7 +48813,8 @@
      "Lead from Gold + Demolitionist"
     ],
     "ELEM": [
-     "Repulsor Brace + Destabilizing Rounds"
+     "Repulsor Brace + Destabilizing Rounds",
+     "Repulsor Brace + Withering Gaze"
     ]
    },
    "targets": {
@@ -48592,6 +48960,36 @@
        ],
        [
         2048641572
+       ]
+      ],
+      "parts": [
+       [
+        "Barrel Shroud",
+        "Corkscrew Rifling",
+        "Smoothbore"
+       ],
+       [
+        "Flared Magwell",
+        "Light Mag",
+        "Tactical Mag"
+       ]
+      ]
+     },
+     "Repulsor Brace + Withering Gaze": {
+      "traits": [
+       [
+        "Repulsor Brace"
+       ],
+       [
+        "Withering Gaze"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        776531651
+       ],
+       [
+        1134488199
        ]
       ],
       "parts": [
@@ -53120,7 +53518,8 @@
      "Reconstruction + Destabilizing Rounds"
     ],
     "ELEM": [
-     "Repulsor Brace + Destabilizing Rounds"
+     "Repulsor Brace + Destabilizing Rounds",
+     "Repulsor Brace + Withering Gaze"
     ]
    },
    "targets": {
@@ -53172,6 +53571,36 @@
        ],
        [
         2048641572
+       ]
+      ],
+      "parts": [
+       [
+        "Linear Compensator",
+        "Quick Launch",
+        "Smart Drift Control"
+       ],
+       [
+        "Appended Mag",
+        "High-Velocity Rounds",
+        "Tactical Mag"
+       ]
+      ]
+     },
+     "Repulsor Brace + Withering Gaze": {
+      "traits": [
+       [
+        "Repulsor Brace"
+       ],
+       [
+        "Withering Gaze"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        776531651
+       ],
+       [
+        1134488199
        ]
       ],
       "parts": [
@@ -58733,7 +59162,8 @@
      "Snapshot Sights + Closing Time"
     ],
     "ELEM": [
-     "Repulsor Brace + Destabilizing Rounds"
+     "Repulsor Brace + Destabilizing Rounds",
+     "Repulsor Brace + Withering Gaze"
     ]
    },
    "targets": {
@@ -58817,6 +59247,36 @@
        ],
        [
         2048641572
+       ]
+      ],
+      "parts": [
+       [
+        "Fluted Barrel",
+        "Polygonal Rifling",
+        "Smallbore"
+       ],
+       [
+        "Appended Mag",
+        "Flared Magwell",
+        "Tactical Mag"
+       ]
+      ]
+     },
+     "Repulsor Brace + Withering Gaze": {
+      "traits": [
+       [
+        "Repulsor Brace"
+       ],
+       [
+        "Withering Gaze"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        776531651
+       ],
+       [
+        1134488199
        ]
       ],
       "parts": [

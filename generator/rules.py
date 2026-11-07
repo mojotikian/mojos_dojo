@@ -91,7 +91,8 @@ ELEM = {
  'Elemental Honing':'any','Sympathetic Arsenal':'any','Elemental Capacitor':'any','Firefly':'solar',
 }
 CHAINS = [  # (applier, consumer) 2a, either column
- ('Destabilizing Rounds','Repulsor Brace'),('Demoralize','Repulsor Brace'),('Headstone','Rimestealer'),
+ ('Destabilizing Rounds','Repulsor Brace'),('Demoralize','Repulsor Brace'),('Withering Gaze','Repulsor Brace'),  # Paul 2026-11-07: weaken applier -> void-debuff payoff
+ ('Headstone','Rimestealer'),
  ('Crystalline Corpsebloom','Rimestealer'),('Incandescent','Burning Ambition'),('Rolling Storm','Trickle Charge'),
  ('Outlaw','Voltshot'),('Slideshot','Voltshot'),('Grave Robber','Voltshot'),('Clown Cartridge','Voltshot'),
  ('Jolting Feedback','Collective Action'),('Voltshot','Collective Action'),('Heal Clip','Firefly'),
