@@ -124,10 +124,16 @@ OVERRIDES = {
  'Eyes Unveiled': {'PVE': [("Fourth Time's the Charm",'Precision Instrument')]},  # Paul 2026-11-04: LFR boss-damage pair
  'Mercurial Overreach': {'PVP': [('No Distractions','Closing Time')]},  # Paul 2026-11-06, triage ruling
  'Spare Rations': {'PVP': [('Keep Away','Opening Shot')]},  # Paul 2026-11-06, triage ruling (lane HC)
+ 'Veiled Threat': {'PVE': [('Strategist','Headstone'),('Threat Detector','Headstone')]},  # 2026-11-13: community consensus (Blueberries, Sportskeeda, Deltia); generator picked Strategist + Collective Action, no link
 }
 
 # Owner anchors: a trait Paul wants on every weapon of a type that can roll it. For each anchor in a
 # variant's pool, add the best PVE-scored pair containing it to that category. {type: {CAT: [trait]}}
 TYPE_ANCHORS = {
  'Sword': {'PVE': ['Flash Counter']},  # Paul 2026-11-02: favorite sword perk; pairs with Stronghold guard play
+}
+
+# Pairs a ruling removes from one weapon's targets (OVERRIDES only add). Applied after OVERRIDES.
+DROPS = {
+ 'Veiled Threat': {'PVE': [('Strategist','Collective Action')]},  # 2026-11-13: no link between class energy and elemental-pickup damage
 }

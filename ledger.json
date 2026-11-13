@@ -1,5 +1,5 @@
 {
- "version": "v2.16",
+ "version": "v2.17",
  "priority": [
   "PVE",
   "PVP",
@@ -5709,6 +5709,123 @@
     }
    }
   },
+  "Veiled Threat": {
+   "type": "Auto Rifle",
+   "frame": "Rapid-Fire Frame",
+   "element": "stasis",
+   "weak": [
+    "Range",
+    "Handling"
+   ],
+   "variants": [
+    3685470415
+   ],
+   "picks": {
+    "PVE": [
+     "Strategist + Headstone",
+     "Threat Detector + Headstone"
+    ],
+    "PVP": [
+     "Threat Detector + Moving Target"
+    ]
+   },
+   "targets": {
+    "PVE": {
+     "Strategist + Headstone": {
+      "traits": [
+       [
+        "Strategist"
+       ],
+       [
+        "Headstone"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        880644845
+       ],
+       [
+        124408337
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Accurized Rounds",
+        "Light Mag",
+        "Ricochet Rounds"
+       ]
+      ]
+     },
+     "Threat Detector + Headstone": {
+      "traits": [
+       [
+        "Threat Detector"
+       ],
+       [
+        "Headstone"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        4071163871
+       ],
+       [
+        124408337
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Accurized Rounds",
+        "Light Mag",
+        "Ricochet Rounds"
+       ]
+      ]
+     }
+    },
+    "PVP": {
+     "Threat Detector + Moving Target": {
+      "traits": [
+       [
+        "Threat Detector"
+       ],
+       [
+        "Moving Target"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        4071163871
+       ],
+       [
+        588594999
+       ]
+      ],
+      "parts": [
+       [
+        "Arrowhead Brake",
+        "Corkscrew Rifling",
+        "Fluted Barrel"
+       ],
+       [
+        "Accurized Rounds",
+        "Light Mag",
+        "Ricochet Rounds"
+       ]
+      ]
+     }
+    }
+   }
+  },
   "Zealous Ideal": {
    "type": "Auto Rifle",
    "frame": "Balanced Heat Weapon",
@@ -10279,6 +10396,58 @@
         "Arrowhead Brake",
         "Corkscrew Rifling",
         "Fluted Barrel"
+       ],
+       [
+        "Enhanced Battery",
+        "Particle Repeater",
+        "Projection Fuse"
+       ]
+      ]
+     }
+    }
+   }
+  },
+  "Null Composure": {
+   "type": "Fusion Rifle",
+   "frame": "Rapid-Fire Frame",
+   "element": "void",
+   "weak": [
+    "Range",
+    "Stability"
+   ],
+   "variants": [
+    2150643740,
+    3613444087
+   ],
+   "picks": {
+    "PVE": [
+     "Envious Arsenal + Reservoir Burst"
+    ]
+   },
+   "targets": {
+    "PVE": {
+     "Envious Arsenal + Reservoir Burst": {
+      "traits": [
+       [
+        "Envious Arsenal"
+       ],
+       [
+        "Reservoir Burst"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        3987942396
+       ],
+       [
+        1427256713
+       ]
+      ],
+      "parts": [
+       [
+        "Corkscrew Rifling",
+        "Hammer-Forged Rifling",
+        "Smallbore"
        ],
        [
         "Enhanced Battery",
@@ -16121,6 +16290,91 @@
         "High-Velocity Rounds",
         "Spike Grenades",
         "Sticky Grenades"
+       ]
+      ]
+     }
+    }
+   }
+  },
+  "Salvager's Salvo": {
+   "type": "Grenade Launcher",
+   "frame": "Lightweight Frame",
+   "element": "arc",
+   "weak": [
+    "Stability",
+    "Handling"
+   ],
+   "variants": [
+    1692109318,
+    2461640837
+   ],
+   "picks": {
+    "PVE": [
+     "Chain Reaction + Voltshot"
+    ],
+    "ELEM": [
+     "Trickle Charge + Rolling Storm"
+    ]
+   },
+   "targets": {
+    "PVE": {
+     "Chain Reaction + Voltshot": {
+      "traits": [
+       [
+        "Chain Reaction"
+       ],
+       [
+        "Voltshot"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        2396489472
+       ],
+       [
+        2173046394
+       ]
+      ],
+      "parts": [
+       [
+        "Countermass",
+        "Quick Launch",
+        "Smart Drift Control"
+       ],
+       [
+        "High-Velocity Rounds",
+        "Spike Grenades"
+       ]
+      ]
+     }
+    },
+    "ELEM": {
+     "Trickle Charge + Rolling Storm": {
+      "traits": [
+       [
+        "Trickle Charge"
+       ],
+       [
+        "Rolling Storm"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        1115162408
+       ],
+       [
+        3218042543
+       ]
+      ],
+      "parts": [
+       [
+        "Countermass",
+        "Quick Launch",
+        "Smart Drift Control"
+       ],
+       [
+        "High-Velocity Rounds",
+        "Spike Grenades"
        ]
       ]
      }
@@ -43448,6 +43702,92 @@
     }
    }
   },
+  "Pleiades Corrector": {
+   "type": "Scout Rifle",
+   "frame": "Lightweight Frame",
+   "element": "solar",
+   "weak": [
+    "Range",
+    "Stability"
+   ],
+   "variants": [
+    3556999246
+   ],
+   "picks": {
+    "PVE": [
+     "Subsistence + Demolitionist"
+    ],
+    "UTLY": [
+     "Field Prep + Wellspring"
+    ]
+   },
+   "targets": {
+    "PVE": {
+     "Subsistence + Demolitionist": {
+      "traits": [
+       [
+        "Subsistence"
+       ],
+       [
+        "Demolitionist"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        1820235745
+       ],
+       [
+        3523296417
+       ]
+      ],
+      "parts": [
+       [
+        "Corkscrew Rifling",
+        "Hammer-Forged Rifling",
+        "Smallbore"
+       ],
+       [
+        "Accurized Rounds",
+        "Ricochet Rounds",
+        "Tactical Mag"
+       ]
+      ]
+     }
+    },
+    "UTLY": {
+     "Field Prep + Wellspring": {
+      "traits": [
+       [
+        "Field Prep"
+       ],
+       [
+        "Wellspring"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        2869569095
+       ],
+       [
+        3592538738
+       ]
+      ],
+      "parts": [
+       [
+        "Corkscrew Rifling",
+        "Hammer-Forged Rifling",
+        "Smallbore"
+       ],
+       [
+        "Accurized Rounds",
+        "Ricochet Rounds",
+        "Tactical Mag"
+       ]
+      ]
+     }
+    }
+   }
+  },
   "Pointed Inquiry": {
    "type": "Scout Rifle",
    "frame": "High-Impact Frame",
@@ -65714,6 +66054,74 @@
     }
    }
   },
+  "Crown-Splitter": {
+   "type": "Sword",
+   "frame": "Aggressive Frame",
+   "element": "void",
+   "weak": [
+    "Charge Rate",
+    "Range"
+   ],
+   "variants": [
+    2782325302
+   ],
+   "picks": {
+    "PVE": [
+     "Flash Counter + Whirlwind Blade",
+     "Relentless Strikes + Whirlwind Blade"
+    ]
+   },
+   "targets": {
+    "PVE": {
+     "Relentless Strikes + Whirlwind Blade": {
+      "traits": [
+       [
+        "Relentless Strikes"
+       ],
+       [
+        "Whirlwind Blade"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        1749209109
+       ],
+       [
+        3913600130
+       ]
+      ],
+      "parts": [
+       [
+        "Tempered Edge"
+       ]
+      ]
+     },
+     "Flash Counter + Whirlwind Blade": {
+      "traits": [
+       [
+        "Flash Counter"
+       ],
+       [
+        "Whirlwind Blade"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        2244851822
+       ],
+       [
+        3913600130
+       ]
+      ],
+      "parts": [
+       [
+        "Tempered Edge"
+       ]
+      ]
+     }
+    }
+   }
+  },
   "Death's Razor": {
    "type": "Sword",
    "frame": "Vortex Frame",
@@ -66791,6 +67199,80 @@
        ],
        [
         2077819806
+       ]
+      ],
+      "parts": [
+       [
+        "Tempered Edge"
+       ],
+       [
+        "Enduring Guard"
+       ]
+      ]
+     }
+    }
+   }
+  },
+  "Negative Space": {
+   "type": "Sword",
+   "frame": "Adaptive Frame",
+   "element": "solar",
+   "weak": [
+    "Charge Rate",
+    "Range"
+   ],
+   "variants": [
+    3629968765
+   ],
+   "picks": {
+    "PVE": [
+     "Tireless Blade + Flash Counter",
+     "Tireless Blade + Whirlwind Blade"
+    ]
+   },
+   "targets": {
+    "PVE": {
+     "Tireless Blade + Whirlwind Blade": {
+      "traits": [
+       [
+        "Tireless Blade"
+       ],
+       [
+        "Whirlwind Blade"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        2590710093
+       ],
+       [
+        3913600130
+       ]
+      ],
+      "parts": [
+       [
+        "Tempered Edge"
+       ],
+       [
+        "Enduring Guard"
+       ]
+      ]
+     },
+     "Tireless Blade + Flash Counter": {
+      "traits": [
+       [
+        "Tireless Blade"
+       ],
+       [
+        "Flash Counter"
+       ]
+      ],
+      "trait_hashes": [
+       [
+        2590710093
+       ],
+       [
+        2244851822
        ]
       ],
       "parts": [
